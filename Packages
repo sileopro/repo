@@ -559,6 +559,22 @@ Author: 妖刀
 Name: CCLess++(rootless)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
 
+Package: com.hoangdus.speedster
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: Hoangdus
+Installed-Size: 380
+Depends: firmware (>= 13.0)
+Filename: ./debs/Speedster.2.1.1.deb
+Size: 40896
+MD5sum: 899e3858b86f91f219f2bdf268de075f
+SHA1: ade87be57422c0240dc5de4d32ae38353f10ad1e
+SHA256: 2fc1d10510e4b4860066cfea8d0455a8279db7dc253d0ed1b3cd51d809a7beda
+Section: Tweaks
+Description: Faster iOS animation.
+Author: Hoangdus
+Name: Speedster
+
 Package: com.jd4iphone
 Version: 1.3
 Architecture: iphoneos-arm64
