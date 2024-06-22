@@ -1000,22 +1000,6 @@ Name: CopyVault
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.squidforce.copyvault/depiction.json
 
 Package: com.squidforce.copyvault
-Version: 1.2.4
-Architecture: iphoneos-arm64
-Maintainer: SquidForce
-Installed-Size: 9412
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/CopyVault.1.2.4.deb
-Size: 2602464
-MD5sum: 899856e62d13b43e07409f59cf33213b
-SHA1: 4f5c8e39c7136241561f94da85096e10050f6969
-SHA256: 135da6055801c71073f0f64ac22faefb2ed0f4ad35f24e5aa28edcb0a5d87fb6
-Section: Tweaks
-Description: Your Copy Vault, Your Pasteboard
-Author: SquidForce
-Name: CopyVault
-
-Package: com.squidforce.copyvault
 Version: 1.2.5
 Architecture: iphoneos-arm64
 Maintainer: SquidForce
