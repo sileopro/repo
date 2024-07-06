@@ -341,6 +341,24 @@ Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC_无根
 
+Package: com.curtin.pkc.rootless
+Version: 0.5-3
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/PKC_无根_0.5-3.deb
+Size: 438388
+MD5sum: 9c9ce2d537ed6e82e3362962a089dc69
+SHA1: 72c759a2a5d59b3cb79f98b1a9a1f9fb9cab06a3
+SHA256: 85309b1df70feb8b20c9dfa7aa492dded548ea8fd3fa824aad718faf80c7c7a1
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、自动通过好友请求、自动互删好友等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC_无根
+
 Package: com.dao.bhtiktokmod
 Version: 2.3
 Architecture: iphoneos-arm64
@@ -944,6 +962,22 @@ Depiction: https://chariz.com/get/cask-3
 Icon: https://img.chariz.cloud/icon/cask-3/icon@3x.png
 Name: Cask 3
 
+Package: com.socuul.scinsta
+Version: 0.5.0-1+debug
+Architecture: iphoneos-arm64
+Maintainer: SoCuul
+Installed-Size: 3172
+Depends: mobilesubstrate, ws.hbang.common
+Filename: ./debs/com_socuul_scinsta_0_5_0_iphoneos_arm64【TG频道@jailbreakdepot】.deb
+Size: 770014
+MD5sum: 8e7b5aa30ac027e0dbe67194af7ca6f4
+SHA1: 2f7454c0286637eb728ebd2af9ea1860e5f0a568
+SHA256: ff268d03323c38e708a4743b64f4dc3c08312b7dd92236ec8ddde2932e2fbaa7
+Section: Tweaks
+Description: A feature-rich tweak for Instagram on iOS!
+Author: SoCuul
+Name: SCInsta
+
 Package: com.sop.settingsrevamp
 Version: 2.1.0
 Architecture: iphoneos-arm64
@@ -1496,6 +1530,24 @@ Depiction: https://repo.cypwn.xyz/depiction/2411
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/genieaichatbot.png
 Name: Genie AI Chatbot Pro
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2411
+
+Package: xyz.cypwn.rocket
+Version: 3.8.27k
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: firmware (>= 8.0), mobilesubstrate
+Filename: ./debs/xyz.cypwn.rocket_3.8.27k-arm64.deb
+Size: 2278622
+MD5sum: a8c46ad45eb09533f65872a182ba4655
+SHA1: 3b74071797727a4743930ca3d799ef206f41cf8b
+SHA256: 3fad0550278e85905d2210b037dabcee6d89e941917007a2f559d356cb2078c8
+Section: Tweaks
+Description: Save posts and view stories anonymously and do much more
+Author: Rocket App
+Depiction: https://repo.cypwn.xyz/depiction/2630
+Icon: https://repo.cypwn.xyz/packages/RocketforInstagram-Rootless/icon.png
+Name: Rocket for Instagram
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2630
 
 Package: xyz.skitty.sixls
 Version: 1.1-1
