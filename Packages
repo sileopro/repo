@@ -510,22 +510,6 @@ Author: SoCuul
 Name: SCInsta 中文版(rootless)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/sci/js.json
 
-Package: com.dao.showmytouches
-Version: 1.1.2
-Architecture: iphoneos-arm64
-Maintainer: dvntm
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.dvntm.showmytouches
-Filename: ./debs/showmytouches_1.1.2_iphoneos-arm64.deb
-Size: 53332
-MD5sum: f30129edef7d851a7e04ea6119af64b6
-SHA1: 6ad3c5b79599e8c95ce99fa0049f8796f2f6ce52
-SHA256: 971135f22ac264ae7528f9d047b6bae32e812be607c0ecf94d944248337bccf5
-Section: 嗨-工具
-Description: 显示屏幕触摸轨迹！
-Author: dvntm
-Name: ShowMyTouches(rootless)
-
 Package: com.daodao.snapper2
 Version: 2.7.0
 Architecture: iphoneos-arm64
