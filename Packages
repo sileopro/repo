@@ -1588,22 +1588,6 @@ Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成
 Author: MustangYM <mm13299079785@gmail.com>
 Name: ThemePro-2.8.9-Rootless
 
-Package: cpm.dao.tinge
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: P2KDev
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: com.p2kdev.tinge, byg.iosios.net.tinge.rootless
-Filename: ./debs/Tinge(rootless).deb
-Size: 20296
-MD5sum: 363833a74321c5a3eb9ad3ce3245566b
-SHA1: 8f2a2404538d20ea099acd438714e898bb4eaca5
-SHA256: 262cd8297c6a5b481dcc9ab3d47484b42b2b7d236f1956cb2e375c7dfb9dcb49
-Section: 嗨-工具
-Description: 根据图标颜色，通知角标自动变色，无设置，安装后自动生效。
-Author: P2KDev
-Name: Tinge(rootless)
-
 Package: jp.akusio.milkyway4
 Version: 0.1.1
 Architecture: iphoneos-arm64
