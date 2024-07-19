@@ -148,22 +148,6 @@ Description: 微信小布丁1.0.6版本，可注入可越狱使用。自定义�
 Author: 来了老弟 X：h_h_x_t
 Name: 微信小布丁-rootless
 
-Package: com.0xkuj.safarix
-Version: 1.2.0
-Architecture: iphoneos-arm64
-Maintainer: 0xkuj
-Installed-Size: 744
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: ./debs/com.0xkuj.safarix.deb
-Size: 271416
-MD5sum: 001c8b0e867f754ca8881900d1b22d0f
-SHA1: 4b16f97bcc93b5082c17622df8f325109c88cc58
-SHA256: de2335f6b67c82c335ffecf9a10ca83b56d3f6045560c65aefbfe6cc59ae8fef
-Section: Tweaks
-Description: Safari Essential Features
-Author: 0xkuj
-Name: SafariX
-
 Package: com.25mao.doutu.rootless
 Version: 3.1-5
 Architecture: iphoneos-arm64
