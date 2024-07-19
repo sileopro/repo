@@ -1,24 +1,4 @@
 Package: ApibugTextToVoice
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Essential: no
-Maintainer: Apibug.com <apibug6@gmail.com>
-Depends: mobilesubstrate
-Conflicts: ApibugTextToVoice
-Replaces: ApibugTextToVoice
-Provides: ApibugTextToVoice
-Filename: ./debs/ApibugTextToVoice_1.0.0_rootless.deb
-Size: 184024
-MD5sum: aeba65b650196fefd74fbb594855a584
-SHA1: bc07c336f1f44928347390eb17ba36be9f62cc09
-SHA256: 884542862b0003dc608b1b031f42238116677e9ef13099443f7834da220f6f67
-Section: custom
-Priority: optional
-Description: 进入微信设置页面开启文字转语音开关
-Author: Apibug.com
-Name: ApibugTextToVoice
-
-Package: ApibugTextToVoice
 Version: 1.0.5
 Architecture: iphoneos-arm64
 Essential: no
