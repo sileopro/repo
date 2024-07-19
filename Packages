@@ -18,6 +18,26 @@ Description: 进入微信设置页面开启文字转语音开关
 Author: Apibug.com
 Name: ApibugTextToVoice
 
+Package: ApibugTextToVoice
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: www.apibug.com <apibug6@gmail.com>
+Depends: mobilesubstrate
+Conflicts: ApibugTextToVoice
+Replaces: ApibugTextToVoice
+Provides: ApibugTextToVoice
+Filename: ./debs/免费微信文字转语音插件-无根.deb
+Size: 168896
+MD5sum: 637c5aa4698154ddf8e596a7400966a6
+SHA1: 983b13f5a2458b197fb1be12e1e705289f409258
+SHA256: 0f748e1d5384180e1135e7da216c4fb65c8cb22cb41ac7fda42ceb1db672b75b
+Section: custom
+Priority: optional
+Description: Apibug微信文字转语音插件,官网:www.apibug.com
+Author: www.apibug.com
+Name: ApibugTextToVoice
+
 Package: MisakaHelper
 Version: 1.9-9
 Architecture: iphoneos-arm64
@@ -585,6 +605,22 @@ Size: 49592
 MD5sum: 1c9b776c78c83c75988922769f16d8f8
 SHA1: c886424510f9d111856d22b9595a4d69b3903fc9
 SHA256: 033463ab993a7c85faf99d9a1d958a5a7bd75c52fb5a183649c15089884c68d8
+Section: Tweaks
+Description: Displays your touch interactions!
+Author: dvntm
+Name: ShowMyTouches
+
+Package: com.dvntm.showmytouches
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 464
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.dvntm.showmytouches_1.1.2_iphoneos-arm64.deb
+Size: 53208
+MD5sum: fd7f453d0e2560811aa66ba6b2261a02
+SHA1: d738dab4d8bc50d5bffdadbe11253b234d4f73f9
+SHA256: 295ec02b73306fdee703f3ba38afbe2f2823dcf6aa722de4a217964236910769
 Section: Tweaks
 Description: Displays your touch interactions!
 Author: dvntm
