@@ -2,7 +2,7 @@ Package: ApibugTextToVoice
 Version: 1.0.5
 Architecture: iphoneos-arm64
 Essential: no
-Maintainer: www.apibug.com <apibug6@gmail.com>
+Maintainer: Apibug
 Depends: mobilesubstrate
 Conflicts: ApibugTextToVoice
 Replaces: ApibugTextToVoice
@@ -14,7 +14,7 @@ SHA1: 983b13f5a2458b197fb1be12e1e705289f409258
 SHA256: 0f748e1d5384180e1135e7da216c4fb65c8cb22cb41ac7fda42ceb1db672b75b
 Section: 微信插件
 Priority: optional
-Description: Apibug微信文字转语音插件
+Description: Apibug微信文字转语音插件  软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: www.apibug.com
 Name: ApibugTextToVoice
 
@@ -34,7 +34,7 @@ SHA1: 403075ff3b871debf28e52d3750e48932d607055
 SHA256: d9a07cfd9c9937cc55770d3217919ac8baedbe169cc3304fb1d3d735df3f6379
 Section: 微信插件
 Priority: optional
-Description: MisakaHelper
+Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: Misaka
 Name: MisakaHelper
 
@@ -54,7 +54,7 @@ SHA1: f417593501cdbae69b594ddbcc085043560d1626
 SHA256: 1c7b402f371bcecb7076728bd36a633ce154d1b2530c283f748775bdf69e5e7d
 Section: 微信插件
 Priority: optional
-Description: MisakaHelper
+Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: Misaka
 Name: MisakaHelper
 
@@ -74,7 +74,7 @@ SHA1: 6df37945325b20eae5f26cec210e43890ff1d9d6
 SHA256: b1917a7f67aa62230eb7679006358c8b4c54ee8f1fc427e52cda066a55f6134e
 Section: 微信插件
 Priority: optional
-Description: MisakaHelper
+Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: Misaka
 Name: MisakaHelper
 
@@ -160,7 +160,7 @@ Section: 微信插件
 Priority: optional
 Description: 斗图助手-Rootless
 Author: Mao
-Name: 斗图助手-Rootless
+Name: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8 
 Sponsor: admin@25mao.com
 
 Package: com.25mao.miyou.rootless
@@ -175,7 +175,7 @@ SHA1: 40c52f45370cbcb9ef34cc248f40596f1eb4c2e2
 SHA256: 6690ba0f952f0641615e21ee329a18a6ad8de62e0f322bfd4142880bc1db2c09
 Section: 微信插件
 Priority: optional
-Description: 微信助手-Rootless版
+Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: Mao
 Name: 微信助手-Rootless
 Sponsor: admin@25mao.com
@@ -216,7 +216,7 @@ Name: 淘宝优惠券
 Package: com.HBWechatHelper.ailun
 Version: 1.7.2
 Architecture: iphoneos-arm64
-Maintainer: HuangBai <QQ:1343309363@qq.com>
+Maintainer: HuangBai 
 Depends: mobilesubstrate
 Filename: ./debs/黄白助手1.7.2_iphoneos-arm64_rootless.deb
 Size: 9512088
@@ -224,8 +224,8 @@ MD5sum: ae40fa00c95876f71f1225e07c0ccf9c
 SHA1: 4b489e342d282ea94cf2ef263f916b2bb6c7deaf
 SHA256: 2f96c00003133556c3e0b78e6f4c7e1bd6911e25e8bf55cdeeb7e7d4216e56bf
 Section: 微信插件
-Description: 黄白助手：一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
-Author: HuangBai <QQ:1343309363@qq.com>
+Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
+Author: HuangBai 
 Name: 黄白助手(微信插件)-Rootless
 
 Package: com.ash.milkyway4-ios16fix
@@ -314,7 +314,7 @@ SHA256: bab85c7fe217059c2075ad191c7431405d87a4b8c7e14ee9d351a48c22e036e8
 Section: 微信插件
 Priority: optional
 Homepage: https://github.com/curtinlv
-Description: 群管理Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC_无根
@@ -332,7 +332,7 @@ SHA256: 4b388c14926286a083c442ca8334f60eb1cc5c96cca1ba322549a4fe803d696c
 Section: 微信插件
 Priority: optional
 Homepage: https://github.com/curtinlv
-Description: 群管理Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、自动通过好友请求、自动互删好友等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC_无根
@@ -350,7 +350,7 @@ SHA256: 85309b1df70feb8b20c9dfa7aa492dded548ea8fd3fa824aad718faf80c7c7a1
 Section: 微信插件
 Priority: optional
 Homepage: https://github.com/curtinlv
-Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、自动通过好友请求、自动互删好友等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Description:微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC_无根
@@ -368,7 +368,7 @@ SHA256: e9ec9d8fddd5420dfc4747864a16d119775135cbda99d53c89739cd801aa98ce
 Section: 微信插件
 Priority: optional
 Homepage: https://github.com/curtinlv
-Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、自动通过好友请求、自动互删好友等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC_无根
@@ -641,7 +641,7 @@ Size: 495656
 MD5sum: c54968cfae506735a21cb54f06adfaac
 SHA1: 762d64b91017d554c216d3ffc2ec26a1a4e39582
 SHA256: f6896d1a8339bc10592a00043de68e4a65e3f7a46ccca729758e9e90fa8b47f7
-Section: 嗨-工具
+Section: Tweaks
 Description: 集合的控制中心模块：定位、注销、设置、VPN、自动亮度、截屏、锁屏、一键清角标、微信扫码、支付宝扫码、双卡切换、蜂窝切换、迷你音量-亮度、启动QX/推特/油管/Filza/Sileo/Tg等、静音、实时CPU使用率、系统运行时间、Snapper2、微信/支付宝付款码、抬起唤醒等。感谢Skypain、Netskao、SOPPPra、MTAC、P2KDev、jailbreak365 +、AnubisTweaks、真皮等各位大佬！！！
 Author: 妖刀
 Name: CCLess++(rootless)
@@ -1022,7 +1022,7 @@ MD5sum: 39bcaf1b182075fe16376b40a76ce4cf
 SHA1: 01799fb7bccf27b9785537a02e857abcf1ef6ddf
 SHA256: 5365f34de1c6ab2b0125b0b72df9eb5019eedce218d31e5c56967b70477a83c6
 Section: 微信插件
-Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,新增多端登录设备隐藏等。
+Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: 平凡
 Name: 虚拟视频
 
@@ -1287,9 +1287,9 @@ Size: 446472
 MD5sum: 5df77ce80f7d2f70bae09e871f9285d9
 SHA1: e9e7db8f1918783ab7a80457949dbe7c0ae02d49
 SHA256: 7d9e3246b99c9597ed85100742c272466ea102e90ad4076c3e1c1e521c907f65
-Section: 软件增强
-Description: 本插件安装包来自苏兔源
-Author: 公众号：苏兔（bysutu） <super.cat.sutuplus@gmail.com>
+Section: 微信插件
+Description: 微信主体美化      软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
+Author: 苏兔
 Depiction: http://apt.sutuplus.com/pkg/com.sutuplus.release
 Name: 酸果 - Rootless
 
@@ -1305,8 +1305,8 @@ MD5sum: bc324eea5a21098a8c252ac8cf91b72c
 SHA1: a292265ab7ddc86a6930f2b05abcc7147b68f9d5
 SHA256: 200b0cc1678efe6beb39c630c94f7fc7633019a193a8f753da6813165d772d72
 Section: 微信插件
-Description: 本插件安装包来自苏兔源
-Author: 公众号：苏兔（bysutu） <super.cat.sutuplus@gmail.com>
+Description: 微信主体美化      软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
+Author: 苏兔
 Depiction: http://apt.sutuplus.com/pkg/com.sutuplus.release
 Name: 酸果 - Rootless
 
@@ -1341,7 +1341,7 @@ MD5sum: f4b556eb0a66e9b2a026b412ff6e8908
 SHA1: 59b9427208de01f3e0d58cab5028db07c0245b58
 SHA256: a878bd7ac147336177c9136207ddbf5e06ab891c5be1df1464d9fc892460e871
 Section: 微信插件
-Description: 最新版微信（v8.0.49）去广告插件。删除搜索页面的广告，删除公众号列表广告、快讯，删除公众号文章中间和底部的广告，删除朋友圈广告，删除小程序的广告，删除直播和视频号中的广告!  源内所有插件仅供本人测试使用，下载后请于24小时内删除! 
+Description: 最新版微信（v8.0.49）去广告插件。删除搜索页面的广告，删除公众号列表广告、快讯，删除公众号文章中间和底部的广告，删除朋友圈广告，删除小程序的广告，删除直播和视频号中的广告!     软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: SWING
 Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.wechat.noads
 Icon: https://repo.abox.plus/api/packageinfo/com.swing.wechat.noads/icon.png
@@ -1481,7 +1481,7 @@ MD5sum: b3d31a5b7a222df9da8c70f6c8f5dbc2
 SHA1: e0830405af8a025afa20cbe3a95acb4249b15bb1
 SHA256: 3d6aa9c49ae9acee6a2b6e6507fc366648bd8826691d745a52f3b83f7eeb65a6
 Section: 微信插件
-Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!
+Description: 微信主体美化插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: MustangYM <mm13299079785@gmail.com>
 Name: ThemePro-2.8.9-Rootless
 
@@ -1571,7 +1571,7 @@ MD5sum: 0b8d3eb12c0485585da6657afeb272e4
 SHA1: cb943067e5734a7b300ed8d55dec14c42d9ddf02
 SHA256: c500588113d6ea84f56f7222fc491d848e2cd2c8adec988662f65a85cd2096da
 Section: 微信插件
-Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
+Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: Netskao
 Name: 微信净化
 
@@ -1587,7 +1587,7 @@ MD5sum: e386a95420df2b52d4638bc60a7cd07e
 SHA1: ddff36cdf9de33b59a66b380b5eaa3c3244d6efa
 SHA256: 61ab3d42b2d7a41c2dbc1670987874b3971c4ad33ca7c956544584785e2b71c6
 Section: 微信插件
-Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
+Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: Netskao
 Name: 微信净化END
 
