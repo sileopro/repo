@@ -14,8 +14,8 @@ SHA1: 983b13f5a2458b197fb1be12e1e705289f409258
 SHA256: 0f748e1d5384180e1135e7da216c4fb65c8cb22cb41ac7fda42ceb1db672b75b
 Section: 微信插件
 Priority: optional
-Description: Apibug微信文字转语音插件  软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
-Author: www.apibug.com
+Description: 微信文字转语音插件  软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
+Author: Apibug
 Name: ApibugTextToVoice
 
 Package: MisakaHelper
@@ -126,9 +126,9 @@ MD5sum: d33158b07e10ca9345c1ae3fe0a77483
 SHA1: 6a60f5570978864599adc2b7b94509db24e5ff80
 SHA256: 116c1fcf3b49dbef84db2cf0bbf8ce1c9100901f986a03eb0a0529b4fe3f0b81
 Section:微信插件
-Description: 微信小布丁1.0.6版本，可注入可越狱使用。自定义气泡，模拟iPad登录，开启callkit通话，开启消息防撤回，最全屏蔽公众号文章广告，屏蔽订阅号列表广告（可自定义关注视频和直播中订阅号），屏蔽朋友圈广告，屏蔽越狱检测状态,快速跳小程序广告，自定义步数，后台模糊，界面透明等功能。不整大杂烩，只更用的到。***长按主页，订阅号的'搜索栏'1秒控件或任意聊天窗口中的'时间'，都可以弹出设置***,8.0.31版本专供，高版本仅用部分功能（我自用是8.0.31，没适配高版本）
-Author: 来了老弟 X：h_h_x_t
-Name: 微信小布丁-rootless
+Description: 微信小布丁1.0.6版本，可注入可越狱使用。   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
+Author: 来了老弟 
+Name: 微信小布丁
 
 Package: com.0xkuj.safarix
 Version: 1.2.0
@@ -158,9 +158,9 @@ SHA1: b771c514e46c1c1f66e73bce2a54a6e8608ff7b1
 SHA256: 546124175f8d16bcc0dde1b34a199b53d1a78d509a29b0d9acd3050fb7d32afe
 Section: 微信插件
 Priority: optional
-Description: 斗图助手-Rootless
+Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8 
 Author: Mao
-Name: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8 
+Name: 斗图助手
 Sponsor: admin@25mao.com
 
 Package: com.25mao.miyou.rootless
@@ -177,7 +177,7 @@ Section: 微信插件
 Priority: optional
 Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: Mao
-Name: 微信助手-Rootless
+Name: 微信助手
 Sponsor: admin@25mao.com
 
 Package: com.25mao.youquan.rootless
@@ -226,7 +226,7 @@ SHA256: 2f96c00003133556c3e0b78e6f4c7e1bd6911e25e8bf55cdeeb7e7d4216e56bf
 Section: 微信插件
 Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: HuangBai 
-Name: 黄白助手(微信插件)-Rootless
+Name: 黄白助手
 
 Package: com.ash.milkyway4-ios16fix
 Version: 0.0.1
@@ -436,9 +436,9 @@ MD5sum: ec17d23d3c5031e9f52e8d19e1f9b331
 SHA1: de6d2254a4324f41dbea2ca30a008b793d22368b
 SHA256: 8e07598d5b454282a5c15c0598725cb6dfd27ddfa5a1d7b195e30bd2c05ea2ab
 Section: Tweaks
-Description: 便捷截屏。源内可安装中文修复包。
+Description: 便捷截屏2，软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: Jonathan Winger-lang
-Name: Snapper 2(rootless)
+Name: Snapper 2
 
 Package: com.daodao.snapper3
 Version: 1.0k
@@ -452,9 +452,11 @@ MD5sum: c3ebac4cff2509f4727211a46278748b
 SHA1: c1bade2b431aae2f03b661d3d9f58bfe6e47c0f7
 SHA256: 3b89d1b0bdadb6af537ba10c90100598c3be521494294b0e8bfc7967071b7233
 Section: Tweaks
-Description: 便捷截屏3，已由CBZ破解。已修正OCR，源内可安装中文包。
+Description: 便捷截屏3，软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
+Author: DumpApp
+Name: 锤子助手
 Author: Jonathan Winger-lang
-Name: Snapper 3(rootless)
+Name: Snapper 3
 
 Package: com.dumpapp.wechat-rootless
 Version: 2.0.0
@@ -468,9 +470,9 @@ MD5sum: edabe5f9dd859bc197253963f1c6aaaf
 SHA1: ba506b1f26c283df7d9faea705fda9d38ff44452
 SHA256: c3f306491fa846dafef4c3004dc1c08f4eb95f3a090d5bb1608ec56c77067f4e
 Section: Tweaks
-Description: 锤子助手插件
+Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: DumpApp
-Name: 锤子助手-Rootless
+Name: 锤子助手
 
 Package: com.dumpapp.wechat-rootless
 Version: 2.0.1
@@ -484,9 +486,9 @@ MD5sum: 4c9e39f53db5740abc1851ea14fe4130
 SHA1: 21ec3fb45a63f57300bdd42e9498d0585e6a2c2f
 SHA256: 6f7b671d1a535ba5b18beb42ec6ac187840c18d9a702a8eedaf255a07c7d755f
 Section:  微信插件
-Description: 锤子助手插件
+Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: DumpApp
-Name: 锤子助手-Rootless
+Name: 锤子助手
 
 Package: com.dvntm.showmytouches
 Version: 1.0
@@ -1037,7 +1039,7 @@ MD5sum: beca1aa91f03f4179910333afc04cab8
 SHA1: 5b8c460e0d8aa9193603cce5cbce61879e411577
 SHA256: cbc2669740e12e646f673503669decc7b50152148ffdf8a98e4d74b2a6702926
 Section:  微信插件
-Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,新增多端登录设备隐藏等。
+Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: 平凡
 Name: 虚拟视频
 
@@ -1291,7 +1293,7 @@ Section: 微信插件
 Description: 微信主体美化      软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: 苏兔
 Depiction: http://apt.sutuplus.com/pkg/com.sutuplus.release
-Name: 酸果 - Rootless
+Name: 酸果
 
 Package: com.sutuplus.releasefugu15
 Version: 5.8.2-1
