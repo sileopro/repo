@@ -238,7 +238,7 @@ Size: 12716
 MD5sum: 2ec85592db0bb7b936061f11675c0e13
 SHA1: 6e8c9e2021d22776364d6e1852663a9881ce1575
 SHA256: 96f64d923700ae302260a3b8261464225ac52a93f64e1b8dca3aac9083e67e97
-Section: Tweaks
+Section: 分屏插件
 Description: An awesome MobileSubstrate tweak!
 Author: ash
 Name: MilkyWay4-iOS16Fix
@@ -501,7 +501,7 @@ Size: 49592
 MD5sum: 1c9b776c78c83c75988922769f16d8f8
 SHA1: c886424510f9d111856d22b9595a4d69b3903fc9
 SHA256: 033463ab993a7c85faf99d9a1d958a5a7bd75c52fb5a183649c15089884c68d8
-Section: Tweaks
+Section: 录屏轨迹
 Description: Displays your touch interactions!
 Author: dvntm
 Name: ShowMyTouches
@@ -517,7 +517,7 @@ Size: 53208
 MD5sum: fd7f453d0e2560811aa66ba6b2261a02
 SHA1: d738dab4d8bc50d5bffdadbe11253b234d4f73f9
 SHA256: 295ec02b73306fdee703f3ba38afbe2f2823dcf6aa722de4a217964236910769
-Section: Tweaks
+Section: 录屏轨迹
 Description: Displays your touch interactions!
 Author: dvntm
 Name: ShowMyTouches
@@ -944,7 +944,7 @@ Size: 695996
 MD5sum: 390f189db06ebbe7510a44a77d9e61af
 SHA1: effe0adbe57f297eb9305480982d190a6a07d7da
 SHA256: 9ba98e8ebae78f22fd5394f714834bfa011e928df80aa87854ad406dc3406900
-Section: Netskao-Tweaks
+Section: 分屏插件
 Description: A better way to multitask! Fix support for iOS15+
 Author: c1d3r
 Name: PullOver Pro
@@ -960,7 +960,7 @@ Size: 375530
 MD5sum: 682cc5a1d2d99f4a2d5d795b831f6b02
 SHA1: 23efe1c17af2aaa2c42244f0ab16eaf1de1e34a8
 SHA256: aa76032ae10920e6db19e36a821ab6624baff4077f20c52486091f43be52d56b
-Section: Netskao-Tweaks
+Section: 录屏轨迹
 Description: Shows where you touch the screen
 Author: LonestarX
 Name: ShowTouch
@@ -976,7 +976,7 @@ Size: 101968
 MD5sum: cb58c414e3d71825159b301253981871
 SHA1: d620b07f47b2c978c1d813f0690a3bdf27788745
 SHA256: ad4d2c1f314b3557270d8d29529b3f3a7fb747758b6eb826ce77a96cb01bca96
-Section: Tweaks
+Section: 苹果商店账号切换
 Description: Conveniently switch between logged-in accounts, long press the desktop AppStore icon to switch
 Author: Netskao
 Name: StoreSwitchAccounts
@@ -1221,7 +1221,7 @@ Size: 3503108
 MD5sum: 8781cc06da12986b3fc8f66ccbdebc59
 SHA1: 44e8b47604ae440685fe14bed703619327104b4e
 SHA256: 3fd7aac806d95a64eb4b7f845b0d3efc292961a702aae5f0d114f633047da0ca
-Section: Tweaks
+Section: 分屏插件
 Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
 Name: split-view-pro
@@ -1238,7 +1238,7 @@ Size: 5235286
 MD5sum: 33f77310f5bdd834c42317f85c4090fa
 SHA1: 7b1196127b2e7e3a70e10b5355f44930ef7e0a49
 SHA256: 459050045ebc1120ac4d642e57410840110c1c5263e2473460a89cf095b8f821
-Section: Tweaks
+Section: 分屏插件
 Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
 Name: split-view-pro
@@ -1255,7 +1255,7 @@ Size: 3508284
 MD5sum: 2a94ac69a8f8d39a6ea25e11f544d7b7
 SHA1: a9b51e3f5b637faf373ae23eb021ca45708fe345
 SHA256: 88669e428db39db0e4869766daaf709723012872346bc8030b271f84e745c1aa
-Section: Tweaks
+Section: 分屏插件
 Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
 Name: split-view-pro
@@ -1272,7 +1272,7 @@ Size: 5177798
 MD5sum: 0633f6b017afdbbc2513ea5b24cf19de
 SHA1: 61c37fdc9ef8cc51d962d0cb329e5d99ecd5798c
 SHA256: 9c6622889ef922038863816b9a947caf5738a520f87f8e12245816faad58e44f
-Section: Tweaks
+Section: 分屏插件
 Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
 Name: split-view-pro
@@ -1465,7 +1465,7 @@ Size: 14316
 MD5sum: b4b9c8d28ffa9e20f94a330bb8ccf609
 SHA1: 226c48dcdf4b3d582bbf873c0f260896359b2bc8
 SHA256: 002722361fb3bdc527138de011bca2e1f40050413e5c2eb3fcceb28b530761ba
-Section: Tweaks
+Section: 苹果商店账号切换
 Description: Adds a button to switch account in App Store account page on iOS 11+.
 Author: 0xkuj <0xkujz@gmail.com>
 Name: StoreSwitcher 2 (rootless)
@@ -1498,7 +1498,7 @@ Size: 1300024
 MD5sum: 99edb14844cd69b105112066b3f8fcf0
 SHA1: f5a1fbaa717230b7e53491ff0a0d2b3dfeb03b3d
 SHA256: e91af083915e376a6a263842a639201a980bcdf6c547dd2cab001082b731c6b2
-Section: Tweaks
+Section: 分屏插件
 Description: multitasking for iOS15 rootless.
 Author: @akusio_RR
 Depiction: https://akusio.github.io/descriptions/milkyway4/index.html
@@ -1515,7 +1515,7 @@ Size: 10174436
 MD5sum: 3473b74970db7f2d92fcc673ec749994
 SHA1: ecc28488a7aadceb2ade0f9feed351ee11576d9b
 SHA256: 12b13d8c910d3bc1784d0524934705d5df6ddc87c911ef2a87b04dfb45509eb3
-Section: Tweaks
+Section: 分屏插件
 Description: Multitasking on iOS15 - iOS16.
 Tag: compatible_min::ios15.0
 Author: Dcsyhi <dcsyhi1998@gmail.com>
@@ -1534,7 +1534,7 @@ Size: 10165196
 MD5sum: e8e3076c027d47a4c7385e93f62319b6
 SHA1: 3150e2b94f3f4cdcc2d7115c91dfa5720a3a05b7
 SHA256: d99206f4ced9de9d491867ebc1e88e306f20e5c9e75c9d4632efca3786ba9e24
-Section: Tweaks
+Section: 分屏插件
 Description: Multitasking on iOS15 - iOS16.
 Tag: compatible_min::ios15.0
 Author: Dcsyhi <dcsyhi1998@gmail.com>
