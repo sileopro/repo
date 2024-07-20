@@ -442,38 +442,6 @@ Author: CoolStar & Lizynz
 Name: ClassicFolders 3(rootless)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/cf3/js.json
 
-Package: com.dao.ocd.cn
-Version: 5.0
-Architecture: iphoneos-arm64
-Maintainer: 妖刀
-Depends: mobilesubstrate
-Filename: ./debs/OCD 简体中文包(rootless).deb
-Size: 6124
-MD5sum: 7ff17b0962f7746b6b01527e2ede79c7
-SHA1: 47b8dc8c9d048a86e9ba3fad61f8650d0a9e8c2f
-SHA256: 40b4dd4fa34925934993c03f39577e13d0b5a153b72fe31ce8f03bae62fb5bdd
-Section: 嗨-汉化
-Description: OCD4和OCD5的通用简体中文包(rootless)。
-Author: 妖刀
-Name: OCD 简体中文包(rootless)
-
-Package: com.dao.ocd5
-Version: 5.2.1
-Architecture: iphoneos-arm64
-Maintainer: b4db1r3 <nfive060@gmail.com>
-Depends: com.mrgcgamer.libgcuniversal, preferenceloader, ws.hbang.common, ws.hbang.alderis, com.dao.ocd.cn
-Conflicts: com.noisyflake.cozybadges, com.dao.ocd, com.yourepo.b4db1r3r3p0.ocd, com.b4db1r3.ocd
-Filename: ./debs/OCD5(rootless)_5.2.1.deb
-Size: 323684
-MD5sum: 2039c38c10a58b47a5e726e5d49be1b6
-SHA1: 21eb59d457270d82e6cfc2bd502b241388ab6e2f
-SHA256: 6db5e746112ed8ee9b8f7387cb28c1206a25cd3a644f4824579989b3646ead6d
-Section: 嗨-工具
-Description: 根据App图标颜色来自适应App名称和角标的颜色，5系列更多新功能，有类似dotto+插件的圆点/空心效果，精简无用文件，替换插件图标。
-Author: b4db1r3 <nfive060@gmail.com>
-Name: OCD5(rootless)
-Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ocd5/js.json
-
 Package: com.dao.scinsta
 Version: 0.4.2
 Architecture: iphoneos-arm64
