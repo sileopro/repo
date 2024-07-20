@@ -442,24 +442,6 @@ Author: CoolStar & Lizynz
 Name: ClassicFolders 3(rootless)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/cf3/js.json
 
-Package: com.dao.scinsta
-Version: 0.4.2
-Architecture: iphoneos-arm64
-Maintainer: SoCuul & 妖刀
-Installed-Size: 1904
-Depends: mobilesubstrate, ws.hbang.common
-Conflicts: com.bandarhl.bhinsta, com.socuul.scinsta, com.hk.bhinsta.cn.rl, com.dao.bhinsta, com.hk.bhinsta, com.hk.bhinsta.cn
-Filename: ./debs/SCInsta中文版rootless.0.4.2.deb
-Size: 496576
-MD5sum: 9430605601713be90f8676e0fb8d449a
-SHA1: 3caff1c0105d9504ebda713747efe5c31422e89f
-SHA256: 3959dffc2f11fc3d01796cdd4d3c652ab598b9ccd6a0e2384720d1cc24f597e4
-Section: 嗨-工具
-Description: Instagram功能丰富的插件，可去广告、可隐藏推荐、二次确认、下载媒体等，长按主页面左上角“Instagram图标”进入插件设置，刀刀根据开源直接编译的中文版。
-Author: SoCuul
-Name: SCInsta 中文版(rootless)
-Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/sci/js.json
-
 Package: com.daodao.snapper2
 Version: 2.7.0
 Architecture: iphoneos-arm64
@@ -698,22 +680,6 @@ Section: Tweaks
 Description: Faster iOS animation.
 Author: Hoangdus
 Name: Speedster
-
-Package: com.hui.instalauncher2.zh-hans
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: 灰灰
-Depends: com.jontelang.instalauncher2, firmware (>= 15.0)
-Filename: ./debs/InstaLauncher 2汉化包.deb
-Size: 2620
-MD5sum: e8c7456757b8d53a21f1d69d32bcd5df
-SHA1: 9a2dfdd108df0b6f187e84e3de17bb1f0d455b50
-SHA256: b780c9656a98d98868763a599f061f90f6e92e73cdef905da037799951ff4e32
-Section: Tweaks
-Description: 为InstaLauncher2提供简体中文
-Author: 灰灰
-Icon: http://q1.qlogo.cn/g?b=qq&nk=84666997&s=640
-Name: zh-Hans for InstaLauncher 2
 
 Package: com.jd4iphone
 Version: 1.3
