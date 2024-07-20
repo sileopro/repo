@@ -671,7 +671,7 @@ Size: 978204
 MD5sum: df75acde1146923fbf41f95b075cc06e
 SHA1: c1a8bace0326530adb0d20b0924c7a71af142ee8
 SHA256: 6d8402fdd8d72b7ddc658d1d6f821ba9f424b5d99a5e6ce514bcdb1badc65fc7
-Section: Utilities
+Section: Tweaks
 Homepage: http://ib-soft.net/icleaner
 Description: The first real iOS system cleanup and management utility
 Author: Ivano Bilenchi <support@ib-soft.net>
@@ -895,7 +895,7 @@ Size: 2452
 MD5sum: 9400df388ef7ee3a626acd8a95af5521
 SHA1: 685af9088466a32d0bace2719ea6f1b119879d08
 SHA256: 084fe1fad2bda97ba187eb863b70c3cfa8e2b8f4e8bd934e1b21f87afccd209b
-Section: Addons
+Section: Tweaks
 Description: 尝试保存 apt 缓存目录下所有 deb
 Author: zhaonan <invalidunit@icloud.com>
 Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
@@ -1042,7 +1042,7 @@ Size: 101968
 MD5sum: cb58c414e3d71825159b301253981871
 SHA1: d620b07f47b2c978c1d813f0690a3bdf27788745
 SHA256: ad4d2c1f314b3557270d8d29529b3f3a7fb747758b6eb826ce77a96cb01bca96
-Section: AppStore账号管理
+Section: Tweaks
 Description: Conveniently switch between logged-in accounts, long press the desktop AppStore icon to switch
 Author: Netskao
 Name: StoreSwitchAccounts
@@ -1057,7 +1057,7 @@ Size: 1919638
 MD5sum: 73e14f01c4d3469e118e63e5f752feba
 SHA1: 9438cf3af05d46de6b60c44d9f899a723a55bf48
 SHA256: 232c5e793b4f7e84ce6e97330475f42f6103a97a1f8c4b01ec6db51c9682ff16
-Section: Applications
+Section: 巨魔商店
 Description: Helper utility to install and manage TrollStore!
 Author: opa334
 Name: TrollStore Helper
@@ -1619,7 +1619,7 @@ Size: 1176056
 MD5sum: b8ba3d15fd33ee25e644b4c38afda709
 SHA1: 3c518fe1905a3ad2e1c53b314e6344459cd96e67
 SHA256: ee49cd31e5b335f0e6cb7ba0639875054120e33c0120cb6d4b7414a14605c07d
-Section: 抖音插件
+Section: Netskao-Tweaks
 Description: 抖音净化！设置位于抖音-设置，仅支持25.8.0及以上版本抖音
 Author: Netskao
 Name: 抖音净化-Rootless
@@ -1721,7 +1721,7 @@ Size: 198888
 MD5sum: 61e7d9d00f1edaef7589ea9593c17dc7
 SHA1: 4b9b0714a34378a81519ca6a8f7db609a2eea444
 SHA256: 3c8f09a6006beff67951c9d77c13768743af7ad743aee99661ecd59a5666a479
-Section: Development
+Section: Tweaks
 Description: Support library for tweaks
 Tag: role::developer, compatible_min::ios15.0
 Author: HASHBANG Productions <support@hbang.ws>
