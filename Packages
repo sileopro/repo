@@ -81,7 +81,7 @@ Name: MisakaHelper
 Package: byg.iosios.net.ccborder
 Version: 1.1.1
 Architecture: iphoneos-arm64
-Maintainer: 搬运工
+Maintainer: Axs
 Installed-Size: 404
 Depends: mobilesubstrate, firmware (>= 14.0), ws.hbang.alderis
 Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc
@@ -90,29 +90,29 @@ Size: 28424
 MD5sum: 61949e0438af26d2b9b797aa677e6870
 SHA1: 0b007cb34be89bd37737a0e3d0e99ef742e6077e
 SHA256: 95821f17e7ff4341da3a30bd59596a69638c8f0b91dd53bc774d273f68b3ce9b
-Section: 杂七杂八
+Section: rootless应用插件
 Description: 像CoolCC一样，删除控制中心模块背景并添加边框，刀刀基于p2kdev的开源分支定制。
 Author: fiore
 Icon: https://chinesebuilding.club/pic/cydia.png
-Name: CCBorder控制中心发光-Rootless
-Sponsor: 搬运工
+Name: CCBorder控制中心发光
+Sponsor: Axs
 
 Package: byg.iosios.net.hideserialnumber
 Version: 0.0.4
 Architecture: iphoneos-arm64
-Maintainer: 搬运工
+Maintainer: Axs
 Depends: firmware (>= 12.2), mobilesubstrate, preferenceloader
 Filename: ./debs/HideSerialNumber隐藏序列号-Rootless.0.0.4.deb
 Size: 58556
 MD5sum: e0aa72ac95bdfc1ffa97e0290f319918
 SHA1: bbbd438ab5f60b4e4b8e0513b3cd151fc3d7db49
 SHA256: cba0b544eebd770699ef3bc0f405b3932c62d3c65fe826fe742af40bf91699b6
-Section: 杂七杂八
-Description: Hide Serial Number in Settings About page.在“设置关于”页面中隐藏/伪装序列号等相关信息。搬运工源，搬你所想！
+Section: rootless应用插件
+Description: Hide Serial Number in Settings About page.在“设置关于”页面中隐藏/伪装序列号等相关信息。
 Author: ichitaso
 Icon: https://chinesebuilding.club/pic/cydia.png
-Name: HideSerialNumber隐藏序列号-Rootless
-Sponsor: 搬运工
+Name: HideSerialNumber隐藏序列号
+Sponsor: Axs
 
 Package: cn.llld.wxx
 Version: 1.0.6
@@ -1784,4 +1784,3 @@ Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.sixls
 Icon: https://skitty.xyz/repo/icons/xyz.skitty.sixls.png
 Name: Six (LS)
 Sileodepiction: https://skitty.xyz/repo/depictions/xyz.skitty.sixls/sileo.json
-
