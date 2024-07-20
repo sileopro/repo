@@ -1387,23 +1387,6 @@ Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.pn
 Name: DockX
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
 
-Package: com.xx.dyhook
-Version: 2.0.3-5
-Architecture: iphoneos-arm64
-Maintainer: 人妖嘉嘉
-Installed-Size: 3096
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.xx.dyhook_2.0.3-5_iphoneos-arm64.deb
-Size: 825104
-MD5sum: 8176314b27f7418b1968e127f0e98fb6
-SHA1: aa0a4716f93dcf1e5662380c101e4bcb2fe7d84b
-SHA256: 3bd8088000d1a2f5696860ac568278e934743a1245f70f7a1ef2065b559f4a1a
-Section: Tweaks
-Description: 听说永久版泄漏，人妖嘉嘉就会解散23.88元入群费的内测群。然后重新拉群，继续圈入群费。
-Author: 人妖嘉嘉
-Name: 抖音大气层-永久版
-Sileodepiction: https://flyx099.github.io/sileodepiction/com.xx.dyhook/js.json
-
 Package: com.xx.ecnyhook
 Version: 1.0.2
 Architecture: iphoneos-arm64
