@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://axs6.github.io/repo/images/Axslogo.png",
+    "headerImage": "不要为了越狱放弃升级的乐趣！",
     "tintColor": "#1DBBFF",
     "minVersion": "0.3",
     "tabs": [
@@ -21,14 +21,9 @@
                     "class":"DepictionButtonView"
                 },      
                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "欢迎加入：</br> ——>>软件源：https://axs6.github.io/repo  </br> </br> ——>>TG频道：https://t.me/wxfx8",
-                    "useRawFormat": true,
-                },
-                {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
-                    "itemSize": "{160, 346.4533333333333}",
+                    "itemSize": "{80, 176.4533333333333}",
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
@@ -59,18 +54,13 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "A",
-                    "title": "作者"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "Axs",
+                    "text": "A先生",
                     "title": "维护者"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 07 月 21 日",
-                    "title": "最后更新日期"
+                    "text": "VCR66T",
+                    "title": "微信"
                 },
                 {
                     "class": "DepictionSpacerView",
