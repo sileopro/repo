@@ -1,7 +1,7 @@
 {
     "class": "DepictionTabView",
     "headerImage": "不要为了越狱放弃升级的乐趣！",
-    "tintColor": "#1DBBFF",
+    "tintColor": "00BFFF",
     "minVersion": "0.3",
     "tabs": [
         {
