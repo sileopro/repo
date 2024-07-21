@@ -9,14 +9,14 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text":"秋名山巨魔俱乐部",
-                    "action":"https://t.me/ae86_ios",
+                    "text":"资源分享俱乐部",
+                    "action":"https://t.me/wxfx8",
                     "openExternal": 1,
                     "class":"DepictionButtonView"
                 },      
                 {
                     "text":"四大运营商流量卡",
-                    "action":"https://hk.bjjii.com/?p=ae86_daodao",
+                    "action":"https://vip.haokahk.com/index?k=SW11WElORjNhRGc9",
                     "openExternal": 1,
                     "class":"DepictionButtonView"
                 },
@@ -32,11 +32,11 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/Screenshot_01.png"
+                            "url": "https://axs6.github.io/repo/sileodepiction/ccless/Screenshot_01.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/Screenshot_02.png"
+                            "url": "https://axs6.github.io/repo/sileodepiction/ccless/Screenshot_02.png"
                         }
                     ]
                 },
@@ -63,12 +63,12 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "妖刀",
+                    "text": "A先生",
                     "title": "作者"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "妖刀",
+                    "text": "A先生",
                     "title": "维护者"
                 },
                 {
