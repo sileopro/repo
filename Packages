@@ -17,6 +17,7 @@ Priority: optional
 Description: 微信文字转语音插件  软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: Apibug
 Name: ApibugTextToVoice
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/Apibug/js.json
 
 Package: MisakaHelper
 Version: 1.9-9
@@ -34,9 +35,10 @@ SHA1: 403075ff3b871debf28e52d3750e48932d607055
 SHA256: d9a07cfd9c9937cc55770d3217919ac8baedbe169cc3304fb1d3d735df3f6379
 Section: 微信插件
 Priority: optional
-Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
+Description: 微信多功能插件   软件源：https://axs6.github.io/repo  https://axs6.github.io/pro
 Author: Misaka
 Name: MisakaHelper
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/Misaka/js.json
 
 Package: MisakaHelper
 Version: 2.0-0
@@ -57,6 +59,7 @@ Priority: optional
 Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: Misaka
 Name: MisakaHelper
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/Misaka/js.json
 
 Package: MisakaHelper
 Version: 2.0-1
@@ -77,6 +80,7 @@ Priority: optional
 Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: Misaka
 Name: MisakaHelper
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/Misaka/js.json
 
 Package: byg.iosios.net.ccborder
 Version: 1.1.1
@@ -129,6 +133,7 @@ Section:微信插件
 Description: 微信小布丁1.0.6版本，可注入可越狱使用。   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: Axs 
 Name: 微信小布丁
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/wxxbd/js.json
 
 Package: com.0xkuj.safarix
 Version: 1.2.0
@@ -162,6 +167,7 @@ Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG
 Author: Mao
 Name: 斗图助手
 Sponsor: TG频道@wxfx8
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/doutu/js.json
 
 Package: com.25mao.miyou.rootless
 Version: 3.7-8
@@ -179,6 +185,7 @@ Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG
 Author: Mao
 Name: 微信助手
 Sponsor: TG频道@wxfx8
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/miyou/js.json
 
 Package: com.25mao.youquan.rootless
 Version: 3.0-8
@@ -227,6 +234,7 @@ Section: 微信插件
 Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: HuangBai 
 Name: 黄白助手
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/HBWechat/js.json
 
 Package: com.ash.milkyway4-ios16fix
 Version: 0.0.1
@@ -316,6 +324,7 @@ Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG
 Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC_无根
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/pkc/js.json
 
 Package: com.curtin.pkc.rootless
 Version: 0.5-2
@@ -334,6 +343,7 @@ Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG
 Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC_无根
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/pkc/js.json
 
 Package: com.curtin.pkc.rootless
 Version: 0.5-3
@@ -352,6 +362,7 @@ Description:微信多功能插件   软件源：https://axs6.github.io/repo  TG�
 Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC_无根
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/pkc/js.json
 
 Package: com.curtin.pkc.rootless
 Version: 0.5-4
@@ -370,6 +381,7 @@ Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG
 Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC_无根
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/pkc/js.json
 
 Package: com.dao.bhtiktokmod
 Version: 2.3
@@ -485,6 +497,7 @@ Section:  微信插件
 Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: DumpApp
 Name: 锤子助手
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/dumpapp/js.json
 
 Package: com.dvntm.showmytouches
 Version: 1.0
@@ -658,7 +671,7 @@ Section: Tweaks
 Description: 集合的控制中心模块：定位、注销、设置、VPN、自动亮度、截屏、锁屏、一键清角标、微信扫码、支付宝扫码、双卡切换、蜂窝切换、迷你音量-亮度、启动QX/推特/油管/Filza/Sileo/Tg等、静音、实时CPU使用率、系统运行时间、Snapper2、微信/支付宝付款码、抬起唤醒等。感谢Skypain、Netskao、SOPPPra、MTAC、P2KDev、jailbreak365 +、AnubisTweaks、真皮等各位大佬！！！
 Author: Axs
 Name: CCLess++(rootless)
-Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/CCLess/js.json
 
 Package: com.hoangdus.speedster
 Version: 2.1.1
@@ -1021,6 +1034,7 @@ Section: 微信插件
 Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: 平凡
 Name: 虚拟视频
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/pingfan/js.json
 
 Package: com.pingfan.wechat
 Version: 2.1-9
@@ -1036,6 +1050,7 @@ Section:  微信插件
 Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: 平凡
 Name: 虚拟视频
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/pingfan/js.json
 
 Package: com.ryannair05.cask3
 Version: 1.0.2
@@ -1303,6 +1318,7 @@ Description: 微信主体美化      软件源：https://axs6.github.io/repo  TG
 Author: 苏兔
 Depiction: http://apt.sutuplus.com/pkg/com.sutuplus.release
 Name: 酸果
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/sutuplus/js.json
 
 Package: com.sutuplus.releasefugu15
 Version: 5.8.2-1
@@ -1320,6 +1336,7 @@ Description: 微信主体美化      软件源：https://axs6.github.io/repo  TG
 Author: 苏兔
 Depiction: http://apt.sutuplus.com/pkg/com.sutuplus.release
 Name: 酸果 - Rootless
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/sutuplus/js.json
 
 Package: com.swing.bilibili
 Version: 1.1.3
@@ -1408,7 +1425,7 @@ Section: Tweaks
 Description: 成功让人妖嘉嘉取消了入群费21.88元
 Author: 人妖嘉嘉
 Name: 抖音大气层-永久版
-Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/dyhook/js.json
 
 Package: com.xx.ecnyhook
 Version: 1.0.2
@@ -1509,6 +1526,7 @@ Section: 微信插件
 Description: 微信主体美化插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: MustangYM <TG频道@wxfx8>
 Name: ThemePro-2.8.9-Rootless
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/themepro/js.json
 
 Package: jp.akusio.milkyway4
 Version: 0.1.1
@@ -1599,6 +1617,7 @@ Section: 微信插件
 Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: Netskao
 Name: 微信净化
+https://axs6.github.io/repo/sileodepiction/wcpureextension/js.json
 
 Package: netskao.wechatpurification
 Version: 4.2-6-END
@@ -1615,6 +1634,7 @@ Section: 微信插件
 Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: Netskao
 Name: 微信净化END
+https://axs6.github.io/repo/sileodepiction/wcpureextension/js.json
 
 Package: netskao.xhsnoads-rootless
 Version: 1.3-7
