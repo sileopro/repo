@@ -1455,39 +1455,6 @@ Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.pn
 Name: DockX
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
 
-Package: com.xhg.dyhook
-Version: 8.8.8
-Architecture: iphoneos-arm64
-Maintainer: 小黄🐶
-Installed-Size: 3096
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/抖音大气层_无根.deb
-Size: 824980
-MD5sum: af088e83ac2ef901d43520c989147af0
-SHA1: 5e16161c856c92356aad3d6a3d599a0ce9f04084
-SHA256: 8d353829d7d34960550846259d54ee632ae7d8a83d4e9d1ae9dee6349dd4a0ad
-Section: Tweaks
-Description: 致:入内测群费23.88元
-Author: 小黄🐶
-Name: 抖音大气层-永久版
-Sileodepiction: https://flyx099.github.io/sileodepiction/com.xx.dyhook/js.json
-
-Package: com.xhg.dyhook
-Version: 8.8.8
-Architecture: iphoneos-arm64
-Maintainer: 人妖嘉嘉
-Installed-Size: 5464
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.xhg.dyhook_8.8.8_iphoneos-arm64.deb
-Size: 1923708
-MD5sum: 7dd0311dcc120b46e10ca877edc23360
-SHA1: 857768a31c607ec1def83ce92bc156dbbba3955c
-SHA256: c07708e8d0d5908deaf888c0c78d70da28b71ab3f699560dd66f773f30f6347f
-Section: Tweaks
-Description: 成功让人妖嘉嘉取消了入群费21.88元
-Author: 人妖嘉嘉
-Name: 抖音大气层-永久版
-
 Package: com.xx.ecnyhook
 Version: 1.0.2
 Architecture: iphoneos-arm64
