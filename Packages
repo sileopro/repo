@@ -100,6 +100,7 @@ Author: fiore
 Icon: https://chinesebuilding.club/pic/cydia.png
 Name: CCBorder控制中心发光
 Sponsor: Axs
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: byg.iosios.net.hideserialnumber
 Version: 0.0.4
@@ -117,6 +118,7 @@ Author: ichitaso
 Icon: https://chinesebuilding.club/pic/cydia.png
 Name: HideSerialNumber隐藏序列号
 Sponsor: Axs
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: cn.llld.wxx
 Version: 1.0.6
@@ -150,6 +152,7 @@ Section: Tweaks
 Description: Safari Essential Features
 Author: 0xkuj
 Name: SafariX
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.25mao.doutu.rootless
 Version: 3.1-5
@@ -203,6 +206,7 @@ Description: 查淘宝优惠券，查商品历史价
 Author: Mao
 Name: 淘宝优惠券-Rootless
 Sponsor: TG频道@wxfx8
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.25mao.youquan.rootless
 Version: 3.0-9
@@ -219,6 +223,7 @@ Priority: optional
 Description: 查淘宝优惠券，查商品历史价
 Author: Mao
 Name: 淘宝优惠券
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.Axs.touchvis
 Version: 1.1.3
@@ -235,6 +240,7 @@ Section: 录屏轨迹
 Description: 最好用的触摸交互。主要作用:做教程时候让别人知道你点的哪里。
 Author: Axs
 Name: 录屏轨迹
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.Axs.touchvis
 Version: 1.1.4
@@ -251,6 +257,7 @@ Section: 录屏轨迹
 Description: 最好用的触摸交互。主要作用:做教程时候让别人知道你点的哪里。
 Author: Axs
 Name: 录屏轨迹
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.HBWechatHelper.ailun
 Version: 1.7.2
@@ -282,6 +289,7 @@ Section: 分屏插件
 Description: An awesome MobileSubstrate tweak!
 Author: ash
 Name: MilkyWay4-iOS16Fix
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.bandarhl.bhtwitter
 Version: 4.3-1+debug
@@ -298,6 +306,7 @@ Section: Tweaks
 Description: Awesome tweak for Twitter
 Author: Bandar Alruwaili
 Name: BHTwitter
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.brend0n.qqmusicdesktoplyrics
 Version: 0.3.9~b1
@@ -315,6 +324,7 @@ Description: Show lyrics anywhere
 Author: Brend0n <TG频道@wxfx8>
 Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.qqmusicdesktoplyrics
 Name: DesktopLyrics
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.creaturecoding.shuffle
 Version: 1.6.2
@@ -338,6 +348,7 @@ Author: CreatureSurvive <TG频道@wxfx8>
 Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
 Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
 Name: Shuffle
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.curtin.pkc.rootless
 Version: 0.5-1
@@ -430,6 +441,7 @@ Section: Tweaks
 Description: Dayanch96基于BandarHL开源的BHTikTok优化再开发的Plus版本，支持TikTok去广告、自动下一条、纯净模式、切换地区等、伪造粉丝数，视频下载等。
 Author: Bandar Alruwaili
 Name: BHTikTok Plus(rootless)
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.dao.classicfolders3
 Version: 3.0.4.3
@@ -446,6 +458,7 @@ Section: Tweaks
 Description: CoolStar的经典文件夹3，Lizynz基于CoolStar的开源修复优化支持iOS15+。
 Author: CoolStar & Lizynz
 Name: ClassicFolders 3(rootless)
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.dao.classicfolders3
 Version: 3.0.4.5
@@ -463,6 +476,7 @@ Section: Tweaks
 Description: CoolStar的经典文件夹3，Lizynz基于CoolStar的开源修复优化支持iOS15+。
 Author: CoolStar & Lizynz
 Name: ClassicFolders 3(rootless)
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.daodao.snapper2
 Version: 2.7.0
@@ -479,6 +493,7 @@ Section: Tweaks
 Description: 便捷截屏2，软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: Jonathan Winger-lang
 Name: Snapper 2
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.daodao.snapper3
 Version: 1.0k
@@ -497,6 +512,7 @@ Author: DumpApp
 Name: 锤子助手
 Author: Jonathan Winger-lang
 Name: Snapper 3
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.dumpapp.wechat-rootless
 Version: 2.0.0
@@ -513,6 +529,7 @@ Section: Tweaks
 Description: 微信多功能插件   软件源：https://axs6.github.io/repo  TG：https://t.me/wxfx8
 Author: DumpApp
 Name: 锤子助手
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/dumpapp/js.json
 
 Package: com.dumpapp.wechat-rootless
 Version: 2.0.1
@@ -546,6 +563,7 @@ Section: 录屏轨迹
 Description: Displays your touch interactions!
 Author: dvntm
 Name: ShowMyTouches
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.dvntm.showmytouches
 Version: 1.1.2
@@ -562,6 +580,7 @@ Section: 录屏轨迹
 Description: Displays your touch interactions!
 Author: dvntm
 Name: ShowMyTouches
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.dvntm.ytlite
 Version: 4.0
@@ -579,6 +598,7 @@ Description: Lightweight YouTube Enhancer
 Author: dvntm
 Icon: https://raw.githubusercontent.com/dayanch96/icons/main/ytlite.png
 Name: YTLite
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.eevee.spotify
 Version: 4.1
@@ -595,6 +615,7 @@ Section: Tweaks
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Author: Eevee
 Name: EeveeSpotify
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.eevee.spotify
 Version: 4.4
@@ -611,6 +632,7 @@ Section: Tweaks
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Author: Eevee
 Name: EeveeSpotify
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.eevee.spotify
 Version: 4.5
@@ -627,6 +649,7 @@ Section: Tweaks
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Author: Eevee
 Name: EeveeSpotify
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.ethxnn88.visibleisland
 Version: 2.0
@@ -646,7 +669,7 @@ Depiction: https://ethxnn88.github.io/repo/depiction/web/com.ethxnn88.visibleisl
 Icon: https://ethxnn88.github.io/repo/assets/com.ethxnn88.visibleisland/icon.png
 Moderndepiction: https://ethxnn88.github.io/repo/depiction/native/com.ethxnn88.visibleisland.json
 Name: VisibleIsland
-Sileodepiction: https://ethxnn88.github.io/repo/depiction/native/com.ethxnn88.visibleisland.json
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 Tags: compatible_min::ios16.0, compatible_max::ios16.6.1
 
 Package: com.exile90.icleanerpro
@@ -668,6 +691,7 @@ Author: Ivano Bilenchi <TG频道@wxfx8>
 Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.hitori.misaki
 Version: 2.1.3
@@ -687,6 +711,7 @@ Author: Hitori <TG频道@wxfx8>
 Depiction: https://chariz.com/buy/misaki
 Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
 Name: Misaki
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.hk.rootless.cc
 Version: 2.0.5
@@ -737,6 +762,7 @@ Section: Tweaks
 Description: Faster iOS animation.
 Author: Hoangdus
 Name: Speedster
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 
 Package: com.jd4iphone
@@ -754,6 +780,7 @@ Section: Tweaks
 Description: 京东去广告+精简
 Author: Axs
 Name: 京东（去广告+精简）
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.jontelang.instalauncher2
 Version: 1.11.0
@@ -772,6 +799,7 @@ Description: Launch ANY app instantly
 Author: Jonathan Winger Lang <TG频道@wxfx8>
 Icon: file:///Library/PreferenceBundles/instalauncher2preferences.bundle/icons/preferences-icon@2x.png
 Name: InstaLauncher 2
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.jontelang.instalauncher2
 Version: 1.11.0
@@ -790,6 +818,7 @@ Description: Launch ANY app instantly
 Author: Jonathan Winger Lang <TG频道@wxfx8>
 Icon: file:///Library/PreferenceBundles/instalauncher2preferences.bundle/icons/preferences-icon@2x.png
 Name: InstaLauncher 2
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.lclrc.hammerit
 Version: 1.6.8
@@ -807,6 +836,7 @@ Description: Control your text or translate as you wish.
 Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.lclrc.hammerit
 Version: 1.7.0
@@ -824,6 +854,7 @@ Description: Control your text or translate as you wish.
 Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.lclrc.hammerit
 Version: 1.7.1
@@ -841,6 +872,7 @@ Description: Control your text or translate as you wish.
 Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.lenglengyu.shortvideodl-rootless
 Version: 1.8.0
@@ -859,6 +891,7 @@ Description: 支持抖音、快手、微视等无水印下载。支持微信公�
 Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/shortvideodl.html
 Name: 短视频助手-Rootless
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.mtac.lynxtwo
 Version: 2.5.2
@@ -875,6 +908,7 @@ Section: Tweaks
 Description: Ultimate iDevice Customization for iOS 14, 15 & 16
 Author: MTAC
 Name: Lynx 2
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.nan.givemedeb
 Version: 0.2.1
@@ -891,6 +925,7 @@ Description: 尝试保存 apt 缓存目录下所有 deb
 Author: zhaonan <TG频道@wxfx8>
 Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
 Name: Give me deb
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.netskao.appdata
 Version: 1.4.1
@@ -907,6 +942,7 @@ Section: Tweaks
 Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由站长完整汉化并修改优化。修改优化:增加简单版降级应用，增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，增加长按面板图标以安全模式启动，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
 Author: Fouad Raheb
 Name: AppData
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.netskao.appdata
 Version: 1.4.2
@@ -923,6 +959,7 @@ Section: Tweaks
 Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由站长完整汉化并修改优化。修改优化:增加简单版降级应用，增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，增加长按面板图标以安全模式启动，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
 Author: Netskao
 Name: AppData
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.netskao.awemefullscreen
 Version: 1.1-2
@@ -939,6 +976,7 @@ Section: Tweaks
 Description: 抖音全屏播放， 仅支持29.8.0上测试
 Author: Netskao
 Name: AwemeFullScreen
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.netskao.dumpdecrypter
 Version: 1.4-1
@@ -955,6 +993,7 @@ Section: Tweaks
 Description: 全权限砸壳
 Author: Netskao
 Name: DumpDecrypter
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.netskao.dumpdecrypter
 Version: 1.4-3
@@ -971,6 +1010,7 @@ Section: Tweaks
 Description: 全权限砸壳
 Author: Netskao
 Name: DumpDecrypter
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.netskao.dumpdecrypter
 Version: 1.4-4
@@ -987,6 +1027,7 @@ Section: Tweaks
 Description: 全权限砸壳
 Author: Netskao
 Name: DumpDecrypter
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.netskao.pulloverpro
 Version: 2.1.6
@@ -1004,6 +1045,7 @@ Section: 分屏插件
 Description: A better way to multitask! Fix support for iOS15+
 Author: c1d3r
 Name: PullOver Pro
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.netskao.showtouch
 Version: 1.0.4-3
@@ -1020,6 +1062,7 @@ Section: 录屏轨迹
 Description: Shows where you touch the screen
 Author: LonestarX
 Name: ShowTouch
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.netskao.storeswitchaccounts
 Version: 1.1-4
@@ -1036,6 +1079,7 @@ Section: 苹果商店账号切换
 Description: Conveniently switch between logged-in accounts, long press the desktop AppStore icon to switch
 Author: Netskao
 Name: StoreSwitchAccounts
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.opa334.trollstorehelper
 Version: 2.0.15
@@ -1051,6 +1095,7 @@ Section: 巨魔商店
 Description: Helper utility to install and manage TrollStore!
 Author: opa334
 Name: TrollStore Helper
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.p2kdev.tinge
 Version: 1.1
@@ -1068,6 +1113,7 @@ Description: Color your badges with Perfection!
 Author: P2KDev <TG频道@wxfx8>
 Icon: file:///Library/PreferenceBundles/TingePrefs.bundle/Icon@2x.png
 Name: Tinge
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.pingfan.wechat
 Version: 2.1-8
@@ -1120,6 +1166,7 @@ Author: Ryan Nair <TG频道@wxfx8>
 Depiction: https://chariz.com/get/cask-3
 Icon: https://img.chariz.cloud/icon/cask-3/icon@3x.png
 Name: Cask 3
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.socuul.scinsta
 Version: 0.5.0-1+debug
@@ -1136,6 +1183,7 @@ Section: Tweaks
 Description: A feature-rich tweak for Instagram on iOS!
 Author: SoCuul
 Name: SCInsta
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.sop.settingsrevamp
 Version: 2.1.0
@@ -1155,13 +1203,14 @@ Author: SOPPPra
 Depiction: https://sopppra.mooo.com/depictions/web/com.sop.settingsrevamp.html
 Icon: https://i.postimg.cc/ry1s499R/icon-3x.png
 Name: SettingsRevamp
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.squidforce.disablepastealert16
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: SquidForce
 Installed-Size: 168
-Filename: ./debs/禁用iOS16+粘贴警告弹窗和粘贴提醒-DisablePasteAlert16.1.0.deb
+Filename: ./debs/禁用iOS16+粘贴弹窗提醒.deb
 Size: 4008
 MD5sum: 61795467cb7837ca8d9552562584eb03
 SHA1: 7b59ad66f6c564f5aad227fa7207ebee802b0b71
@@ -1170,6 +1219,7 @@ Section: Tweaks
 Description: 1. 禁用iOS16+粘贴警告弹窗，并自动允许
 Author: SquidForce
 Name: 禁用iOS16+粘贴警告弹窗和粘贴提醒 - DisablePasteAlert16
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.sunshinesong.dynamic-notifier
 Version: 1.0.0
@@ -1186,6 +1236,7 @@ Section: Tweaks
 Description: 上岛，不必太复杂。仅仅支持iOS16+。
 Author: sunshinesong
 Name: dynamic-notifier
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.sunshinesong.dynamic-notifier
 Version: 1.0.1
@@ -1202,6 +1253,7 @@ Section: Tweaks
 Description: 灵动消息，就是这么简单。仅仅支持iOS16+。only support above ios16.0
 Author: sunshinesong
 Name: dynamic-notifier
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.sunshinesong.dynamic-notifier
 Version: 1.0.3
@@ -1218,6 +1270,7 @@ Section: Tweaks
 Description: 灵动消息，就是这么简单。仅仅支持iOS16+。only support above ios16.0
 Author: sunshinesong
 Name: dynamic-notifier
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.sunshinesong.dynamic-notifier
 Version: 1.0.4
@@ -1234,6 +1287,7 @@ Section: Tweaks
 Description: 灵动消息，就是这么简单。仅仅支持iOS16+ (14pro,14pro max)。only support above ios16.0(14pro and 14pro max)
 Author: sunshinesong
 Name: dynamic-notifier
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.sunshinesong.native-island
 Version: 1.0.0
@@ -1250,6 +1304,7 @@ Section: Tweaks
 Description: 原生岛通知，从简即可。仅仅支持iOS16.0+
 Author: sunshinesong
 Name: NativeIsland
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.sunshinesong.native-island
 Version: 1.0.2
@@ -1266,6 +1321,7 @@ Section: Tweaks
 Description: 原生岛通知，从简即可。仅仅支持iOS16.0+
 Author: sunshinesong
 Name: native-island-notifier
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.sunshinesong.native-island
 Version: 1.0.3
@@ -1282,6 +1338,7 @@ Section: Tweaks
 Description: 原生岛通知，从简即可。仅仅支持iOS16.0+
 Author: sunshinesong
 Name: native-island-notifier
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.sunshinesong.split-view-pro
 Version: 1.1.3
@@ -1299,6 +1356,7 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
 Name: split-view-pro
 Ts: sp-sss
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.sunshinesong.split-view-pro
 Version: 1.1.4
@@ -1316,6 +1374,7 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
 Name: split-view-pro
 Ts: sp-sss
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.sunshinesong.split-view-pro
 Version: 1.1.5
@@ -1333,6 +1392,7 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
 Name: split-view-pro
 Ts: sp-sss
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.sunshinesong.split-view-pro
 Version: 1.1.6
@@ -1350,6 +1410,7 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
 Name: split-view-pro
 Ts: sp-sss
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.sutuplus.releasefugu15
 Version: 5.8.1-3
@@ -1404,6 +1465,7 @@ Author: SWING
 Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.bilibili
 Icon: https://repo.abox.plus/api/packageinfo/com.swing.bilibili/icon.png
 Name: 哔哩哔哩NoAds
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.swing.wechat.noads
 Version: 1.1.8-1
@@ -1422,6 +1484,7 @@ Author: SWING
 Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.wechat.noads
 Icon: https://repo.abox.plus/api/packageinfo/com.swing.wechat.noads/icon.png
 Name: 微信去广告
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.udevs.compactbatteryavocado
 Version: 2.0.6
@@ -1440,6 +1503,7 @@ Author: udevs
 Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.compactbatteryavocado
 Icon: https://udevsharold.github.io/repo/depictions/com.udevs.compactbatteryavocado/icon/icon.png
 Name: 电池小组件显示百分比
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.udevs.dockx
 Version: 2.6.0
@@ -1458,6 +1522,7 @@ Description: Pasteboard shortcuts on your keyboard dock!
 Author: udevs
 Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
 Name: DockX
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.udevs.dockx
 Version: 2.6.1
@@ -1477,6 +1542,7 @@ Author: udevs
 Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
 Name: DockX
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/dockx/js.json
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.xhg.dyhook
 Version: 8.8.8
@@ -1510,6 +1576,7 @@ Section: Tweaks
 Description: 屏蔽1.1.3 - 1.1.5版本越狱检测
 Author: x✨
 Name: 数字人民币屏蔽越狱
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.xx.qqhook
 Version: 1.1.0
@@ -1526,6 +1593,7 @@ Section: Tweaks
 Description: QQ设置-辅助功能-右上角开启 支持9.0.20+
 Author: x✨
 Name: QQ新版防撤回
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.xybp888.callassist16.dopamine
 Version: 1.4.7
@@ -1543,7 +1611,7 @@ Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡�
 Author: xybp888
 Depiction: https://apt.htv123.com/view/84
 Name: 电话助手iOS16-正式版(完整越狱)
-Sileodepiction: https://apt.htv123.com/sileo/84
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.xybp888.callassist16.dopamine
 Version: 1.4.8
@@ -1561,7 +1629,7 @@ Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡�
 Author: xybp888
 Depiction: https://apt.htv123.com/view/89
 Name: 电话助手iOS16-正式版(完整越狱)
-Sileodepiction: https://apt.htv123.com/sileo/89
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.yourepo.0xkuj.storeswitcher2rootless
 Version: 1.0.4
@@ -1577,6 +1645,7 @@ Section: 苹果商店账号切换
 Description: Adds a button to switch account in App Store account page on iOS 11+.
 Author: 0xkuj <TG频道@wxfx8>
 Name: StoreSwitcher 2 (rootless)
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.yourepo.themepro.themepro-154-rootless
 Version: 2.8.9
@@ -1612,6 +1681,7 @@ Description: multitasking for iOS15 rootless.
 Author: @akusio_RR
 Depiction: https://akusio.github.io/descriptions/milkyway4/index.html
 Name: MilkyWay4-rootless
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: jp.dcsyhi.zetsu
 Version: 1.6.1
@@ -1631,6 +1701,7 @@ Author: Dcsyhi <TG频道@wxfx8>
 Depiction: https://chariz.com/get/zetsu
 Icon: https://img.chariz.cloud/icon/zetsu/icon@3x.png
 Name: Zetsu
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: jp.dcsyhi.zetsu
 Version: 1.6.2
@@ -1650,6 +1721,7 @@ Author: Dcsyhi <TG频道@wxfx8>
 Depiction: https://chariz.com/get/zetsu
 Icon: https://img.chariz.cloud/icon/zetsu/icon@3x.png
 Name: Zetsu
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: netskao.awemepurification-rootless
 Version: 2.9-6
@@ -1666,6 +1738,7 @@ Section: Tweaks
 Description: 抖音净化！设置位于抖音-设置，仅支持25.8.0及以上版本抖音
 Author: Netskao
 Name: 抖音净化-Rootless
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/wcpureextension/js.json
 
 Package: netskao.wcpureextension
 Version: 4.2-6
@@ -1719,6 +1792,7 @@ Section: Tweaks
 Description: 小红书去除启动广告, 去除信息流视频流广告, 修改原始按钮保存无水印视频和图片和live图和评论区图片, 解除部分视频无法下载, 添加长按文案快捷复制作者名或文案, 仅支持8.5及以上版本
 Author: Netskao
 Name: 小红书 NoAds-Rootless
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: onesettings
 Version: 2.1.1
@@ -1738,6 +1812,7 @@ Description: 对您的设置应用程序进行了极大的增强！
 Author: Nightwind <TG频道@wxfx8>
 Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
 Name: OneSettings
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: ring
 Version: 1.0.2
@@ -1754,6 +1829,7 @@ Description: 轻松管理铃声音量！
 Author: yan
 Icon: https://media.havoc.app/660068a52b78a631ec05699f
 Name: Ring
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: ws.hbang.common
 Version: 2.0
@@ -1774,6 +1850,7 @@ Depiction: https://chariz.com/get/cephei
 Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
 Name: Cephei Tweak Support
 Support: https://hashbang.productions/support/
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: xyz.cypwn.genieaichatbot
 Version: 6.2.0
@@ -1791,6 +1868,7 @@ Author: Blatant
 Depiction: https://repo.cypwn.xyz/depiction/2411
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/genieaichatbot.png
 Name: Genie AI Chatbot Pro
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: xyz.cypwn.rocket
 Version: 3.8.27k
@@ -1808,6 +1886,7 @@ Author: Rocket App
 Depiction: https://repo.cypwn.xyz/depiction/2630
 Icon: https://repo.cypwn.xyz/packages/RocketforInstagram-Rootless/icon.png
 Name: Rocket for Instagram
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: xyz.skitty.sixls
 Version: 1.1-1
@@ -1826,3 +1905,4 @@ Author: Skitty
 Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.sixls
 Icon: https://skitty.xyz/repo/icons/xyz.skitty.sixls.png
 Name: Six (LS)
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
