@@ -201,7 +201,7 @@ Size: 44212
 MD5sum: 3f21c67b518ebbc9ff057b5519ad2c90
 SHA1: 7e34a9ab993087de1aa4134fc6328ec30960d733
 SHA256: 9dcfa92cd6da9ccc719c182a419c7d2603e76c68b0c994ae3a111ba87f0ad91f
-Section: Rootless
+Section: Tweaks
 Priority: optional
 Description: 左滑返回上一页面
 Author: Mao
@@ -236,7 +236,7 @@ Size: 54856
 MD5sum: ab888b0930b5cf8deea13efad4414217
 SHA1: c5b7f6bbc25223623458d3b2ae743d9d3522ddbc
 SHA256: f7b393971446566a57dabc1ba6c9f551f5628e2474cb5e4b3d62718495e57b5a
-Section: Rootless
+Section: Tweaks
 Priority: optional
 Description: 查淘宝优惠券，查商品历史价
 Author: Mao
