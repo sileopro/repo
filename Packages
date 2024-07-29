@@ -252,14 +252,14 @@ Architecture: iphoneos-arm64
 Maintainer: Axs
 Depends: firmware (>= 12.2), mobilesubstrate, preferenceloader
 Filename: ./debs/com.Axs.net.hideserialnumber_0.0.4_iphoneos-arm64.deb
-Size: 58580
-MD5sum: f141d1a9cb9095b8597f5cc25cca3cba
-SHA1: 9ad67481f2829321307492969ce41040288744d1
-SHA256: 59d2233fcd2f7c3d6f54368e440b27a3aadb147d6aa6755a5fcb3664a845e604
+Size: 58620
+MD5sum: 720a074f0646daff6135e53b9ca2ea93
+SHA1: bf4f84974fa3249921b3782fe15f01ceb0869d2e
+SHA256: 6405ea57ff06c78bd8279ee36a612b3dadeee444b09ac5f9a874bda37acaa58c
 Section: Tweaks
-Description: Hide Serial Number in Settings About page.在“设置关于”页面中隐藏/伪装序列号等相关信息。搬运工源，搬你所想！
+Description: Hide Serial Number in Settings About page.在“设置关于”页面中隐藏/伪装序列号等相关信息。
 Author: ichitaso
-Name: HideSerialNumber隐藏序列号-Rootless
+Name: HideSerialNumber
 Sponsor: Axs
 
 Package: com.Axs.touchvis
