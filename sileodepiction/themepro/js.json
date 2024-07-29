@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "不要为了越狱放弃升级的乐趣！",
+    "headerImage": "https://axs6.github.io/repo/images/Axslogo.png",
     "tintColor": "00BFFF",
     "minVersion": "0.3",
     "tabs": [
@@ -22,7 +22,7 @@
                 },      
                {
                     "class": "DepictionMarkdownView",
-                    "markdown": "微信主体美化插件   软件源：https://axs6.github.io/repo  https://axs6.github.io/pro",
+                    "markdown": "微信主体美化插件",
                     "useRawFormat": true,
                 },      
                {
