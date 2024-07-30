@@ -693,22 +693,6 @@ Author: Eevee
 Name: EeveeSpotify
 
 Package: com.eevee.spotify
-Version: 4.4
-Architecture: iphoneos-arm64
-Maintainer: Eevee
-Installed-Size: 1520
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf
-Filename: ./debs/com_eevee_spotify_4_4_iphoneos_arm64【TG频道@jailbreakdepot】.deb
-Size: 317928
-MD5sum: 3555d541f229abbfc574de0f80be79a3
-SHA1: 428a52de1fe0fd94fe9b20f43eeadbd1a669a333
-SHA256: 42e323fe56d2f0ace9da64a319cf9f836832104b95a201914e1d32b0250efd9b
-Section: Tweaks
-Description: A tweak to get Spotify Premium for free, just like Spotilife
-Author: Eevee
-Name: EeveeSpotify
-
-Package: com.eevee.spotify
 Version: 4.5
 Architecture: iphoneos-arm64
 Maintainer: Eevee
@@ -1936,24 +1920,6 @@ Depiction: https://chariz.com/get/cephei
 Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
 Name: Cephei Tweak Support
 Support: https://hashbang.productions/support/
-
-Package: xyz.cypwn.genieaichatbot
-Version: 6.2.0
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate
-Filename: ./debs/xyz_cypwn_genieaichatbot_6_2_0_arm64【TG频道@jailbreakdepot】.deb
-Size: 11074
-MD5sum: 9bdf8b7321a13c1e12f3535840e011f5
-SHA1: 257b8428b4585cfbd62516abf87b09351a5871b6
-SHA256: 004493fa1124ee5dd818289c11280938e4b05304894ca6021eb214d67dcd5882
-Section: Tweaks
-Description: Genie AI Chat Pro features unlocked by Blatant
-Author: Blatant
-Depiction: https://repo.cypwn.xyz/depiction/2411
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/genieaichatbot.png
-Name: Genie AI Chatbot Pro
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2411
 
 Package: xyz.cypwn.rocket
 Version: 3.8.27k
