@@ -9,23 +9,23 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text":"TG交流频道",
-                    "action":"https://t.me/wxfx8",
+                    "text": "TG交流频道",
+                    "action": "https://t.me/wxfx8",
                     "openExternal": 1,
-                    "class":"DepictionButtonView"
-                }, 
-               {
-                    "text":"TG分享群组",
-                    "action":"https://t.me/oncar2",
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "text": "TG分享群组",
+                    "action": "https://t.me/oncar2",
                     "openExternal": 1,
-                    "class":"DepictionButtonView"
-                },      
-               {
+                    "class": "DepictionButtonView"
+                },
+                {
                     "class": "DepictionMarkdownView",
                     "markdown": "MisakaHelper微信misaka助手，和其它类型微信插件类似，更多群功能!自行体验!可以解决低版本微信不能使用小程序问题!好像也可以抢红包!可以强制关注公众号，比如解决微信净化插件问题!",
-                    "useRawFormat": true,
-                },      
-               {
+                    "useRawFormat": true
+                },
+                {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
                     "itemSize": "{80, 176.4533333333333}",
@@ -87,7 +87,7 @@
                     "class": "DepictionMarkdownView",
                     "markdown": "修复202版本识别二维码时会弹窗的问题。",
                     "useRawFormat": true
-                }
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "2.0.2",
@@ -96,30 +96,10 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "新增1.在首页+ 或者悬浮球快速到找该消息。",
-                    "useRawFormat": true
-                }
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "新增2.新增好友设置标签。新增红包详情。",
-                    "useRawFormat": true
-                }
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "新增3.支持批量发送分组成员名片给指定的人。",
-                    "useRawFormat": true
-                }
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "新增4.定时任务新增以每N分钟、每N小时模式触发任务。",
-                    "useRawFormat": true
-                }
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "新增5.新增检测重复群功能。",
+                    "markdown": "新增1.在首页+ 或者悬浮球快速到找该消息。\n新增2.新增好友设置标签。新增红包详情。\n新增3.支持批量发送分组成员名片给指定的人。\n新增4.定时任务新增以每N分钟、每N小时模式触发任务。\n新增5.新增检测重复群功能。",
                     "useRawFormat": true
                 }
             ]
         }
-    ],
+    ]
 }
