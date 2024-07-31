@@ -77,9 +77,26 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
-               {
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.0.3",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
                     "class": "DepictionMarkdownView",
-                    "markdown": "无法查看此软件包的更新日志",
+                    "markdown": "修复202版本识别二维码时会弹窗的问题。",
+                    "useRawFormat": true
+                }
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.0.2",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "新增：1：分组功能，新增【常用消息】功能，可以将某些会话消息添加进去，在首页+ 或者悬浮球快速到找该消息。2：自动化功能，新增【自动通过好友】功能，支持设置标签，设置分组，回复消息库内容。3：分组功能，支持批量发送分组成员名片给指定的人。4：红包功能：新增【红包详情】功能。5：定时任务：新增 以每N分钟、每N小时模式触发任务。6：关键字群邀请：新增 检测重复群功能。优化：1：悬浮球，支持单击，双击，三击响应事件。2：匿名艾特，全体艾特指令修改为每天限制使用3次。3：防撤回同步：支持过滤某些不需要同步的会话消息。4：消息库支持搜索功能。5：首页悬浮球：支持临时关闭分组功能。修复：1：修复部分用户，长按不显示消息库等问题。2：修复【群消息转发】，转发语音时出现的bug。3：修复公众号授权bug。因上版本201公众号授权存在bug，因此授权版本最低改为202版本，群授权版本依旧是201不变",
                     "useRawFormat": true
                 }
             ]
