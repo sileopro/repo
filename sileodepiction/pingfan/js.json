@@ -28,11 +28,11 @@
                {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
-                    "itemSize": "{80, 176.4533333333333}",
+                    "itemSize": "{300, 346}",
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://axs6.github.io/repo/images/cjms.png"
+                            "url": "https://axs6.github.io/repo/sileodepiction/pingfan/Screenshot_01.png"
                         }
                     ]
                 },
@@ -68,6 +68,11 @@
                     "title": "微信"
                 },
                 {
+                    "class": "DepictionTableTextView",
+                    "text": "2024 年 07 月 16 日",
+                    "title": "最后更新日期"
+                },
+                {
                     "class": "DepictionSpacerView",
                     "spacing": 16
                 }
@@ -78,8 +83,25 @@
             "tabname": "更新日志",
             "views": [
                {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.1.9",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
                     "class": "DepictionMarkdownView",
-                    "markdown": "无法查看此软件包的更新日志",
+                    "markdown": "修复2.1.8中反馈的问题。",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.1.8",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1.修复无根越狱环境下插件管理内设置入口消失问题。\n2.修复朋友圈视频图文转发功能。\n3.新增证书到期提醒，到期前三天提醒证书到期时间。\n4.优化抢红包相关功能提升抢红包速度。\n5.新增收红包提醒和累计收款，收红包提醒会发在文件传输助手里面。\n6.新增抢到红包自动回复，@@=发红包人的名字，¥¥=抢到红包的金额。",
                     "useRawFormat": true
                 }
             ]
