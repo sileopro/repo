@@ -84,13 +84,13 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "2.0.3",
+                    "title": "1.1",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "修复202版本识别二维码时会弹窗的问题。",
+                    "markdown": "将 Bridge 应用程序快捷方式从 3D Touch 菜单移至屏幕顶部或底部。\n2.修复了删除所有文件夹后创建新文件夹时的崩溃问题。\n3.修复了未找到本地化字符串时标签为空白的问题。\n4.修复了打开包含已卸载应用程序的文件夹时发生崩溃的问题。",
                     "useRawFormat": true
                 }
             ]
