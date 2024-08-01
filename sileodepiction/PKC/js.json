@@ -28,7 +28,7 @@
                {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
-                    "itemSize": "{80, 176.4533333333333}",
+                    "itemSize": "{80, 175}",
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
@@ -68,6 +68,11 @@
                     "title": "微信"
                 },
                 {
+                    "class": "DepictionTableTextView",
+                    "text": "2024 年 07 月 27 日",
+                    "title": "最后更新日期"
+                },
+                {
                     "class": "DepictionSpacerView",
                     "spacing": 16
                 }
@@ -77,9 +82,16 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
-               {
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.5.5",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
                     "class": "DepictionMarkdownView",
-                    "markdown": "无法查看此软件包的更新日志",
+                    "markdown": "新增新增[拍一拍隐藏]功能，在拍一拍二次确认，增加快捷按钮，可一键隐藏当前窗口头像、顶部名字和敏感消息。\n2.优化[收款自动回复]自动确认收款改为与规则关联，当命中规则并且该规则打开[自动收款]开关才会收款；增加邀请进群模式下可选回复内容开关。\n3.优化[收款自动回复]如有手动操作退还情况，并且设置了延时回复，将在延时的时间后不再回复
+。\n4.优化[关键词自动回复]增加邀请进群模式下可选回复内容开关；增加限制回复5分钟内的消息。\n5.优化[群动态昵称]本人发送任何消息都会触发更新，PC端发也一样更新，但需iOS端有后台。",
                     "useRawFormat": true
                 }
             ]
