@@ -1,0 +1,99 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://axs6.github.io/repo/images/Axslogo.png",
+    "tintColor": "00BFFF",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "text": "TG交流频道",
+                    "action": "https://t.me/wxfx8",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "text": "TG分享群组",
+                    "action": "https://t.me/oncar2",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Bridge：Apple Watch 主屏幕体验带到 iOS 上Apple Watch 最显着的特点是其应用程序图标的网格布局。Bridge 是一个完整的主屏幕替代品，继承了过去几年的传奇调整，如 Aeternum、Watchboard 和 Honey。屏幕的样式可以通过“设置”中的页面、控制中心切换或通过主屏幕小部件快速更改。",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{300, 346.45}",
+                    "screenshots": [                       
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://axs6.github.io/repo/sileodepiction/bridge/Screenshot_01.png"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "详情",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "A先生",
+                    "title": "维护者"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "VCR66T",
+                    "title": "微信"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "2024 年 07 月 31 日",
+                    "title": "最后更新日期"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "更新日志",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.0.3",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修复202版本识别二维码时会弹窗的问题。",
+                    "useRawFormat": true
+                }
+            ]
+        }
+    ]
+}
