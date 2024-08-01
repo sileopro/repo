@@ -72,6 +72,11 @@
                     "title": "微信"
                 },
                 {
+                    "class": "DepictionTableTextView",
+                    "text": "2024 年 07 月 31 日",
+                    "title": "最后更新日期"
+                },
+                {
                     "class": "DepictionSpacerView",
                     "spacing": 16
                 }
