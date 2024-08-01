@@ -28,11 +28,15 @@
                {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
-                    "itemSize": "{80, 176.4533333333333}",
+                    "itemSize": "{150, 346}",
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://axs6.github.io/repo/images/cjms.png"
+                            "url": "https://axs6.github.io/repo/sileodepiction/miyou/Screenshot_01.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://axs6.github.io/repo/sileodepiction/miyou/Screenshot_02.png"
                         }
                     ]
                 },
@@ -68,6 +72,11 @@
                     "title": "微信"
                 },
                 {
+                    "class": "DepictionTableTextView",
+                    "text": "2024 年 03 月 26 日",
+                    "title": "最后更新日期"
+                },
+                {
                     "class": "DepictionSpacerView",
                     "spacing": 16
                 }
@@ -76,13 +85,19 @@
         {
             "class": "DepictionStackView",
             "tabname": "更新日志",
-            "views": [
-               {
+            "views": [               
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "3.7.8",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
                     "class": "DepictionMarkdownView",
-                    "markdown": "无法查看此软件包的更新日志",
+                    "markdown": "1.修复上一版本退群监控重复提醒问题。\n2.可能修复了主题功能svg文件加载问题。\n（目测适配了上一版本客户端的svg文件都能加载到。\n但是新版可能新增或修改了部分图标的文件名，具体请自测）。",
                     "useRawFormat": true
                 }
             ]
         }
-    ],
+    ]
 }
