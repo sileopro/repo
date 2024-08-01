@@ -22,17 +22,17 @@
                 },      
                {
                     "class": "DepictionMarkdownView",
-                    "markdown": "微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置",
+                    "markdown": "微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置。建议使用锤子助手",
                     "useRawFormat": true,
                 },      
                {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
-                    "itemSize": "{80, 176.4533333333333}",
+                    "itemSize": "{300, 346}",
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://axs6.github.io/repo/images/cjms.png"
+                            "url": "https://axs6.github.io/repo/sileodepiction/wcpureextension/Screenshot_01.png"
                         }
                     ]
                 },
@@ -68,6 +68,11 @@
                     "title": "微信"
                 },
                 {
+                    "class": "DepictionTableTextView",
+                    "text": "2024 年 07 月 16 日",
+                    "title": "最后更新日期"
+                },
+                {
                     "class": "DepictionSpacerView",
                     "spacing": 16
                 }
@@ -78,8 +83,14 @@
             "tabname": "更新日志",
             "views": [
                {
+                    "class": "DepictionSubheaderView",
+                    "title": "4.2.6END",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
                     "class": "DepictionMarkdownView",
-                    "markdown": "无法查看此软件包的更新日志",
+                    "markdown": "最终版，留着纪念，备份。",
                     "useRawFormat": true
                 }
             ]
