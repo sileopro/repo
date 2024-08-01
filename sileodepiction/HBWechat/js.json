@@ -68,6 +68,11 @@
                     "title": "微信"
                 },
                 {
+                    "class": "DepictionTableTextView",
+                    "text": "2024 年 07 月 14 日",
+                    "title": "最后更新日期"
+                },
+                {
                     "class": "DepictionSpacerView",
                     "spacing": 16
                 }
@@ -78,11 +83,17 @@
             "tabname": "更新日志",
             "views": [
                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.7.2",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
                     "class": "DepictionMarkdownView",
-                    "markdown": "无法查看此软件包的更新日志",
+                    "markdown": "1.优化插件移除部分代码。\n2.修复文本转语音图标消失的问题。\n3.新增[特色类功能]-自定义微信标题。\n4.设置首页的文本，除了好看没实际作用待新增。",
                     "useRawFormat": true
                 }
             ]
         }
-    ],
+    ]
 }
