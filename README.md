@@ -14,7 +14,7 @@
 
 如果您使用并复制了任何本仓库的内容，则视为您已接受此免责声明.
 
-聊天交流，请关注Telegram群：https://t.me/oncar2
+聊天交流，请关注Telegram群：https://t.me/wxfx8
 
 聊天交流，请添加VX进玩机群：VCR66T
 
