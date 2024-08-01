@@ -28,11 +28,11 @@
                {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
-                    "itemSize": "{80, 176.4533333333333}",
+                    "itemSize": "{300, 346}",
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://axs6.github.io/repo/images/cjms.png"
+                            "url": "https://axs6.github.io/repo/sileodepiction/HBWechat/Screenshot_01.png"
                         }
                     ]
                 },
