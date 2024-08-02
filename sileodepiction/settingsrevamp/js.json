@@ -28,11 +28,15 @@
                {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
-                    "itemSize": "{80, 176.4533333333333}",
+                    "itemSize": "{150, 346}",
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://axs6.github.io/repo/images/cjms.png"
+                            "url": "https://axs6.github.io/repo/sileodepiction/settingsrevamp/Screenshot_01.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://axs6.github.io/repo/sileodepiction/settingsrevamp/Screenshot_02.png"
                         }
                     ]
                 },
@@ -68,6 +72,11 @@
                     "title": "微信"
                 },
                 {
+                    "class": "DepictionTableTextView",
+                    "text": "2024 年 07 月 31 日",
+                    "title": "最后更新日期"
+                },
+                {
                     "class": "DepictionSpacerView",
                     "spacing": 16
                 }
@@ -77,6 +86,12 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.1.0",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
                {
                     "class": "DepictionMarkdownView",
                     "markdown": "无法查看此软件包的更新日志",
