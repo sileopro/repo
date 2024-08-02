@@ -1,0 +1,35 @@
+name: Update Packages
+
+on:
+  push:
+    paths:
+      - '*.deb'
+
+jobs:
+  update-packages:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up dpkg
+      run: sudo apt-get install -y dpkg-dev
+
+    - name: Generate new Packages file
+      run: dpkg-scanpackages -m . /dev/null > Packages.new
+
+    - name: Merge Packages files
+      run: |
+        awk 'NR==FNR{a[$1]=$0;next}{print ($1 in a) ? a[$1] : $0}' Packages Packages.new > Packages.merged
+        mv Packages Packages.bak
+        mv Packages.merged Packages
+        rm Packages.new
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add Packages
+        git commit -m 'Update Packages file'
+        git push
