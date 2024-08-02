@@ -90,7 +90,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "无法查看此软件包的更新日志",
+                    "markdown": "修复相关问题",
                     "useRawFormat": true
                 }
             ]
