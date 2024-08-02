@@ -21,15 +21,39 @@ jobs:
 
     - name: Merge Packages files
       run: |
-        awk 'NR==FNR{a[$1]=$0;next}{print ($1 in a) ? a[$1] : $0}' Packages Packages.new > Packages.merged
-        mv Packages Packages.bak
-        mv Packages.merged Packages
-        rm Packages.new
+        # Create a temporary file to store the merged result
+        touch Packages.merged
+
+        # Read the existing Packages file line by line
+        while read -r line; do
+          # Check if the line starts with "Package:" to identify the start of a package entry
+          if [[ $line == "Package:"* ]]; then
+            # If a previous package entry exists, append it to the merged file
+            if [[ -n $current_package ]]; then
+              echo "$current_package" >> Packages.merged
+              unset current_package
+            fi
+          fi
+          # Append the current line to the current package entry
+          current_package+="$line"$'\n'
+        done < Packages
+
+        # Append the last package entry
+        if [[ -n $current_package ]]; then
+          echo "$current_package" >> Packages.merged
+        fi
+
+        # Append new packages from Packages.new to Packages.merged
+        awk 'NR==FNR{a[$1]=$0;next}{print ($1 in a) ? a[$1] : $0}' Packages.new Packages.merged > Packages.final
+
+        # Replace the old Packages file with the merged one
+        mv Packages.final Packages
+        rm Packages.new Packages.merged
 
     - name: Commit and push changes
       run: |
-        git config --global user.name 'github-actions'
-        git config --global user.email 'github-actions@github.com'
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add Packages
-        git commit -m 'Update Packages file'
+        git commit -m 'Update Packages file' || echo "No changes to commit"
         git push
