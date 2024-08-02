@@ -84,7 +84,18 @@
             "views": [
                {
                     "class": "DepictionSubheaderView",
-                    "title": "2.5.0",
+                    "title": "2.8",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },                
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "主要变化1.现在您可以选择自定义图像作为触摸指示器。\n2.添加不透明度选项。\n3.额外的DRM保护。",
+                    "useRawFormat": true
+                },
+               {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.5",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },                
