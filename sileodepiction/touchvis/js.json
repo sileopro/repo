@@ -28,11 +28,15 @@
                {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
-                    "itemSize": "{300, 346.45}",
+                    "itemSize": "{150, 346}",
                     "screenshots": [                       
                         {
                             "accessibilityText": "Screenshot",
                             "url": "https://axs6.github.io/repo/sileodepiction/touchvis/Screenshot_01.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://axs6.github.io/repo/sileodepiction/touchvis/Screenshot_02.png"
                         }
                     ]
                 },
