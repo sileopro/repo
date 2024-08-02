@@ -138,7 +138,7 @@ Size: 12699936
 MD5sum: fedec1436ddce2a74b56f23ebf9d51bc
 SHA1: b0c41c19e1f2e6123e15b4a27827bdf6295df681
 SHA256: ae00a0a791515a7ed7dac3fcb03d4ad7fa2bd15ecfde806d5dc178dd167ed7af
-Section: Tweaks
+Section: 微信插件
 Priority: optional
 Description: MisakaHelper
 Author: Misaka
