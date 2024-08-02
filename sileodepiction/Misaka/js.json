@@ -90,7 +90,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "1修复部分用户检测不了授权群问题。\n2.修复ipad端，悬浮球会闪退问题。",
+                    "markdown": "1修复部分用户检测不了授权群问题。\n2.修复ipad端，悬浮球会闪退问题。\n3.修复自动通过好友有概率不回复内容的问题。",
                     "useRawFormat": true
                 },
                 {
