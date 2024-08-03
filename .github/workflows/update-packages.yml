@@ -3,7 +3,7 @@ name: Update Packages
 on:
   push:
     paths:
-      - '*.deb'
+      - 'debs/*.deb'  # 当 `debs` 目录下的文件有变更时触发
 
 jobs:
   update-packages:
@@ -15,7 +15,7 @@ jobs:
     - name: Set up dpkg
       run: sudo apt-get install -y dpkg-dev
     - name: Generate new Packages file
-      run: dpkg-scanpackages -m . /dev/null > Packages.new
+      run: dpkg-scanpackages -m ./debs /dev/null > Packages.new
     - name: Merge Packages files
       run: |
         declare -A new_packages
