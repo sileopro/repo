@@ -21,10 +21,12 @@ jobs:
 
     - name: Merge Packages files
       run: |
-        # Create a dictionary for the new packages
+        # Create associative arrays for the new and existing packages
         declare -A new_packages
+        declare -A old_packages
 
         # Read the new Packages file and store each package entry in the dictionary
+        current_package=""
         while read -r line; do
           if [[ $line == "Package:"* ]]; then
             current_package=$(echo $line | cut -d ' ' -f 2)
@@ -33,36 +35,35 @@ jobs:
           new_packages[$current_package]+="$line"$'\n'
         done < Packages.new
 
-        # Create a new Packages.merged file
-        > Packages.merged
-
-        # Read the existing Packages file and update it with new package information
+        # Read the existing Packages file and store each package entry in the dictionary
+        current_package=""
         while read -r line; do
           if [[ $line == "Package:"* ]]; then
             current_package=$(echo $line | cut -d ' ' -f 2)
-            package_info=""
-            if [[ -n "${new_packages[$current_package]}" ]]; then
-              while read -r old_line; do
-                if [[ $old_line == "Section:"* ]]; then
-                  section=$(echo $old_line | cut -d ' ' -f 2-)
-                  new_packages[$current_package]=$(echo "${new_packages[$current_package]}" | sed "s/Section:.*/Section: $section/")
-                fi
-                package_info+="$old_line"$'\n'
-                [[ -z "$old_line" ]] && break
-              done
-              unset new_packages[$current_package]
-            else
-              package_info="$line"$'\n'
-            fi
-            echo "$package_info" >> Packages.merged
-          else
-            echo "$line" >> Packages.merged
+            old_packages[$current_package]=""
           fi
+          old_packages[$current_package]+="$line"$'\n'
         done < Packages
 
-        # Add any remaining new packages that were not in the existing Packages file
+        # Create a new Packages.merged file
+        > Packages.merged
+
+        # Merge the new and old packages
         for package in "${!new_packages[@]}"; do
+          if [[ -n "${old_packages[$package]}" ]]; then
+            # Retain old section information if exists
+            section=$(echo "${old_packages[$package]}" | grep "^Section:" || echo "${new_packages[$package]}" | grep "^Section:")
+            new_packages[$package]=$(echo "${new_packages[$package]}" | sed "/^Section:/d")
+            new_packages[$package]="$section"$'\n'"${new_packages[$package]}"
+          fi
           echo "${new_packages[$package]}" >> Packages.merged
+        done
+
+        # Add any remaining old packages that were not in the new Packages file
+        for package in "${!old_packages[@]}"; do
+          if [[ -z "${new_packages[$package]}" ]]; then
+            echo "${old_packages[$package]}" >> Packages.merged
+          fi
         done
 
         mv Packages.merged Packages
