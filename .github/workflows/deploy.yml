@@ -5,12 +5,13 @@ on:
     branches:
       - main
     paths:
+      - 'Packages'
       - 'debs/**'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    needs: update-packages  # 依赖于 update-packages
+    needs: update-packages  # 依赖于 update-packages 作业
 
     steps:
     - name: Checkout repository
