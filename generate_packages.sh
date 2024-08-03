@@ -16,33 +16,8 @@ fi
 # List contents of DEB_DIR for debugging
 ls -l "$DEB_DIR"
 
-# Generate the new Packages file
-dpkg-scanpackages -m "$DEB_DIR" > Packages.new
-
-# Debug: List contents of the new Packages file
-echo "New Packages file contents:"
-cat Packages.new
-
-# Backup the existing Packages file if it exists
-if [ -f Packages ]; then
-  cp Packages Packages.old
-  echo "Existing Packages file contents:"
-  cat Packages
-fi
-
-# Merge the Packages files, retaining descriptions from the old file
-if [ -f Packages.old ]; then
-  awk 'BEGIN { RS = "" } FNR==NR { pkgs[$2] = $0; next } $2 in pkgs { sub($0, pkgs[$2]); } { print $0 "\n" }' FS='\n' RS='\n\n' Packages.new Packages.old > Packages
-  echo "Merged Packages file contents:"
-  cat Packages
-else
-  mv Packages.new Packages
-  echo "Moved new Packages file to Packages"
-fi
-
-# List final Packages file for debugging
-echo "Final Packages file contents:"
-cat Packages
+# Generate the Packages file
+dpkg-scanpackages -m "$DEB_DIR" > Packages
 
 # Compress the Packages file
 bzip2 -fks Packages
