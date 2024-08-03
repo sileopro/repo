@@ -17,6 +17,21 @@ jobs:
     - name: Set up dpkg
       run: sudo apt-get install -y dpkg-dev
 
+    - name: Ensure generate_packages.sh has execute permissions
+      run: chmod +x ./generate_packages.sh
+
+    - name: Run generate_packages.sh
+      run: ./generate_packages.sh
+
+    - name: Debug Packages
+      run: |
+        if [ -f Packages ]; then
+          echo "Packages file found:"
+          cat Packages
+        else
+          echo "Packages file not found"
+        fi
+
     - name: Generate new Packages file
       run: dpkg-scanpackages -m ./debs /dev/null > Packages.new || exit 0
 
@@ -30,17 +45,7 @@ jobs:
           exit 1
         fi
 
-    - name: Debug Packages
-      run: |
-        if [ -f Packages ]; then
-          echo "Packages file found:"
-          cat Packages
-        else
-          echo "Packages file not found"
-        fi
-
     - name: Merge Packages files
-      id: merge-packages
       run: |
         if [ -f Packages.new ]; then
           declare -A new_packages
