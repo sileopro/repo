@@ -21,20 +21,33 @@ jobs:
       run: dpkg-scanpackages -m ./debs /dev/null > Packages.new || exit 0
 
     - name: Debug Packages.new
-      run: cat Packages.new || echo "Packages.new not generated"
+      run: |
+        if [ -f Packages.new ]; then
+          echo "Packages.new content:"
+          cat Packages.new
+        else
+          echo "Packages.new not generated"
+          exit 1
+        fi
 
     - name: Debug Packages
-      run: cat Packages || echo "Packages file not found"
+      run: |
+        if [ -f Packages ]; then
+          echo "Packages content:"
+          cat Packages
+        else
+          echo "Packages file not found"
+          exit 1
+        fi
 
     - name: Merge Packages files
       id: merge-packages
       run: |
         if [ -f Packages.new ]; then
-          echo "Packages.new file found"
           declare -A new_packages
           declare -A old_packages
 
-          # Process new packages
+          # Read new packages
           current_package=""
           while read -r line; do
             if [[ $line == "Package:"* ]]; then
@@ -44,9 +57,8 @@ jobs:
             new_packages[$current_package]+="$line"$'\n'
           done < Packages.new
 
-          # Check if Packages file exists
+          # Read old packages if available
           if [ -f Packages ]; then
-            echo "Packages file found"
             current_package=""
             while read -r line; do
               if [[ $line == "Package:"* ]]; then
@@ -56,10 +68,10 @@ jobs:
               old_packages[$current_package]+="$line"$'\n'
             done < Packages
           else
-            echo "Packages file does not exist, creating a new one"
+            echo "No existing Packages file, creating a new one from Packages.new"
           fi
 
-          # Merge packages
+          # Merge the packages
           > Packages.merged
           for package in "${!new_packages[@]}"; do
             if [[ -n "${old_packages[$package]}" ]]; then
@@ -71,7 +83,7 @@ jobs:
             echo "${new_packages[$package]}" >> Packages.merged
           done
 
-          # Add old packages not in new packages
+          # Append any old packages that are not in the new packages
           for package in "${!old_packages[@]}"; do
             if [[ -z "${new_packages[$package]}" ]]; then
               echo "${old_packages[$package]}" >> Packages.merged
