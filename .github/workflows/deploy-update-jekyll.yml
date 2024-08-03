@@ -6,9 +6,6 @@ on:
       - main
     paths:
       - 'debs/**'
-      - 'Packages'
-      - 'Packages.gz'
-      - 'Packages.bz2'
 
 jobs:
   update-packages:
@@ -32,10 +29,7 @@ jobs:
     - name: Merge Packages files
       id: merge-packages
       run: |
-        echo "Checking if Packages.new exists"
         if [ -f Packages.new ]; then
-          echo "Packages.new exists, proceeding with merge"
-          
           declare -A new_packages
           declare -A old_packages
 
