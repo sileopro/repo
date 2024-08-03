@@ -29,6 +29,13 @@ jobs:
     - name: Run generate_packages.sh
       run: bash ./generate_packages.sh
 
+    - name: Generate Packages file
+      run: |
+        sudo rm -f Packages Packages.bz2 Packages.gz
+        sudo dpkg-scanpackages --multiversion debs >> Packages
+        cat Packages | gzip > Packages.gz
+        cat Packages | bzip2 > Packages.bz2
+
     - name: Commit and push updated Packages
       env:
         GITHUB_TOKEN: ${{ secrets.PAT }}
@@ -39,13 +46,6 @@ jobs:
         git add Packages Packages.bz2 Packages.gz Release
         git commit -m "Update Packages files" || echo "No changes to commit"
         git push origin main || echo "Push failed"
-
-    - name: Generate Packages file
-      run: |
-        sudo rm -f Packages Packages.bz2 Packages.gz
-        sudo dpkg-scanpackages --multiversion debs >> Packages
-        cat Packages | gzip > Packages.gz
-        cat Packages | bzip2 > Packages.bz2
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
@@ -74,7 +74,7 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
 
-    - name: Deploy to GitHub Pages
+    - name: Deploy Jekyll site to GitHub Pages
       uses: actions/deploy-pages@v4
       with:
         token: ${{ secrets.PAT }}
