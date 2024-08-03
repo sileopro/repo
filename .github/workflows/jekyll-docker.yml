@@ -38,8 +38,6 @@ jobs:
           sudo dpkg-scanpackages --multiversion debs >> Packages
           cat Packages | gzip > Packages.gz
           cat Packages | bzip2 > Packages.bz2
-      - name: Ensure _config.yml exists
-        run: ls -la _config.yml
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
