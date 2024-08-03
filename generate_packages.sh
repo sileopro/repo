@@ -1,4 +1,4 @@
-#!/bin/bash
+ #!/bin/bash
 
 # Exit immediately if a command exits with a non-zero status.
 set -e
@@ -19,12 +19,13 @@ ls -l "$DEB_DIR"
 # Generate the new Packages file
 dpkg-scanpackages -m "$DEB_DIR" > Packages.new
 
-# If the existing Packages file exists, merge it with the new Packages file
+# Backup the existing Packages file if it exists
 if [ -f Packages ]; then
-  # Backup the existing Packages file
   cp Packages Packages.old
-  
-  # Merge the Packages files, retaining descriptions from the old file
+fi
+
+# Merge the Packages files, retaining descriptions from the old file
+if [ -f Packages.old ]; then
   awk 'BEGIN { RS = "" } FNR==NR { pkgs[$2] = $0; next } $2 in pkgs { sub($0, pkgs[$2]); } { print $0 "\n" }' FS='\n' RS='\n\n' Packages.new Packages.old > Packages
 else
   mv Packages.new Packages
