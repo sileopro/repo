@@ -1,4 +1,4 @@
-name: Deploy, Update Packages, and Build Jekyll
+name: Build, Deploy Sileo Repo, and Jekyll
 
 on:
   push:
@@ -8,53 +8,39 @@ on:
       - 'debs/**'
 
 jobs:
+  # Build job for updating Packages and deploying to GitHub Pages
   update-packages:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Set up dpkg
-      run: sudo apt-get install -y dpkg-dev
+    - name: Install dpkg-dev
+      run: sudo apt-get update && sudo apt-get install -y dpkg-dev
 
     - name: Ensure script has execute permissions
       run: chmod +x ./generate_packages.sh
 
     - name: Run generate_packages.sh
-      run: ./generate_packages.sh
+      run: bash ./generate_packages.sh
 
-    - name: Debug Packages
-      run: |
-        if [ -f Packages ]; then
-          echo "Packages file found:"
-          cat Packages
-        else
-          echo "Packages file not found"
-          exit 1
-        fi
-
-    - name: Compress Packages file
-      run: |
-        gzip -c Packages > Packages.gz
-        bzip2 -c Packages > Packages.bz2
-
-    - name: Commit and push changes
+    - name: Commit and push updated Packages
       env:
         GITHUB_TOKEN: ${{ secrets.PAT }}
       run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git pull origin main
-        git add Packages Packages.gz Packages.bz2
-        git commit -m 'Update Packages file' || echo "No changes to commit"
+        git add Packages Packages.bz2 Packages.gz Release
+        git commit -m "Update Packages files" || echo "No changes to commit"
         git push origin main || echo "Push failed"
 
-  deploy:
-    needs: update-packages
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+    - name: Generate Packages file
+      run: |
+        sudo rm -f Packages Packages.bz2 Packages.gz
+        sudo dpkg-scanpackages --multiversion debs >> Packages
+        cat Packages | gzip > Packages.gz
+        cat Packages | bzip2 > Packages.bz2
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
@@ -63,8 +49,9 @@ jobs:
         publish_branch: gh-pages
         publish_dir: ./  # Ensure your publish directory is set correctly
 
+  # Build and deploy Jekyll site
   build-and-deploy-jekyll:
-    needs: deploy
+    needs: update-packages
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
