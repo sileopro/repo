@@ -3,7 +3,7 @@ name: Update Packages
 on:
   push:
     paths:
-      - 'debs/*.deb'
+      - '*.deb'
 
 jobs:
   update-packages:
@@ -17,13 +17,13 @@ jobs:
       run: sudo apt-get install -y dpkg-dev
 
     - name: Generate new Packages file
-      run: dpkg-scanpackages -m ./debs /dev/null > ./debs/Packages.new
+      run: dpkg-scanpackages -m ./debs /dev/null > Packages.new
 
     - name: Debug Packages.new
-      run: cat ./debs/Packages.new
+      run: cat Packages.new
 
     - name: Debug Packages
-      run: cat ./debs/Packages
+      run: cat Packages
 
     - name: Merge Packages files
       run: |
@@ -37,7 +37,7 @@ jobs:
             new_packages[$current_package]=""
           fi
           new_packages[$current_package]+="$line"$'\n'
-        done < ./debs/Packages.new
+        done < Packages.new
 
         current_package=""
         while read -r line; do
@@ -46,21 +46,9 @@ jobs:
             old_packages[$current_package]=""
           fi
           old_packages[$current_package]+="$line"$'\n'
-        done < ./debs/Packages
+        done < Packages
 
-        echo "New Packages:"
-        for package in "${!new_packages[@]}"; do
-          echo "Package: $package"
-          echo "${new_packages[$package]}"
-        done
-
-        echo "Old Packages:"
-        for package in "${!old_packages[@]}"; do
-          echo "Package: $package"
-          echo "${old_packages[$package]}"
-        done
-
-        > ./debs/Packages.merged
+        > Packages.merged
 
         for package in "${!new_packages[@]}"; do
           if [[ -n "${old_packages[$package]}" ]]; then
@@ -69,22 +57,22 @@ jobs:
             new_packages[$package]=$(echo "${new_packages[$package]}" | sed "/^Section:/d" | sed "/^Sileodepiction:/d")
             new_packages[$package]="$section"$'\n'"$sileodepiction"$'\n'"${new_packages[$package]}"
           fi
-          echo "${new_packages[$package]}" >> ./debs/Packages.merged
+          echo "${new_packages[$package]}" >> Packages.merged
         done
 
         for package in "${!old_packages[@]}"; do
           if [[ -z "${new_packages[$package]}" ]]; then
-            echo "${old_packages[$package]}" >> ./debs/Packages.merged
+            echo "${old_packages[$package]}" >> Packages.merged
           fi
         done
 
-        mv ./debs/Packages.merged ./debs/Packages
-        rm ./debs/Packages.new
+        mv Packages.merged Packages
+        rm Packages.new
 
     - name: Compress Packages file
       run: |
-        gzip -c ./debs/Packages > ./debs/Packages.gz
-        bzip2 -c ./debs/Packages > ./debs/Packages.bz2
+        gzip -c Packages > Packages.gz
+        bzip2 -c Packages > Packages.bz2
 
     - name: Commit and push changes
       env:
@@ -93,6 +81,6 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git pull origin main
-        git add ./debs/Packages ./debs/Packages.gz ./debs/Packages.bz2
+        git add Packages Packages.gz Packages.bz2
         git commit -m 'Update Packages file' || echo "No changes to commit"
         git push origin main || echo "Push failed"
