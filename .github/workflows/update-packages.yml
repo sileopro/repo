@@ -27,9 +27,11 @@ jobs:
 
     - name: Merge Packages files
       run: |
+        # Create associative arrays for the new and existing packages
         declare -A new_packages
         declare -A old_packages
 
+        # Read the new Packages file and store each package entry in the dictionary
         current_package=""
         while read -r line; do
           if [[ $line == "Package:"* ]]; then
@@ -39,6 +41,7 @@ jobs:
           new_packages[$current_package]+="$line"$'\n'
         done < Packages.new
 
+        # Read the existing Packages file and store each package entry in the dictionary
         current_package=""
         while read -r line; do
           if [[ $line == "Package:"* ]]; then
@@ -48,8 +51,10 @@ jobs:
           old_packages[$current_package]+="$line"$'\n'
         done < Packages
 
+        # Create a new Packages.merged file
         > Packages.merged
 
+        # Merge the new and old packages
         for package in "${!new_packages[@]}"; do
           if [[ -n "${old_packages[$package]}" ]]; then
             section=$(echo "${old_packages[$package]}" | grep "^Section:" || echo "${new_packages[$package]}" | grep "^Section:")
@@ -60,12 +65,14 @@ jobs:
           echo "${new_packages[$package]}" >> Packages.merged
         done
 
+        # Add any remaining old packages that were not in the new Packages file
         for package in "${!old_packages[@]}"; do
           if [[ -z "${new_packages[$package]}" ]]; then
             echo "${old_packages[$package]}" >> Packages.merged
           fi
         done
 
+        # Move merged file to Packages and clean up
         mv Packages.merged Packages
         rm Packages.new
 
