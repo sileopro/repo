@@ -32,7 +32,10 @@ jobs:
     - name: Merge Packages files
       id: merge-packages
       run: |
+        echo "Checking if Packages.new exists"
         if [ -f Packages.new ]; then
+          echo "Packages.new exists, proceeding with merge"
+          
           declare -A new_packages
           declare -A old_packages
 
@@ -76,6 +79,7 @@ jobs:
           rm Packages.new
         else
           echo "No Packages.new file to process"
+          exit 1
         fi
 
     - name: Compress Packages file
