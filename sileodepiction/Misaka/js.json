@@ -84,6 +84,17 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
+                    "title": "2.0.5",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "修复授权闪退问题。",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
                     "title": "2.0.4",
                     "useBoldText": true,
                     "useBottomMargin": false
