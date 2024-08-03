@@ -1,0 +1,131 @@
+name: Deploy, Update Packages, and Build Jekyll
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'debs/**'
+      - 'Packages'
+      - 'Packages.gz'
+      - 'Packages.bz2'
+
+jobs:
+  update-packages:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up dpkg
+      run: sudo apt-get install -y dpkg-dev
+
+    - name: Generate new Packages file
+      run: dpkg-scanpackages -m ./debs /dev/null > Packages.new || exit 0
+
+    - name: Debug Packages.new
+      run: cat Packages.new || echo "Packages.new not generated"
+
+    - name: Debug Packages
+      run: cat Packages || echo "Packages file not found"
+
+    - name: Merge Packages files
+      id: merge-packages
+      run: |
+        if [ -f Packages.new ]; then
+          declare -A new_packages
+          declare -A old_packages
+
+          current_package=""
+          while read -r line; do
+            if [[ $line == "Package:"* ]]; then
+              current_package=$(echo $line | cut -d ' ' -f 2)
+              new_packages[$current_package]=""
+            fi
+            new_packages[$current_package]+="$line"$'\n'
+          done < Packages.new
+
+          current_package=""
+          while read -r line; do
+            if [[ $line == "Package:"* ]]; then
+              current_package=$(echo $line | cut -d ' ' -f 2)
+              old_packages[$current_package]=""
+            fi
+            old_packages[$current_package]+="$line"$'\n'
+          done < Packages
+
+          > Packages.merged
+
+          for package in "${!new_packages[@]}"; do
+            if [[ -n "${old_packages[$package]}" ]]; then
+              section=$(echo "${old_packages[$package]}" | grep "^Section:" || echo "${new_packages[$package]}" | grep "^Section:")
+              sileodepiction=$(echo "${old_packages[$package]}" | grep "^Sileodepiction:" || echo "${new_packages[$package]}" | grep "^Sileodepiction:")
+              new_packages[$package]=$(echo "${new_packages[$package]}" | sed "/^Section:/d" | sed "/^Sileodepiction:/d")
+              new_packages[$package]="$section"$'\n'"$sileodepiction"$'\n'"${new_packages[$package]}"
+            fi
+            echo "${new_packages[$package]}" >> Packages.merged
+          done
+
+          for package in "${!old_packages[@]}"; do
+            if [[ -z "${new_packages[$package]}" ]]; then
+              echo "${old_packages[$package]}" >> Packages.merged
+            fi
+          done
+
+          mv Packages.merged Packages
+          rm Packages.new
+        else
+          echo "No Packages.new file to process"
+        fi
+
+    - name: Compress Packages file
+      run: |
+        gzip -c Packages > Packages.gz
+        bzip2 -c Packages > Packages.bz2
+
+    - name: Commit and push changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.PAT }}
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git pull origin main
+        git add Packages Packages.gz Packages.bz2
+        git commit -m 'Update Packages file' || echo "No changes to commit"
+        git push origin main || echo "Push failed"
+
+  deploy:
+    needs: update-packages
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        personal_token: ${{ secrets.PAT }}
+        publish_branch: gh-pages
+        publish_dir: ./  # Ensure your publish directory is set correctly
+
+  build-and-deploy-jekyll:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Setup Pages
+      uses: actions/configure-pages@v5
+
+    - name: Build with Jekyll
+      uses: actions/jekyll-build-pages@v1
+      with:
+        source: ./
+        destination: ./_site
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+
+    - name: Deploy to GitHub Pages
+      uses: actions/deploy-pages@v4
