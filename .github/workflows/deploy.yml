@@ -3,17 +3,13 @@ name: Deploy Sileo Repo
 on:
   push:
     branches:
-      - main  # 监听 main 分支上的变化
+      - main
     paths:
-      - 'debs/**'  # 监听 debs 目录下的文件变化
+      - 'debs/**'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    permissions:
-      id-token: write
-      contents: write
 
     steps:
     - name: Checkout repository
@@ -33,31 +29,14 @@ jobs:
 
     - name: Merge Packages files
       run: |
-        # Function to extract package names
-        extract_package_name() {
-          grep -E "^Package: " | awk '{print $2}'
-        }
-
-        # Read current Packages file into a map
-        declare -A current_packages
-        while IFS= read -r package_name; do
-          current_packages["$package_name"]=$(awk -v package="$package_name" '$0 ~ "^Package: "package"$" {capture=1} capture {print} $0 ~ "^$" {capture=0}' Packages)
-        done < <(awk '/^Package: / {print $2}' Packages)
-
-        # Read new Packages file and merge with current packages
-        while IFS= read -r package_name; do
-          new_package_entry=$(awk -v package="$package_name" '$0 ~ "^Package: "package"$" {capture=1} capture {print} $0 ~ "^$" {capture=0}' Packages.new)
-          current_packages["$package_name"]="$new_package_entry"
-        done < <(awk '/^Package: / {print $2}' Packages.new)
-
-        # Write merged Packages file
-        : > Packages.merged
-        for package in "${!current_packages[@]}"; do
-          echo "${current_packages[$package]}" >> Packages.merged
-        done
-
-        mv Packages.merged Packages
-        rm Packages.new
+        if [ -f Packages ]; then
+          mv Packages Packages.old
+          cp Packages.old Packages
+          awk 'BEGIN { RS = "" } FNR==NR { pkgs[$2] = $0; next } $2 in pkgs { sub($0, pkgs[$2]); } { print $0 "\n" }' FS='\n' RS='\n\n' Packages.new Packages.old > Packages
+          rm -f Packages.old Packages.new
+        else
+          mv Packages.new Packages
+        fi
 
     - name: Compress Packages file
       run: |
@@ -66,18 +45,18 @@ jobs:
 
     - name: Commit and push updated Packages
       env:
-        GITHUB_TOKEN: ${{ secrets.PAT }}  # 使用新的个人访问令牌
+        GITHUB_TOKEN: ${{ secrets.PAT }}
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git pull origin main  # 拉取远程更改
-        git add Packages Packages.bz2 Packages.gz
+        git pull origin main
+        git add Packages Packages.bz2 Packages.gz Release
         git commit -m "Update Packages files" || echo "No changes to commit"
         git push origin main || echo "Push failed"
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-        personal_token: ${{ secrets.PAT }}  # 使用新的个人访问令牌
+        personal_token: ${{ secrets.PAT }}
         publish_branch: gh-pages
-        publish_dir: ./  # 确保你希望发布的内容在仓库根目录下
+        publish_dir: ./
