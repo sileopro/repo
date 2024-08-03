@@ -29,7 +29,14 @@ jobs:
       run: bash ./generate_packages.sh
 
     - name: Generate new Packages file
-      run: dpkg-scanpackages -m ./debs /dev/null > Packages.new
+      run: |
+        for deb in ./debs/*.deb; do
+          if ! dpkg -I "$deb" >/dev/null 2>&1; then
+            echo "Skipping invalid deb file: $deb"
+            mv "$deb" "${deb}.invalid"
+          fi
+        done
+        dpkg-scanpackages -m ./debs /dev/null > Packages.new
 
     - name: Merge Packages files
       run: |
