@@ -2,7 +2,7 @@ Package: ApibugTextToVoice
 Version: 1.0.5
 Architecture: iphoneos-arm64
 Essential: no
-Maintainer: www.apibug.com <apibug6@gmail.com>
+Maintainer: Apibug
 Depends: mobilesubstrate
 Conflicts: ApibugTextToVoice
 Replaces: ApibugTextToVoice
@@ -12,11 +12,12 @@ Size: 168896
 MD5sum: 637c5aa4698154ddf8e596a7400966a6
 SHA1: 983b13f5a2458b197fb1be12e1e705289f409258
 SHA256: 0f748e1d5384180e1135e7da216c4fb65c8cb22cb41ac7fda42ceb1db672b75b
-Section: custom
+Section: 微信插件
 Priority: optional
-Description: Apibug微信文字转语音插件,官网:www.apibug.com
-Author: www.apibug.com
+Description: 微信文字转语音插件
+Author: Apibug
 Name: ApibugTextToVoice
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/Apibug/js.json
 
 Package: MisakaHelper
 Version: 1.9-9
@@ -32,11 +33,12 @@ Size: 11444604
 MD5sum: 8bb30b680fbad3759d8f5e85bdfd21ac
 SHA1: 403075ff3b871debf28e52d3750e48932d607055
 SHA256: d9a07cfd9c9937cc55770d3217919ac8baedbe169cc3304fb1d3d735df3f6379
-Section: Tweaks
+Section: 微信插件
 Priority: optional
-Description: MisakaHelper
+Description: 微信多功能插件   软件源：https://axs6.github.io/repo  https://axs6.github.io/pro
 Author: Misaka
 Name: MisakaHelper
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/Misaka/js.json
 
 Package: MisakaHelper
 Version: 2.0-0
@@ -52,11 +54,12 @@ Size: 11817668
 MD5sum: 75e5303134bea0d6c2fe9102ec21bea0
 SHA1: f417593501cdbae69b594ddbcc085043560d1626
 SHA256: 1c7b402f371bcecb7076728bd36a633ce154d1b2530c283f748775bdf69e5e7d
-Section: Tweaks
+Section: 微信插件
 Priority: optional
-Description: MisakaHelper
+Description: 微信多功能插件
 Author: Misaka
 Name: MisakaHelper
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/Misaka/js.json
 
 Package: MisakaHelper
 Version: 2.0-1
@@ -72,11 +75,12 @@ Size: 11947912
 MD5sum: a0c5706699d1f5423daa44ddc8043fbe
 SHA1: 6df37945325b20eae5f26cec210e43890ff1d9d6
 SHA256: b1917a7f67aa62230eb7679006358c8b4c54ee8f1fc427e52cda066a55f6134e
-Section: Tweaks
+Section: 微信插件
 Priority: optional
-Description: MisakaHelper
+Description: 微信多功能插件
 Author: Misaka
 Name: MisakaHelper
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/Misaka/js.json
 
 Package: MisakaHelper
 Version: 2.0-2
@@ -92,11 +96,12 @@ Size: 12753176
 MD5sum: 812eda958d04d16d761afb8250bc892e
 SHA1: 69113da47c357619ef2d407ce431510cf40f15b7
 SHA256: 768b84eedd6b9497724ace5979c0025d58bdb0a6dc843fddda8cdb4214b6be63
-Section: Tweaks
+Section: 微信插件
 Priority: optional
 Description: MisakaHelper
 Author: Misaka
 Name: MisakaHelper
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/Misaka/js.json
 
 Package: MisakaHelper
 Version: 2.0-3
@@ -112,11 +117,12 @@ Size: 12735972
 MD5sum: 934af61d33405611a17972f391504bb4
 SHA1: 1576f7b5c3fa16be6a78ac5ec33c891c7e22ec94
 SHA256: de75706e2cf75198da42cd1febe695e0ec5d5eab2d46cc2000d014ffff52acc0
-Section: Tweaks
+Section: 微信插件
 Priority: optional
 Description: MisakaHelper
 Author: Misaka
 Name: MisakaHelper
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/Misaka/js.json
 
 Package: MisakaHelper
 Version: 2.0-4
@@ -132,11 +138,12 @@ Size: 12699936
 MD5sum: fedec1436ddce2a74b56f23ebf9d51bc
 SHA1: b0c41c19e1f2e6123e15b4a27827bdf6295df681
 SHA256: ae00a0a791515a7ed7dac3fcb03d4ad7fa2bd15ecfde806d5dc178dd167ed7af
-Section: Tweaks
+Section: 微信插件
 Priority: optional
 Description: MisakaHelper
 Author: Misaka
 Name: MisakaHelper
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/Misaka/js.json
 
 Package: MisakaHelper
 Version: 2.0-5
@@ -152,16 +159,17 @@ Size: 12723744
 MD5sum: 03fb8dec124577c9713e1815a26ff02b
 SHA1: cf48d85d32974949b3dab4ce6ba1fa0c72e4e25d
 SHA256: 67c997ebfd3019af93b0578e761552697a13a97c9fbc8986c0c8f089b9a7a083
-Section: Tweaks
+Section: 微信插件
 Priority: optional
 Description: MisakaHelper
 Author: Misaka
 Name: MisakaHelper
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/Misaka/js.json
 
 Package: cn.llld.wxx
 Version: 1.0.6
 Architecture: iphoneos-arm64
-Maintainer: 来了老弟 X：h_h_x_t
+Maintainer: Axs
 Installed-Size: 236
 Depends: mobilesubstrate
 Filename: ./debs/微信小布丁-rootless_1.0.6_arm64.deb
@@ -169,10 +177,11 @@ Size: 26216
 MD5sum: d33158b07e10ca9345c1ae3fe0a77483
 SHA1: 6a60f5570978864599adc2b7b94509db24e5ff80
 SHA256: 116c1fcf3b49dbef84db2cf0bbf8ce1c9100901f986a03eb0a0529b4fe3f0b81
-Section: rootless应用插件
-Description: 微信小布丁1.0.6版本，可注入可越狱使用。自定义气泡，模拟iPad登录，开启callkit通话，开启消息防撤回，最全屏蔽公众号文章广告，屏蔽订阅号列表广告（可自定义关注视频和直播中订阅号），屏蔽朋友圈广告，屏蔽越狱检测状态,快速跳小程序广告，自定义步数，后台模糊，界面透明等功能。不整大杂烩，只更用的到。***长按主页，订阅号的'搜索栏'1秒控件或任意聊天窗口中的'时间'，都可以弹出设置***,8.0.31版本专供，高版本仅用部分功能（我自用是8.0.31，没适配高版本）
-Author: 来了老弟 X：h_h_x_t
-Name: 微信小布丁-rootless
+Section:微信插件
+Description: 微信小布丁1.0.6版本，可注入可越狱使用。
+Author: Axs 
+Name: 微信小布丁
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/wxxbd/js.json
 
 Package: com.0xkuj.safarix
 Version: 1.2.0
@@ -189,23 +198,25 @@ Section: Tweaks
 Description: Safari Essential Features
 Author: 0xkuj
 Name: SafariX
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/safarix/js.json
 
 Package: com.25mao.doutu.rootless
 Version: 3.1-5
 Architecture: iphoneos-arm64
-Maintainer: admin@25mao.com
+Maintainer: TG频道@wxfx8
 Depends: firmware (>= 5.0)
 Filename: ./debs/斗图助手-Rootless.3.1-5.deb
 Size: 1209944
 MD5sum: 64519249d59220122920dba9fbe7f405
 SHA1: b771c514e46c1c1f66e73bce2a54a6e8608ff7b1
 SHA256: 546124175f8d16bcc0dde1b34a199b53d1a78d509a29b0d9acd3050fb7d32afe
-Section: Rootless
+Section: 微信插件
 Priority: optional
-Description: 斗图助手-Rootless
+Description: 微信多功能插件 
 Author: Mao
-Name: 斗图助手-Rootless
-Sponsor: admin@25mao.com
+Name: 斗图助手
+Sponsor: TG频道@wxfx8
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/doutu/js.json
 
 Package: com.25mao.leftpan.rootless
 Version: 1.0-6
@@ -217,50 +228,53 @@ Size: 44212
 MD5sum: 3f21c67b518ebbc9ff057b5519ad2c90
 SHA1: 7e34a9ab993087de1aa4134fc6328ec30960d733
 SHA256: 9dcfa92cd6da9ccc719c182a419c7d2603e76c68b0c994ae3a111ba87f0ad91f
-Section: Rootless
+Section: Tweaks
 Priority: optional
 Description: 左滑返回上一页面
 Author: Mao
 Name: 左滑返回-Rootless
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.25mao.miyou.rootless
 Version: 3.7-8
 Architecture: iphoneos-arm64
-Maintainer: admin@25mao.com
+Maintainer: TG频道@wxfx8
 Depends: firmware (>= 5.0)
 Filename: ./debs/微信助手-Rootless.3.7-8.deb
 Size: 9850328
 MD5sum: 571f8e14b11e8127e2719854c1e0baf7
 SHA1: 40c52f45370cbcb9ef34cc248f40596f1eb4c2e2
 SHA256: 6690ba0f952f0641615e21ee329a18a6ad8de62e0f322bfd4142880bc1db2c09
-Section: Rootless
+Section: 微信插件
 Priority: optional
-Description: 微信助手-Rootless版
+Description: 微信多功能插件
 Author: Mao
-Name: 微信助手-Rootless
-Sponsor: admin@25mao.com
+Name: 微信助手
+Sponsor: TG频道@wxfx8
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/miyou/js.json
 
 Package: com.25mao.youquan.rootless
 Version: 3.0-8
 Architecture: iphoneos-arm64
-Maintainer: admin@25mao.com
+Maintainer: TG频道@wxfx8
 Depends: firmware (>= 5.0)
 Filename: ./debs/淘宝优惠券-Rootless.3.0-8.deb
 Size: 54856
 MD5sum: ab888b0930b5cf8deea13efad4414217
 SHA1: c5b7f6bbc25223623458d3b2ae743d9d3522ddbc
 SHA256: f7b393971446566a57dabc1ba6c9f551f5628e2474cb5e4b3d62718495e57b5a
-Section: Rootless
+Section: Tweaks
 Priority: optional
 Description: 查淘宝优惠券，查商品历史价
 Author: Mao
 Name: 淘宝优惠券-Rootless
-Sponsor: admin@25mao.com
+Sponsor: TG频道@wxfx8
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.25mao.youquan.rootless
 Version: 3.0-9
 Architecture: iphoneos-arm64
-Maintainer: admin@25mao.com
+Maintainer: TG频道@wxfx8
 Depends: firmware (>= 5.0)
 Filename: ./debs/淘宝优惠券_3.0-9_无根.deb
 Size: 79956
@@ -272,6 +286,7 @@ Priority: optional
 Description: 查淘宝优惠券，查商品历史价
 Author: Mao
 Name: 淘宝优惠券
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.Axs.msgfilt.rootless
 Version: 1.0-5
@@ -283,7 +298,7 @@ Size: 122248
 MD5sum: 7d16902e38afd5cf3b08e975c46fc45d
 SHA1: b37085fe3d6c9f6f5319fd9a6be7c684acf6b544
 SHA256: 0851ce453cf9d01bcf2807c6bf9669dcb64b8e57a3cd1060e8a098eb11ccf45a
-Section: Rootless
+Section: 微信插件
 Priority: optional
 Description: 消息屏蔽助手
 Author: Mao
@@ -343,6 +358,7 @@ Description: 一款真后台插件，先去系统设置控制中心里添加这�
 Author: akusio_RR
 Name: CCSupport真后台独立开关
 Sponsor: Axs
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/ccsupport/js.json
 
 Package: com.Axs.net.ccborder
 Version: 1.1.1
@@ -361,6 +377,7 @@ Description: 像CoolCC一样，删除控制中心模块背景并添加边框，�
 Author: fiore
 Name: CCBorder
 Sponsor: Axs
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/ccborder/js.json
 
 Package: com.Axs.net.dleasy
 Version: 2.14.5k
@@ -373,7 +390,7 @@ MD5sum: 0f7c6496cd623ec646b42db333a7e201
 SHA1: c8752b9892955fc0bb2f5f322008424ca89ea9a6
 SHA256: b5c5d0ba5851ee4fe3c5fe6ac1803f243f8c7725f7d2b659800fe92637010ce2
 Section: Tweaks
-Description: Download social media pictures and videos.本插件可以下载各大视频软件里的视频，但是能不能有效，自己尝试，不要屏蔽插件注入APP！由Axs破解
+Description: Download social media pictures and videos
 Author: AhmedBafkir
 Name: DLEasy
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/dleasy/js.json
@@ -394,6 +411,7 @@ Description: Hide Serial Number in Settings About page.在“设置关于”页�
 Author: ichitaso
 Name: HideSerialNumber
 Sponsor: Axs
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/hideserialnumber/js.json
 
 Package: com.Axs.touchvis
 Version: 1.1.3
@@ -410,6 +428,7 @@ Section: 录屏轨迹
 Description: 最好用的触摸交互。主要作用:做教程时候让别人知道你点的哪里。
 Author: Axs
 Name: 录屏轨迹
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/touchvis/js.json
 
 Package: com.Axs.touchvis
 Version: 1.1.4
@@ -426,6 +445,7 @@ Section: 录屏轨迹
 Description: 最好用的触摸交互。主要作用:做教程时候让别人知道你点的哪里。
 Author: Axs
 Name: 录屏轨迹
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/touchvis/js.json
 
 Package: com.Axs.touchvis
 Version: 2.5k
@@ -438,7 +458,7 @@ MD5sum: 705c024789ac39727d788911f5a0b59f
 SHA1: a1c1bd6876a909b1925de1bcd9305562c3013e09
 SHA256: d2ec5e6d46764d56da4285b0a943baba875f9ae80be9669158ab70f9da791332
 Section: 录屏轨迹
-Description: Displays your touch interactions!显示触摸屏幕的轨迹，有点好玩的插件，并附带拖尾效果。主要作用:做教程时候让别人知道你点的哪里。
+Description: Displays your touch interactions!
 Author: 82flex
 Name: 录屏轨迹
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/touchvis/js.json
@@ -464,17 +484,18 @@ Sileodepiction: https://axs6.github.io/repo/sileodepiction/touchvis/js.json
 Package: com.HBWechatHelper.ailun
 Version: 1.7.2
 Architecture: iphoneos-arm64
-Maintainer: HuangBai <QQ:1343309363@qq.com>
+Maintainer: HuangBai 
 Depends: mobilesubstrate
 Filename: ./debs/黄白助手1.7.2_iphoneos-arm64_rootless.deb
 Size: 9512088
 MD5sum: ae40fa00c95876f71f1225e07c0ccf9c
 SHA1: 4b489e342d282ea94cf2ef263f916b2bb6c7deaf
 SHA256: 2f96c00003133556c3e0b78e6f4c7e1bd6911e25e8bf55cdeeb7e7d4216e56bf
-Section: Mao
-Description: 黄白助手-微信插件                                                                                                                                                                 一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
-Author: HuangBai <QQ:1343309363@qq.com>
-Name: 黄白助手(微信插件)-Rootless
+Section: 微信插件
+Description: 微信多功能插件
+Author: HuangBai 
+Name: 黄白助手
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/HBWechat/js.json
 
 Package: com.ash.milkyway4-ios16fix
 Version: 0.0.1
@@ -486,10 +507,11 @@ Size: 12716
 MD5sum: 2ec85592db0bb7b936061f11675c0e13
 SHA1: 6e8c9e2021d22776364d6e1852663a9881ce1575
 SHA256: 96f64d923700ae302260a3b8261464225ac52a93f64e1b8dca3aac9083e67e97
-Section: Tweaks
+Section: 分屏插件
 Description: An awesome MobileSubstrate tweak!
 Author: ash
 Name: MilkyWay4-iOS16Fix
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.bandarhl.bhtwitter
 Version: 4.3-1+debug
@@ -506,6 +528,7 @@ Section: Tweaks
 Description: Awesome tweak for Twitter
 Author: Bandar Alruwaili
 Name: BHTwitter
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.brend0n.qqmusicdesktoplyrics
 Version: 0.3.9~b1
@@ -523,18 +546,18 @@ Description: 桌面歌词，任意位置显示，支持QQ、网易云、酷狗�
 Author: Brend0n <brendonjkding@126.com>
 Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.qqmusicdesktoplyrics
 Name: DesktopLyrics
-Sileodepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.qqmusicdesktoplyrics/depiction.json
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/desktoplyrics/js.json
 
 Package: com.creaturecoding.shuffle
 Version: 1.6.2
 Architecture: iphoneos-arm64
-Maintainer: CreatureSurvive <support@creaturecoding.com>
+Maintainer: CreatureSurvive <TG频道@wxfx8>
 Installed-Size: 1484
 Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
 Depends: com.creaturecoding.libcspreferences
 Conflicts: com.cpdigitaldarkroom.placeholder
 Replaces: com.cpdigitaldarkroom.placeholder
-Filename: ./debs/shuffle_1.6.2_汉化版@M哥.deb
+Filename: ./debs/shuffle_1.6.2_汉化版@Axs.deb
 Size: 254336
 MD5sum: 12127d0a67f0fe733fbb1f55d55fc9c4
 SHA1: 1fb8d8f4247ec44f7c61629e5f4ef455a682c4a0
@@ -543,11 +566,11 @@ Section: Tweaks
 Homepage: https://creaturecoding.com/
 Description: Organize your settings
 Tag: purpose::extension, compatible_min::ios10
-Author: CreatureSurvive <support@creaturecoding.com>
+Author: CreatureSurvive <TG频道@wxfx8>
 Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
 Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
 Name: Shuffle
-Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.curtin.pkc.rootless
 Version: 0.5-1
@@ -559,13 +582,14 @@ Size: 386136
 MD5sum: fd7a29ed58ca93e9878dc0371959380a
 SHA1: 6d6986b1221224eb6541cff3fe3c8bcf833bc4d8
 SHA256: bab85c7fe217059c2075ad191c7431405d87a4b8c7e14ee9d351a48c22e036e8
-Section: PKC-插件
+Section: 微信插件
 Priority: optional
 Homepage: https://github.com/curtinlv
-Description: 群管理Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Description: 微信多功能插件
 Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC_无根
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/PKC/js.json
 
 Package: com.curtin.pkc.rootless
 Version: 0.5-2
@@ -577,13 +601,14 @@ Size: 403484
 MD5sum: f73a2b226d4795d0a687de9930850758
 SHA1: 0eda8101e3250706d7e1347eae440445d465d37a
 SHA256: 4b388c14926286a083c442ca8334f60eb1cc5c96cca1ba322549a4fe803d696c
-Section: PKC-插件
+Section: 微信插件
 Priority: optional
 Homepage: https://github.com/curtinlv
-Description: 群管理Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、自动通过好友请求、自动互删好友等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Description: 微信多功能插件 
 Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC_无根
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/PKC/js.json
 
 Package: com.curtin.pkc.rootless
 Version: 0.5-3
@@ -595,13 +620,14 @@ Size: 438388
 MD5sum: 9c9ce2d537ed6e82e3362962a089dc69
 SHA1: 72c759a2a5d59b3cb79f98b1a9a1f9fb9cab06a3
 SHA256: 85309b1df70feb8b20c9dfa7aa492dded548ea8fd3fa824aad718faf80c7c7a1
-Section: PKC-插件
+Section: 微信插件
 Priority: optional
 Homepage: https://github.com/curtinlv
-Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、自动通过好友请求、自动互删好友等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Description:微信多功能插件
 Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC_无根
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/PKC/js.json
 
 Package: com.curtin.pkc.rootless
 Version: 0.5-4
@@ -613,13 +639,14 @@ Size: 463824
 MD5sum: 17717db63361bc43fae8f9dd3d072cbc
 SHA1: b32833d49d123d5c29e8f04f6d041ba9b1872e6f
 SHA256: e9ec9d8fddd5420dfc4747864a16d119775135cbda99d53c89739cd801aa98ce
-Section: PKC-插件
+Section: 微信插件
 Priority: optional
 Homepage: https://github.com/curtinlv
-Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、自动通过好友请求、自动互删好友等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Description: 微信多功能插件
 Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC_无根
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/PKC/js.json
 
 Package: com.curtin.pkc.rootless
 Version: 0.5-5
@@ -631,14 +658,15 @@ Size: 519760
 MD5sum: 12a9190b26de65ab09eb9995fcb86895
 SHA1: f832820b54d631918b1e847bdd63364778ab9b5a
 SHA256: 56075b95b770b6f351849a8690fd3f2df34e30c2392acbf34367b8ae7d3ed30b
-Section: PKC-插件
+Section: 微信插件
 Priority: optional
 Homepage: https://github.com/curtinlv
-Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、自动通过好友请求、自动互删好友等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Description: 微信多功能插件
 Author: Curtin <curtinlv@126.com>
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC_无根
 Sponsor: Curtin <https://qr.alipay.com/2m612122dnnr9q6o488dgab>
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/PKC/js.json
 
 Package: com.dao.bhtiktokmod
 Version: 2.3
@@ -651,15 +679,16 @@ Size: 481804
 MD5sum: 7e0620a814f17891f449e6f2a7a15a60
 SHA1: 20698a1b6b54fd6491b81e44d129c5c42d7d6b93
 SHA256: 77c7a232a8afe43b21a1bc07e701daee0c573863fc7a19eaa8a9acd7d97e1224
-Section: 嗨-工具
+Section: Tweaks
 Description: Dayanch96基于BandarHL开源的BHTikTok优化再开发的Plus版本，支持TikTok去广告、自动下一条、纯净模式、切换地区等、伪造粉丝数，视频下载等。
 Author: Bandar Alruwaili
 Name: BHTikTok Plus(rootless)
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.dao.classicfolders3
 Version: 3.0.4.3
 Architecture: iphoneos-arm64
-Maintainer: CoolStar & Lizynz & 妖刀
+Maintainer: CoolStar & Lizynz & Axs
 Depends: mobilesubstrate
 Conflicts: org.coolstar.classicfolders2, org.coolstar.classicfolders3, com.hk.classicfolders3.cn.rl, com.hk.classicfolders3.cn, com.ikilledappl3.autofolderclose-rootless
 Filename: ./debs/ClassicFolders 3(rootless)_3043.deb
@@ -667,16 +696,16 @@ Size: 3282104
 MD5sum: 115b8a79a6fc788356cce22daae99748
 SHA1: 088d6c29cb89a225b41376063893a537aabe39c7
 SHA256: d244c9a8bbef96275bd2951f844d3cc63c499f74103baf8eb5790bcbd42ad9c6
-Section: 嗨-工具
+Section: Tweaks
 Description: CoolStar的经典文件夹3，Lizynz基于CoolStar的开源修复优化支持iOS15+。
 Author: CoolStar & Lizynz
 Name: ClassicFolders 3(rootless)
-Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/cf3/js.json
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/classicfolders3/js.json
 
 Package: com.dao.classicfolders3
 Version: 3.0.4.5
 Architecture: iphoneos-arm64
-Maintainer: CoolStar & Lizynz & 妖刀
+Maintainer: CoolStar & Lizynz & Axs
 Installed-Size: 4348
 Depends: mobilesubstrate
 Conflicts: org.coolstar.classicfolders2, org.coolstar.classicfolders3, com.hk.classicfolders3.cn.rl, com.hk.classicfolders3.cn, com.ikilledappl3.autofolderclose-rootless
@@ -685,11 +714,11 @@ Size: 3286498
 MD5sum: 78cd38e05ff1ced3de9eff9578722270
 SHA1: 6700642bec4c11133b4b9bf97c1bb6a9f464931f
 SHA256: 760925eae6e8b860af2016b6788bf3c46a1accf3687b0bace4d295fa51b70d1a
-Section: 嗨-工具
+Section: Tweaks
 Description: CoolStar的经典文件夹3，Lizynz基于CoolStar的开源修复优化支持iOS15+。
 Author: CoolStar & Lizynz
 Name: ClassicFolders 3(rootless)
-Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/cf3/js.json
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/classicfolders3/js.json
 
 Package: com.daodao.snapper2
 Version: 2.7.0
@@ -702,10 +731,11 @@ Size: 586808
 MD5sum: ec17d23d3c5031e9f52e8d19e1f9b331
 SHA1: de6d2254a4324f41dbea2ca30a008b793d22368b
 SHA256: 8e07598d5b454282a5c15c0598725cb6dfd27ddfa5a1d7b195e30bd2c05ea2ab
-Section: 嗨-工具
-Description: 便捷截屏。源内可安装中文修复包。
+Section: Tweaks
+Description: 便捷截屏2
 Author: Jonathan Winger-lang
-Name: Snapper 2(rootless)
+Name: Snapper 2
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/Snapper/js.json
 
 Package: com.daodao.snapper3
 Version: 1.0k
@@ -718,10 +748,13 @@ Size: 911244
 MD5sum: c3ebac4cff2509f4727211a46278748b
 SHA1: c1bade2b431aae2f03b661d3d9f58bfe6e47c0f7
 SHA256: 3b89d1b0bdadb6af537ba10c90100598c3be521494294b0e8bfc7967071b7233
-Section: 嗨-工具
-Description: 便捷截屏3，已由CBZ破解。已修正OCR，源内可安装中文包。
+Section: Tweaks
+Description: 便捷截屏3
+Author: DumpApp
+Name: snapper3
 Author: Jonathan Winger-lang
-Name: Snapper 3(rootless)
+Name: Snapper 3
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/Snapper/js.json
 
 Package: com.dumpapp.wechat-rootless
 Version: 2.0.0
@@ -735,9 +768,10 @@ MD5sum: edabe5f9dd859bc197253963f1c6aaaf
 SHA1: ba506b1f26c283df7d9faea705fda9d38ff44452
 SHA256: c3f306491fa846dafef4c3004dc1c08f4eb95f3a090d5bb1608ec56c77067f4e
 Section: Tweaks
-Description: 锤子助手插件
+Description: 微信多功能插件
 Author: DumpApp
-Name: 锤子助手-Rootless
+Name: 锤子助手
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/dumpapp/js.json
 
 Package: com.dumpapp.wechat-rootless
 Version: 2.0.1
@@ -750,10 +784,11 @@ Size: 9329474
 MD5sum: 4c9e39f53db5740abc1851ea14fe4130
 SHA1: 21ec3fb45a63f57300bdd42e9498d0585e6a2c2f
 SHA256: 6f7b671d1a535ba5b18beb42ec6ac187840c18d9a702a8eedaf255a07c7d755f
-Section: Tweaks
-Description: 锤子助手插件
+Section:  微信插件
+Description: 微信多功能插件
 Author: DumpApp
-Name: 锤子助手-Rootless
+Name: 锤子助手
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/dumpapp/js.json
 
 Package: com.dvntm.showmytouches
 Version: 1.0
@@ -766,10 +801,11 @@ Size: 49592
 MD5sum: 1c9b776c78c83c75988922769f16d8f8
 SHA1: c886424510f9d111856d22b9595a4d69b3903fc9
 SHA256: 033463ab993a7c85faf99d9a1d958a5a7bd75c52fb5a183649c15089884c68d8
-Section: Tweaks
+Section: 录屏轨迹
 Description: Displays your touch interactions!
 Author: dvntm
 Name: ShowMyTouches
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.dvntm.showmytouches
 Version: 1.1.2
@@ -782,10 +818,11 @@ Size: 53208
 MD5sum: fd7f453d0e2560811aa66ba6b2261a02
 SHA1: d738dab4d8bc50d5bffdadbe11253b234d4f73f9
 SHA256: 295ec02b73306fdee703f3ba38afbe2f2823dcf6aa722de4a217964236910769
-Section: Tweaks
+Section: 录屏轨迹
 Description: Displays your touch interactions!
 Author: dvntm
 Name: ShowMyTouches
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.dvntm.ytlite
 Version: 4.0
@@ -803,7 +840,7 @@ Description: Lightweight YouTube Enhancer
 Author: dvntm
 Icon: https://raw.githubusercontent.com/dayanch96/icons/main/ytlite.png
 Name: YTLite
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/icons/main/ytlite.json
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.eevee.spotify
 Version: 4.1
@@ -811,7 +848,7 @@ Architecture: iphoneos-arm64
 Maintainer: Eevee
 Installed-Size: 1196
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf
-Filename: ./debs/com.eevee.spotify_4.1_iphoneos-arm64.deb
+Filename: ./debs/com.eevee.spotify_4.1_iphoneos-arm64【TG频道@wxfx8】.deb
 Size: 240618
 MD5sum: 3504990f19885e2b1f4fb70ea3d64e14
 SHA1: f748cf922da15119ea22dc09c4e3b5a27219be88
@@ -820,6 +857,7 @@ Section: Tweaks
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Author: Eevee
 Name: EeveeSpotify
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.eevee.spotify
 Version: 4.4
@@ -827,7 +865,7 @@ Architecture: iphoneos-arm64
 Maintainer: Eevee
 Installed-Size: 1520
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf
-Filename: ./debs/com_eevee_spotify_4_4_iphoneos_arm64.deb
+Filename: ./debs/com_eevee_spotify_4_4_iphoneos_arm64【TG频道@wxfx8】.deb
 Size: 317928
 MD5sum: 3555d541f229abbfc574de0f80be79a3
 SHA1: 428a52de1fe0fd94fe9b20f43eeadbd1a669a333
@@ -836,6 +874,7 @@ Section: Tweaks
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Author: Eevee
 Name: EeveeSpotify
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.eevee.spotify
 Version: 4.5
@@ -843,7 +882,7 @@ Architecture: iphoneos-arm64
 Maintainer: Eevee
 Installed-Size: 2568
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf
-Filename: ./debs/com.eevee.spotify_4.5_iphoneos-arm64.deb
+Filename: ./debs/com.eevee.spotify_4.5_iphoneos-arm64【TG频道@wxfx8】.deb
 Size: 519052
 MD5sum: d0275b54c9a62712199670d15f134ab7
 SHA1: 706c59db80940855593d9d4dff34d65953f1e027
@@ -852,6 +891,7 @@ Section: Tweaks
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Author: Eevee
 Name: EeveeSpotify
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.eevee.spotify
 Version: 4.6
@@ -868,11 +908,12 @@ Section: Tweaks
 Description: A tweak to get Spotify Premium for free, just like Spotilife
 Author: Eevee
 Name: EeveeSpotify
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.ethxnn88.visibleisland
 Version: 2.0
 Architecture: iphoneos-arm64
-Maintainer: ethxnn88 <ethxnn88@gmail.com>
+Maintainer: ethxnn88 <TG频道@wxfx8>
 Depends: firmware (>=16.0), mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0)
 Filename: ./debs/com.ethxnn88.visibleisland_2.0_iphoneos-arm64.deb
 Size: 43112
@@ -882,18 +923,18 @@ SHA256: aaf4bca339b1c3ad379ca371a1a4413c06c5fecef8cb471184863795864377c3
 Section: Tweaks
 Homepage: https://shuga.co/
 Description: Enable, fix, and customize the Dynamic Island on older devices.
-Author: ethxnn88 <ethxnn88@gmail.com>
+Author: ethxnn88 <TG频道@wxfx8>
 Depiction: https://ethxnn88.github.io/repo/depiction/web/com.ethxnn88.visibleisland.html
 Icon: https://ethxnn88.github.io/repo/assets/com.ethxnn88.visibleisland/icon.png
 Moderndepiction: https://ethxnn88.github.io/repo/depiction/native/com.ethxnn88.visibleisland.json
 Name: VisibleIsland
-Sileodepiction: https://ethxnn88.github.io/repo/depiction/native/com.ethxnn88.visibleisland.json
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 Tags: compatible_min::ios16.0, compatible_max::ios16.6.1
 
 Package: com.exile90.icleanerpro
 Version: 7.10.0
 Architecture: iphoneos-arm64
-Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Maintainer: Ivano Bilenchi <TG频道@wxfx8>
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
@@ -902,18 +943,19 @@ Size: 978204
 MD5sum: df75acde1146923fbf41f95b075cc06e
 SHA1: c1a8bace0326530adb0d20b0924c7a71af142ee8
 SHA256: 6d8402fdd8d72b7ddc658d1d6f821ba9f424b5d99a5e6ce514bcdb1badc65fc7
-Section: Utilities
+Section: Tweaks
 Homepage: http://ib-soft.net/icleaner
 Description: The first real iOS system cleanup and management utility
-Author: Ivano Bilenchi <support@ib-soft.net>
+Author: Ivano Bilenchi <TG频道@wxfx8>
 Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/icleanerpro/js.json
 
 Package: com.hitori.misaki
 Version: 2.1.3
 Architecture: iphoneos-arm64
-Maintainer: Hitori <mikasa-san@outlook.jp>
+Maintainer: Hitori <TG频道@wxfx8>
 Installed-Size: 1155
 Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
 Filename: ./debs/misaki_2.1.3_iphoneos-arm64.deb
@@ -924,15 +966,16 @@ SHA256: 726c7fd9491c038ccb40087ac7c48f11490b9312197e93aabdb4737de153d0d3
 Section: Tweaks
 Description: Customize your iOS 15 & 16 experience with Misaki. customization options to make your iPhone truly yours.
 Tag: cydia::commercial, compatible_min::ios15.0
-Author: Hitori <mikasa-san@outlook.jp>
+Author: Hitori <TG频道@wxfx8>
 Depiction: https://chariz.com/buy/misaki
 Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
 Name: Misaki
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/misaki/js.json
 
 Package: com.hk.rootless.cc
 Version: 2.0.5
 Architecture: iphoneos-arm64
-Maintainer: 妖刀
+Maintainer: Axs
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule
 Filename: ./debs/CCLess++rootless.2.0.5.deb
@@ -940,11 +983,11 @@ Size: 495656
 MD5sum: c54968cfae506735a21cb54f06adfaac
 SHA1: 762d64b91017d554c216d3ffc2ec26a1a4e39582
 SHA256: f6896d1a8339bc10592a00043de68e4a65e3f7a46ccca729758e9e90fa8b47f7
-Section: 嗨-工具
-Description: 集合的控制中心模块：定位、注销、设置、VPN、自动亮度、截屏、锁屏、一键清角标、微信扫码、支付宝扫码、双卡切换、蜂窝切换、迷你音量-亮度、启动QX/推特/油管/Filza/Sileo/Tg等、静音、实时CPU使用率、系统运行时间、Snapper2、微信/支付宝付款码、抬起唤醒等。感谢Skypain、Netskao、SOPPPra、MTAC、P2KDev、jailbreak365 +、AnubisTweaks、真皮等各位大佬！！！
-Author: 妖刀
+Section: Tweaks
+Description: 集合的控制中心模块
+Author: Axs
 Name: CCLess++(rootless)
-Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/CCLess/js.json
 
 Package: com.hk.rootless.cc
 Version: 2.0.5.5
@@ -958,7 +1001,7 @@ MD5sum: 5132f7f035858ae4fbe8814441a94a99
 SHA1: 197c02b87d60a229f8827724fbe6a758c455adc1
 SHA256: 40e3f691e9e8bfa2602f13183b5f18b9418d7fe016b5647ec6862abac71f3112
 Section: Tweaks
-Description: 集合的控制中心模块：定位、注销、设置、VPN、自动亮度、截屏、锁屏、一键清角标、微信扫码、支付宝扫码、双卡切换、蜂窝切换、迷你音量-亮度、启动QX/推特/油管/Filza/Sileo/Tg等、静音、实时CPU使用率、系统运行时间、Snapper2、微信/支付宝付款码、抬起唤醒等。感谢Skypain、Netskao、SOPPPra、MTAC、P2KDev、jailbreak365 +、AnubisTweaks、真皮等各位大佬！！！
+Description: 集合的控制中心模块。
 Author: 妖刀
 Name: CCLess++(rootless)
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/CCLess/js.json
@@ -978,11 +1021,13 @@ Section: Tweaks
 Description: Faster iOS animation.
 Author: Hoangdus
 Name: Speedster
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+
 
 Package: com.jd4iphone
 Version: 1.3
 Architecture: iphoneos-arm64
-Maintainer: M哥
+Maintainer: Axs
 Installed-Size: 168
 Depends: mobilesubstrate
 Filename: ./debs/com.jd4iphone_1.3_iphoneos-arm64.deb
@@ -992,13 +1037,14 @@ SHA1: e7861699e3dbe3b77ccf0c942445a814f0b6d674
 SHA256: 7d454bce60ad4c8e9ed02bc77f946ace74ffdf0343d91f1bfc74e07ec093913c
 Section: Tweaks
 Description: 京东去广告+精简
-Author: M哥
+Author: Axs
 Name: 京东（去广告+精简）
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.jontelang.instalauncher2
 Version: 1.11.0
 Architecture: iphoneos-arm64
-Maintainer: Jonathan Winger Lang <jontelang@gmail.com>
+Maintainer: Jonathan Winger Lang <TG频道@wxfx8>
 Installed-Size: 1188
 Depends: mobilesubstrate, preferenceloader, firmware(>=15.0)
 Conflicts: com.jontelang.instalauncher2.beta
@@ -1009,25 +1055,10 @@ SHA1: 2eab5ef9c913190a3f6ba1c6220619e526e8c5cc
 SHA256: 0c7c6545061871c7e58820d4e67b0dc9c91dc010f54a2101295d02b4e1503e9e
 Section: Tweaks
 Description: Launch ANY app instantly
-Author: Jonathan Winger Lang <jontelang@gmail.com>
+Author: Jonathan Winger Lang <TG频道@wxfx8>
 Icon: file:///Library/PreferenceBundles/instalauncher2preferences.bundle/icons/preferences-icon@2x.png
 Name: InstaLauncher 2
-
-Package: com.ketty.tweaktool
-Version: 0.0.1-252+debug
-Architecture: iphoneos-arm64
-Maintainer: Ketty Allen
-Installed-Size: 452
-Depends: firmware (>= 14.0)
-Filename: ./debs/com.ketty.tweaktool_0.0.1-252+debug_iphoneos-arm64.deb
-Size: 408976
-MD5sum: dea1ded922fe1723c524d2e9857d202c
-SHA1: 784f2757b9cc751b4636b271e5c3884b37413f79
-SHA256: 16e9ae731b19306eb050e994dc346b33c05c3daa4f26764b5510a1854387ceb7
-Section: Utilities
-Description: An awesome SwiftUI application!
-Author: Ketty Allen
-Name: TweakTool
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/instalauncher2/js.json
 
 Package: com.lclrc.hammerit
 Version: 1.6.8
@@ -1045,6 +1076,7 @@ Description: Control your text or translate as you wish.
 Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/hammerit/js.json
 
 Package: com.lclrc.hammerit
 Version: 1.7.0
@@ -1062,6 +1094,7 @@ Description: Control your text or translate as you wish.
 Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/hammerit/js.json
 
 Package: com.lclrc.hammerit
 Version: 1.7.1
@@ -1079,11 +1112,12 @@ Description: Control your text or translate as you wish.
 Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/hammerit/js.json
 
 Package: com.lenglengyu.shortvideodl-rootless
 Version: 1.8.0
 Architecture: iphoneos-arm64
-Maintainer: lenglengyu <lenglengyu@126.com>
+Maintainer: lenglengyu <TG频道@wxfx8>
 Installed-Size: 4848
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao, com.lenglengyu.pddsavevideo
@@ -1096,8 +1130,8 @@ Section: Tweaks
 Description: 支持抖音、快手、微视等无水印下载。支持微信公众号、视频号视频下载。
 Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/shortvideodl.html
-Name: 短视频助手-Rootless
-Sileodepiction: https://repo.lenglengyu.top/packageInfo/shortvideodlsileo
+Name: 短视频助手
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.mtac.bridge
 Version: 1.1
@@ -1114,6 +1148,7 @@ Section: Tweaks
 Description: The Apple Watch homescreen experience brought to iOS
 Author: MTAC • ETHN
 Name: Bridge
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/bridge/js.json
 
 Package: com.mtac.lynxtwo
 Version: 2.5.2
@@ -1130,6 +1165,7 @@ Section: Tweaks
 Description: Ultimate iDevice Customization for iOS 14, 15 & 16
 Author: MTAC
 Name: Lynx 2
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.nahtedetihw.airpodscompanion
 Version: 1.4
@@ -1157,12 +1193,12 @@ Size: 2452
 MD5sum: 9400df388ef7ee3a626acd8a95af5521
 SHA1: 685af9088466a32d0bace2719ea6f1b119879d08
 SHA256: 084fe1fad2bda97ba187eb863b70c3cfa8e2b8f4e8bd934e1b21f87afccd209b
-Section: Addons
+Section: Tweaks
 Description: 尝试保存 apt 缓存目录下所有 deb
-Author: zhaonan <invalidunit@icloud.com>
+Author: zhaonan <TG频道@wxfx8>
 Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
 Name: Give me deb
-Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.netskao.appdata
 Version: 1.4.1
@@ -1175,10 +1211,11 @@ Size: 4637852
 MD5sum: 7c02190692158746803f6ccb3a10a708
 SHA1: 27458e206f55e2c25e7394d5848e0ea709bf288c
 SHA256: ba8a51c489687cd2b0b0528b17cc3a9ca8927d513f20b207bde69c720a8f5be8
-Section: Netskao-Tweaks
+Section: Tweaks
 Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由站长完整汉化并修改优化。修改优化:增加简单版降级应用，增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，增加长按面板图标以安全模式启动，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
 Author: Fouad Raheb
 Name: AppData
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/appdata/js.json
 
 Package: com.netskao.appdata
 Version: 1.4.2
@@ -1191,10 +1228,11 @@ Size: 823820
 MD5sum: 090451a77622a645950b9eb617ff0075
 SHA1: 080c3f5babb93c1d27ed2a608f3867862a3d6eab
 SHA256: 1b64374f4ab692101d3c1ab6563b73622c569908b29475f17e6b1b17e6f62f33
-Section: Netskao-Tweaks
+Section: Tweaks
 Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由站长完整汉化并修改优化。修改优化:增加简单版降级应用，增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，增加长按面板图标以安全模式启动，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
-Author: Fouad Raheb
+Author: Netskao
 Name: AppData
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/appdata/js.json
 
 Package: com.netskao.awemefullscreen
 Version: 1.1-2
@@ -1207,10 +1245,11 @@ Size: 17668
 MD5sum: cc8dcc96ae64bde9c8101cae91c21800
 SHA1: a2aba96b66175e2f8e67a5971d80e084810d987a
 SHA256: 82e84e0980e13e3dd1e90c1c28c488f4ff80ab53d94edfa9e0a45a1a1864400d
-Section: Netskao-Tweaks
-Description: Aweme Homepage Full Screen. Tested on version 29.8.0 only, failure will not be maintained
+Section: Tweaks
+Description: 抖音全屏播放， 仅支持29.8.0上测试
 Author: Netskao
 Name: AwemeFullScreen
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/awemefullscreen/js.json
 
 Package: com.netskao.dumpdecrypter
 Version: 1.4-1
@@ -1223,10 +1262,11 @@ Size: 1303692
 MD5sum: c8b0772f8b0ffcf1c56062289c4b0e29
 SHA1: 7e2852f811343fd0afa5d04faa49a9d5059ea91f
 SHA256: 50b1222855a49c5a7642198e7237ea12796e5fad1b17007e824f593b78cc1b82
-Section: Netskao-Tweaks
-Description: Decrypt iOS Apps
+Section: Tweaks
+Description: 全权限砸壳
 Author: Netskao
 Name: DumpDecrypter
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/dumpdecrypter/js.json
 
 Package: com.netskao.dumpdecrypter
 Version: 1.4-3
@@ -1239,10 +1279,11 @@ Size: 1178756
 MD5sum: 922a3d8635b55723440d46a60c04f9c9
 SHA1: fc6795c508a182461bb6e622223034a812eb419a
 SHA256: 017f89f531f76c389230b85535a63e00527914a648dd6ad8257259093a0b04b4
-Section: Netskao-Tweaks
-Description: Decrypt iOS Apps and Plugins
+Section: Tweaks
+Description: 全权限砸壳
 Author: Netskao
 Name: DumpDecrypter
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/dumpdecrypter/js.json
 
 Package: com.netskao.dumpdecrypter
 Version: 1.4-4
@@ -1255,10 +1296,11 @@ Size: 1294988
 MD5sum: e3523df1dc0e0c7ecbbe313de4e1918c
 SHA1: 9b0018d70acb9a7ed501d32501a654b016b62908
 SHA256: cdbc5fcff5c869c51bbda0cc088e962106f9be6d83654a7842d50e90af1ee540
-Section: Netskao-Tweaks
-Description: Decrypt iOS Apps and Plugins
+Section: Tweaks
+Description: 全权限砸壳
 Author: Netskao
 Name: DumpDecrypter
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/dumpdecrypter/js.json
 
 Package: com.netskao.pulloverpro
 Version: 2.1.6
@@ -1272,10 +1314,11 @@ Size: 695996
 MD5sum: 390f189db06ebbe7510a44a77d9e61af
 SHA1: effe0adbe57f297eb9305480982d190a6a07d7da
 SHA256: 9ba98e8ebae78f22fd5394f714834bfa011e928df80aa87854ad406dc3406900
-Section: Netskao-Tweaks
+Section: 分屏插件
 Description: A better way to multitask! Fix support for iOS15+
 Author: c1d3r
 Name: PullOver Pro
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.netskao.showtouch
 Version: 1.0.4-3
@@ -1288,10 +1331,11 @@ Size: 375530
 MD5sum: 682cc5a1d2d99f4a2d5d795b831f6b02
 SHA1: 23efe1c17af2aaa2c42244f0ab16eaf1de1e34a8
 SHA256: aa76032ae10920e6db19e36a821ab6624baff4077f20c52486091f43be52d56b
-Section: Netskao-Tweaks
+Section: 录屏轨迹
 Description: Shows where you touch the screen
 Author: LonestarX
 Name: ShowTouch
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.netskao.storeswitchaccounts
 Version: 1.1-4
@@ -1304,10 +1348,11 @@ Size: 101968
 MD5sum: cb58c414e3d71825159b301253981871
 SHA1: d620b07f47b2c978c1d813f0690a3bdf27788745
 SHA256: ad4d2c1f314b3557270d8d29529b3f3a7fb747758b6eb826ce77a96cb01bca96
-Section: Netskao-Tweaks
+Section: 苹果商店账号切换
 Description: Conveniently switch between logged-in accounts, long press the desktop AppStore icon to switch
 Author: Netskao
 Name: StoreSwitchAccounts
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.opa334.trollstorehelper
 Version: 2.0.15
@@ -1319,15 +1364,16 @@ Size: 1919638
 MD5sum: 73e14f01c4d3469e118e63e5f752feba
 SHA1: 9438cf3af05d46de6b60c44d9f899a723a55bf48
 SHA256: 232c5e793b4f7e84ce6e97330475f42f6103a97a1f8c4b01ec6db51c9682ff16
-Section: Applications
+Section: 巨魔商店
 Description: Helper utility to install and manage TrollStore!
 Author: opa334
 Name: TrollStore Helper
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.p2kdev.tinge
 Version: 1.1
 Architecture: iphoneos-arm64
-Maintainer: P2KDev <p2kdev@gmail.com>
+Maintainer: P2KDev <TG频道@wxfx8>
 Installed-Size: 432
 Depends: firmware (>= 15.0),mobilesubstrate
 Filename: ./debs/com.p2kdev.tinge_1.1_iphoneos-arm64.deb
@@ -1337,9 +1383,10 @@ SHA1: 5a627b065a36bc0f908894f481bf7aeaaa5518e8
 SHA256: 9d8a218d53c9c2b87a4217ca1075009884ad3a10f2f630062d7633106d4e0206
 Section: Tweaks
 Description: Color your badges with Perfection!
-Author: P2KDev <p2kdev@gmail.com>
+Author: P2KDev <TG频道@wxfx8>
 Icon: file:///Library/PreferenceBundles/TingePrefs.bundle/Icon@2x.png
 Name: Tinge
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/tinge/js.json
 
 Package: com.p2kdev.tinge
 Version: 1.2
@@ -1357,6 +1404,7 @@ Description: Color your badges with Perfection!
 Author: P2KDev <p2kdev@gmail.com>
 Icon: file:///Library/PreferenceBundles/TingePrefs.bundle/Icon@2x.png
 Name: Tinge
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/tinge/js.json
 
 Package: com.p2kdev.tinge
 Version: 1.2.1
@@ -1374,6 +1422,7 @@ Description: Color your badges with Perfection!
 Author: P2KDev <p2kdev@gmail.com>
 Icon: file:///Library/PreferenceBundles/TingePrefs.bundle/Icon@2x.png
 Name: Tinge
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/tinge/js.json
 
 Package: com.p2kdev.tinge
 Version: 1.2.2
@@ -1391,6 +1440,7 @@ Description: Color your badges with Perfection!
 Author: P2KDev <p2kdev@gmail.com>
 Icon: file:///Library/PreferenceBundles/TingePrefs.bundle/Icon@2x.png
 Name: Tinge
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/tinge/js.json
 
 Package: com.pingfan.wechat
 Version: 2.1-8
@@ -1402,10 +1452,11 @@ Size: 2820628
 MD5sum: 39bcaf1b182075fe16376b40a76ce4cf
 SHA1: 01799fb7bccf27b9785537a02e857abcf1ef6ddf
 SHA256: 5365f34de1c6ab2b0125b0b72df9eb5019eedce218d31e5c56967b70477a83c6
-Section: Tweaks
-Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,新增多端登录设备隐藏等。
+Section: 微信插件
+Description: 微信多功能插件
 Author: 平凡
 Name: 虚拟视频
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/pingfan/js.json
 
 Package: com.pingfan.wechat
 Version: 2.1-9
@@ -1417,13 +1468,14 @@ Size: 2825826
 MD5sum: beca1aa91f03f4179910333afc04cab8
 SHA1: 5b8c460e0d8aa9193603cce5cbce61879e411577
 SHA256: cbc2669740e12e646f673503669decc7b50152148ffdf8a98e4d74b2a6702926
-Section: Tweaks
-Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,新增多端登录设备隐藏等。
+Section:  微信插件
+Description: 微信多功能插件
 Author: 平凡
 Name: 虚拟视频
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/pingfan/js.json
 
 Package: com.pingfan.wechat
-Version: 2.1-9
+Version: 2.2-0
 Architecture: iphoneos-arm64
 Maintainer: 平凡
 Depends: mobilesubstrate (>= 0.9.5000)
@@ -1432,15 +1484,16 @@ Size: 2824590
 MD5sum: 6af71fedded048be7855bd32a8dd91f5
 SHA1: 62807ae422012e42b5b2549d4f4a1a82bba74802
 SHA256: cebda898044c8932ebf36dbca148e8898ec4b973440708e6d55e30a6f5980b0b
-Section: Tweaks
+Section: 微信插件
 Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,新增多端登录设备隐藏等。
 Author: 平凡
 Name: 虚拟视频
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/pingfan/js.json
 
 Package: com.ryannair05.cask3
 Version: 1.0.2
 Architecture: iphoneos-arm64
-Maintainer: Ryan Nair <ryannairtweaks@gmail.com>
+Maintainer: Ryan Nair <TG频道@wxfx8>
 Installed-Size: 862
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
 Replaces: com.ryannair05.cask2
@@ -1452,10 +1505,11 @@ SHA256: 2ecf9b576cfba135cb8fa79f1eaa141bfe2f1a7a3b8eab5792bd7216d743b619
 Section: Tweaks
 Description: Animated table scrolling
 Tag: compatible_min::ios14.0
-Author: Ryan Nair <ryannairtweaks@gmail.com>
+Author: Ryan Nair <TG频道@wxfx8>
 Depiction: https://chariz.com/get/cask-3
 Icon: https://img.chariz.cloud/icon/cask-3/icon@3x.png
 Name: Cask 3
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.socuul.scinsta
 Version: 0.5.0-1+debug
@@ -1463,7 +1517,7 @@ Architecture: iphoneos-arm64
 Maintainer: SoCuul
 Installed-Size: 3172
 Depends: mobilesubstrate, ws.hbang.common
-Filename: ./debs/com_socuul_scinsta_0_5_0_iphoneos_arm64.deb
+Filename: ./debs/com_socuul_scinsta_0_5_0_iphoneos_arm64【TG频道@wxfx8】.deb
 Size: 770014
 MD5sum: 8e7b5aa30ac027e0dbe67194af7ca6f4
 SHA1: 2f7454c0286637eb728ebd2af9ea1860e5f0a568
@@ -1472,6 +1526,7 @@ Section: Tweaks
 Description: A feature-rich tweak for Instagram on iOS!
 Author: SoCuul
 Name: SCInsta
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.sop.settingsrevamp
 Version: 2.1.0
@@ -1491,14 +1546,14 @@ Author: SOPPPra
 Depiction: https://sopppra.mooo.com/depictions/web/com.sop.settingsrevamp.html
 Icon: https://i.postimg.cc/ry1s499R/icon-3x.png
 Name: SettingsRevamp
-Sileodepiction: https://sopppra.mooo.com/depictions/com.sop.settingsrevamp.json
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/settingsrevamp/js.json
 
 Package: com.squidforce.disablepastealert16
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: SquidForce
 Installed-Size: 168
-Filename: ./debs/禁用iOS16+粘贴警告弹窗和粘贴提醒-DisablePasteAlert16.1.0.deb
+Filename: ./debs/禁用iOS16+粘贴弹窗提醒.deb
 Size: 4008
 MD5sum: 61795467cb7837ca8d9552562584eb03
 SHA1: 7b59ad66f6c564f5aad227fa7207ebee802b0b71
@@ -1507,6 +1562,7 @@ Section: Tweaks
 Description: 1. 禁用iOS16+粘贴警告弹窗，并自动允许
 Author: SquidForce
 Name: 禁用iOS16+粘贴警告弹窗和粘贴提醒 - DisablePasteAlert16
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.sunshinesong.dynamic-notifier
 Version: 1.0.0
@@ -1523,6 +1579,7 @@ Section: Tweaks
 Description: 上岛，不必太复杂。仅仅支持iOS16+。
 Author: sunshinesong
 Name: dynamic-notifier
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/dynamic/js.json
 
 Package: com.sunshinesong.dynamic-notifier
 Version: 1.0.1
@@ -1539,6 +1596,7 @@ Section: Tweaks
 Description: 灵动消息，就是这么简单。仅仅支持iOS16+。only support above ios16.0
 Author: sunshinesong
 Name: dynamic-notifier
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/dynamic/js.json
 
 Package: com.sunshinesong.dynamic-notifier
 Version: 1.0.3
@@ -1555,6 +1613,7 @@ Section: Tweaks
 Description: 灵动消息，就是这么简单。仅仅支持iOS16+。only support above ios16.0
 Author: sunshinesong
 Name: dynamic-notifier
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/dynamic/js.json
 
 Package: com.sunshinesong.dynamic-notifier
 Version: 1.0.4
@@ -1571,6 +1630,7 @@ Section: Tweaks
 Description: 灵动消息，就是这么简单。仅仅支持iOS16+ (14pro,14pro max)。only support above ios16.0(14pro and 14pro max)
 Author: sunshinesong
 Name: dynamic-notifier
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/dynamic/js.json
 
 Package: com.sunshinesong.native-island
 Version: 1.0.0
@@ -1587,6 +1647,7 @@ Section: Tweaks
 Description: 原生岛通知，从简即可。仅仅支持iOS16.0+
 Author: sunshinesong
 Name: NativeIsland
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/dynamic/js.json
 
 Package: com.sunshinesong.native-island
 Version: 1.0.2
@@ -1603,6 +1664,7 @@ Section: Tweaks
 Description: 原生岛通知，从简即可。仅仅支持iOS16.0+
 Author: sunshinesong
 Name: native-island-notifier
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/dynamic/js.json
 
 Package: com.sunshinesong.native-island
 Version: 1.0.3
@@ -1619,6 +1681,7 @@ Section: Tweaks
 Description: 原生岛通知，从简即可。仅仅支持iOS16.0+
 Author: sunshinesong
 Name: native-island-notifier
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/dynamic/js.json
 
 Package: com.sunshinesong.split-view-pro
 Version: 1.1.3
@@ -1631,11 +1694,12 @@ Size: 3503108
 MD5sum: 8781cc06da12986b3fc8f66ccbdebc59
 SHA1: 44e8b47604ae440685fe14bed703619327104b4e
 SHA256: 3fd7aac806d95a64eb4b7f845b0d3efc292961a702aae5f0d114f633047da0ca
-Section: Tweaks
+Section: 分屏插件
 Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
 Name: split-view-pro
 Ts: sp-sss
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/split-view-pro/js.json
 
 Package: com.sunshinesong.split-view-pro
 Version: 1.1.4
@@ -1648,11 +1712,12 @@ Size: 5235286
 MD5sum: 33f77310f5bdd834c42317f85c4090fa
 SHA1: 7b1196127b2e7e3a70e10b5355f44930ef7e0a49
 SHA256: 459050045ebc1120ac4d642e57410840110c1c5263e2473460a89cf095b8f821
-Section: Tweaks
+Section: 分屏插件
 Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
 Name: split-view-pro
 Ts: sp-sss
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/split-view-pro/js.json
 
 Package: com.sunshinesong.split-view-pro
 Version: 1.1.5
@@ -1665,11 +1730,12 @@ Size: 3508284
 MD5sum: 2a94ac69a8f8d39a6ea25e11f544d7b7
 SHA1: a9b51e3f5b637faf373ae23eb021ca45708fe345
 SHA256: 88669e428db39db0e4869766daaf709723012872346bc8030b271f84e745c1aa
-Section: Tweaks
+Section: 分屏插件
 Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
 Name: split-view-pro
 Ts: sp-sss
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/split-view-pro/js.json
 
 Package: com.sunshinesong.split-view-pro
 Version: 1.1.6
@@ -1682,16 +1748,17 @@ Size: 5177798
 MD5sum: 0633f6b017afdbbc2513ea5b24cf19de
 SHA1: 61c37fdc9ef8cc51d962d0cb329e5d99ecd5798c
 SHA256: 9c6622889ef922038863816b9a947caf5738a520f87f8e12245816faad58e44f
-Section: Tweaks
+Section: 分屏插件
 Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
 Name: split-view-pro
 Ts: sp-sss
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/split-view-pro/js.json
 
 Package: com.sutuplus.releasefugu15
 Version: 5.8.1-3
 Architecture: iphoneos-arm64
-Maintainer: Carby <super.cat.sutuplus@gmail.com>
+Maintainer: Carby <TG频道@wxfx8>
 Installed-Size: 1476
 Depends: mobilesubstrate
 Filename: ./debs/com.sutuplus.releasefugu15_5.8.1-3_iphoneos-arm64.deb
@@ -1699,16 +1766,17 @@ Size: 446472
 MD5sum: 5df77ce80f7d2f70bae09e871f9285d9
 SHA1: e9e7db8f1918783ab7a80457949dbe7c0ae02d49
 SHA256: 7d9e3246b99c9597ed85100742c272466ea102e90ad4076c3e1c1e521c907f65
-Section: 软件增强
-Description: 本插件安装包来自苏兔源
-Author: 公众号：苏兔（bysutu） <super.cat.sutuplus@gmail.com>
+Section: 微信插件
+Description: 微信主体美化
+Author: 苏兔
 Depiction: http://apt.sutuplus.com/pkg/com.sutuplus.release
-Name: 酸果 - Rootless
+Name: 酸果
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/sutuplus/js.json
 
 Package: com.sutuplus.releasefugu15
 Version: 5.8.2-1
 Architecture: iphoneos-arm64
-Maintainer: Carby <super.cat.sutuplus@gmail.com>
+Maintainer: Carby <TG频道@wxfx8>
 Installed-Size: 1476
 Depends: mobilesubstrate
 Filename: ./debs/酸果_5.8.2-1_iphoneos-arm64.deb
@@ -1716,11 +1784,12 @@ Size: 452860
 MD5sum: bc324eea5a21098a8c252ac8cf91b72c
 SHA1: a292265ab7ddc86a6930f2b05abcc7147b68f9d5
 SHA256: 200b0cc1678efe6beb39c630c94f7fc7633019a193a8f753da6813165d772d72
-Section: 软件增强
-Description: 本插件安装包来自苏兔源
-Author: 公众号：苏兔（bysutu） <super.cat.sutuplus@gmail.com>
+Section: 微信插件
+Description: 微信主体美化
+Author: 苏兔
 Depiction: http://apt.sutuplus.com/pkg/com.sutuplus.release
 Name: 酸果 - Rootless
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/sutuplus/js.json
 
 Package: com.swing.bilibili
 Version: 1.1.3
@@ -1734,12 +1803,12 @@ MD5sum: 24fee776a6c704854cede9d535563d0c
 SHA1: 325006214e2cbe9900525c4f8201375ded81ce71
 SHA256: 92050d4c0c401da47bc62e5f074e32907f0b3c5aae292a1c9209baeefd569868
 Section: Tweaks
-Description: 哔哩哔哩（国内版）净化相关页面与广告。无设置项，安装即可生效。 软件源：https://repo.abox.plus  TG：https://t.me/abox1993
+Description: 哔哩哔哩（国内版）净化相关页面与广告。无设置项，安装即可生效。 
 Author: SWING
 Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.bilibili
 Icon: https://repo.abox.plus/api/packageinfo/com.swing.bilibili/icon.png
 Name: 哔哩哔哩NoAds
-Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.bilibili.json
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.swing.wechat.noads
 Version: 1.1.8-1
@@ -1752,13 +1821,13 @@ Size: 6408
 MD5sum: f4b556eb0a66e9b2a026b412ff6e8908
 SHA1: 59b9427208de01f3e0d58cab5028db07c0245b58
 SHA256: a878bd7ac147336177c9136207ddbf5e06ab891c5be1df1464d9fc892460e871
-Section: 微信
-Description: 最新版微信（v8.0.49）去广告插件。删除搜索页面的广告，删除公众号列表广告、快讯，删除公众号文章中间和底部的广告，删除朋友圈广告，删除小程序的广告，删除直播和视频号中的广告!  源内所有插件仅供本人测试使用，下载后请于24小时内删除! 软件源：https://repo.abox.plus  TG：https://t.me/abox1993
+Section: 微信插件
+Description: 最新版微信（v8.0.49）去广告插件。删除搜索页面的广告，删除公众号列表广告、快讯，删除公众号文章中间和底部的广告，删除朋友圈广告，删除小程序的广告，删除直播和视频号中的广告!  
 Author: SWING
 Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.wechat.noads
 Icon: https://repo.abox.plus/api/packageinfo/com.swing.wechat.noads/icon.png
 Name: 微信去广告
-Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.wechat.noads.json
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.udevs.compactbatteryavocado
 Version: 2.0.6
@@ -1777,6 +1846,7 @@ Author: udevs
 Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.compactbatteryavocado
 Icon: https://udevsharold.github.io/repo/depictions/com.udevs.compactbatteryavocado/icon/icon.png
 Name: 电池小组件显示百分比
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.udevs.dockx
 Version: 2.6.0
@@ -1795,7 +1865,7 @@ Description: Pasteboard shortcuts on your keyboard dock!
 Author: udevs
 Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
 Name: DockX
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/dockx/js.json
 
 Package: com.udevs.dockx
 Version: 2.6.1
@@ -1814,12 +1884,12 @@ Description: Pasteboard shortcuts on your keyboard dock!
 Author: udevs
 Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
 Name: DockX
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/dockx/js.json
 
 Package: com.xhg.dyhook
 Version: 8.8.8
 Architecture: iphoneos-arm64
-Maintainer: 人妖嘉嘉
+Maintainer: Axs
 Installed-Size: 5464
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/抖音大气层_8.8.8_无根.deb
@@ -1829,14 +1899,14 @@ SHA1: c711be8004ebcf962ed6e49ed547bd72ecd7b62f
 SHA256: 5ee47b80dd06abb377a8307a4c0ace933538d1226fcdb7a6a89f7af995439b27
 Section: Tweaks
 Description: 成功让人妖嘉嘉取消了入群费21.88元
-Author: 人妖嘉嘉
+Author: Axs
 Name: 抖音大气层-永久版
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/dyhook/js.json
 
 Package: com.xhg.dyhook
 Version: 8.8.9
 Architecture: iphoneos-arm64
-Maintainer: 人妖嘉嘉
+Maintainer: Axs
 Installed-Size: 5280
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/抖音大气层_8.8.9_无根.deb
@@ -1846,7 +1916,7 @@ SHA1: b385f1ec8f510df305351aa6b810c136a18a3115
 SHA256: 3b6c3cb0308dffac5ef8426a4b1cc8f84385f138242ce8b783f93d245e88a7c6
 Section: Tweaks
 Description: 成功让人妖嘉嘉取消了入群费21.88元
-Author: 人妖嘉嘉
+Author: Axs
 Name: 抖音大气层-永久版
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/dyhook/js.json
 
@@ -1865,6 +1935,7 @@ Section: Tweaks
 Description: 屏蔽1.1.3 - 1.1.5版本越狱检测
 Author: x✨
 Name: 数字人民币屏蔽越狱
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.xx.qqhook
 Version: 1.1.0
@@ -1881,6 +1952,7 @@ Section: Tweaks
 Description: QQ设置-辅助功能-右上角开启 支持9.0.20+
 Author: x✨
 Name: QQ新版防撤回
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.xybp888.callassist16.dopamine
 Version: 1.4.7
@@ -1898,7 +1970,7 @@ Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡�
 Author: xybp888
 Depiction: https://apt.htv123.com/view/84
 Name: 电话助手iOS16-正式版(完整越狱)
-Sileodepiction: https://apt.htv123.com/sileo/84
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.xybp888.callassist16.dopamine
 Version: 1.4.8
@@ -1916,22 +1988,23 @@ Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡�
 Author: xybp888
 Depiction: https://apt.htv123.com/view/89
 Name: 电话助手iOS16-正式版(完整越狱)
-Sileodepiction: https://apt.htv123.com/sileo/89
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.yourepo.0xkuj.storeswitcher2rootless
 Version: 1.0.4
 Architecture: iphoneos-arm64
-Maintainer: 0xkuj <0xkujz@gmail.com>
+Maintainer: 0xkuj <TG频道@wxfx8>
 Depends: firmware (>= 11)
 Filename: ./debs/StoreSwitcher2rootless.1.0.4.deb
 Size: 14316
 MD5sum: b4b9c8d28ffa9e20f94a330bb8ccf609
 SHA1: 226c48dcdf4b3d582bbf873c0f260896359b2bc8
 SHA256: 002722361fb3bdc527138de011bca2e1f40050413e5c2eb3fcceb28b530761ba
-Section: Tweaks
+Section: 苹果商店账号切换
 Description: Adds a button to switch account in App Store account page on iOS 11+.
-Author: 0xkuj <0xkujz@gmail.com>
+Author: 0xkuj <TG频道@wxfx8>
 Name: StoreSwitcher 2 (rootless)
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.yourepo.themepro.themepro-154-rootless
 Version: 2.8.9
@@ -1945,10 +2018,11 @@ Size: 6136252
 MD5sum: b3d31a5b7a222df9da8c70f6c8f5dbc2
 SHA1: e0830405af8a025afa20cbe3a95acb4249b15bb1
 SHA256: 3d6aa9c49ae9acee6a2b6e6507fc366648bd8826691d745a52f3b83f7eeb65a6
-Section: Tweaks
-Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!
-Author: MustangYM <mm13299079785@gmail.com>
+Section: 微信插件
+Description: 微信主体美化插件
+Author: MustangYM <TG频道@wxfx8>
 Name: ThemePro-2.8.9-Rootless
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/themepro/js.json
 
 Package: jp.akusio.milkyway4
 Version: 0.1.1
@@ -1961,16 +2035,17 @@ Size: 1300024
 MD5sum: 99edb14844cd69b105112066b3f8fcf0
 SHA1: f5a1fbaa717230b7e53491ff0a0d2b3dfeb03b3d
 SHA256: e91af083915e376a6a263842a639201a980bcdf6c547dd2cab001082b731c6b2
-Section: Tweaks
+Section: 分屏插件
 Description: multitasking for iOS15 rootless.
 Author: @akusio_RR
 Depiction: https://akusio.github.io/descriptions/milkyway4/index.html
 Name: MilkyWay4-rootless
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: jp.dcsyhi.zetsu
 Version: 1.6.1
 Architecture: iphoneos-arm64
-Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Maintainer: Dcsyhi <TG频道@wxfx8>
 Installed-Size: 11989
 Depends: mobilesubstrate,firmware (>=15.0),preferenceloader,com.opa334.ccsupport
 Filename: ./debs/jp.dcsyhi.zetsu_1.6.1_iphoneos-arm64.deb
@@ -1978,18 +2053,19 @@ Size: 10174436
 MD5sum: 3473b74970db7f2d92fcc673ec749994
 SHA1: ecc28488a7aadceb2ade0f9feed351ee11576d9b
 SHA256: 12b13d8c910d3bc1784d0524934705d5df6ddc87c911ef2a87b04dfb45509eb3
-Section: Tweaks
+Section: 分屏插件
 Description: Multitasking on iOS15 - iOS16.
 Tag: compatible_min::ios15.0
-Author: Dcsyhi <dcsyhi1998@gmail.com>
+Author: Dcsyhi <TG频道@wxfx8>
 Depiction: https://chariz.com/get/zetsu
 Icon: https://img.chariz.cloud/icon/zetsu/icon@3x.png
 Name: Zetsu
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: jp.dcsyhi.zetsu
 Version: 1.6.2
 Architecture: iphoneos-arm64
-Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Maintainer: Dcsyhi <TG频道@wxfx8>
 Installed-Size: 12005
 Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader, com.opa334.ccsupport
 Filename: ./debs/Zetsu.1.6.2.deb
@@ -1997,13 +2073,14 @@ Size: 10165196
 MD5sum: e8e3076c027d47a4c7385e93f62319b6
 SHA1: 3150e2b94f3f4cdcc2d7115c91dfa5720a3a05b7
 SHA256: d99206f4ced9de9d491867ebc1e88e306f20e5c9e75c9d4632efca3786ba9e24
-Section: Tweaks
+Section: 分屏插件
 Description: Multitasking on iOS15 - iOS16.
 Tag: compatible_min::ios15.0
-Author: Dcsyhi <dcsyhi1998@gmail.com>
+Author: Dcsyhi <TG频道@wxfx8>
 Depiction: https://chariz.com/get/zetsu
 Icon: https://img.chariz.cloud/icon/zetsu/icon@3x.png
 Name: Zetsu
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: netskao.awemepurification-rootless
 Version: 2.9-6
@@ -2016,10 +2093,11 @@ Size: 1176056
 MD5sum: b8ba3d15fd33ee25e644b4c38afda709
 SHA1: 3c518fe1905a3ad2e1c53b314e6344459cd96e67
 SHA256: ee49cd31e5b335f0e6cb7ba0639875054120e33c0120cb6d4b7414a14605c07d
-Section: Netskao-Tweaks
+Section: Tweaks
 Description: 抖音净化！设置位于抖音-设置，仅支持25.8.0及以上版本抖音
 Author: Netskao
 Name: 抖音净化-Rootless
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/wcpureextension/js.json
 
 Package: netskao.wcpureextension
 Version: 4.2-6
@@ -2035,10 +2113,11 @@ Size: 7085012
 MD5sum: 0b8d3eb12c0485585da6657afeb272e4
 SHA1: cb943067e5734a7b300ed8d55dec14c42d9ddf02
 SHA256: c500588113d6ea84f56f7222fc491d848e2cd2c8adec988662f65a85cd2096da
-Section: Netskao-Tweaks
+Section: 微信插件
 Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
 Author: Netskao
 Name: 微信净化
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/wcpureextension/js.json
 
 Package: netskao.wechatpurification
 Version: 4.2-6-END
@@ -2051,10 +2130,11 @@ Size: 6278058
 MD5sum: e386a95420df2b52d4638bc60a7cd07e
 SHA1: ddff36cdf9de33b59a66b380b5eaa3c3244d6efa
 SHA256: 61ab3d42b2d7a41c2dbc1670987874b3971c4ad33ca7c956544584785e2b71c6
-Section: Netskao-Tweaks
+Section: 微信插件
 Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
 Author: Netskao
 Name: 微信净化END
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/wcpureextension/js.json
 
 Package: netskao.xhsnoads-rootless
 Version: 1.3-7
@@ -2067,10 +2147,11 @@ Size: 89564
 MD5sum: 175fd39358b2c3e2433bdd56f1e3c061
 SHA1: 3da9625695159d450bcda51c6ed3449c9295a2a8
 SHA256: 9adb5d09cd8d5e95ba20d534bbce0a245e1fc79943add2863135cfb68f7f218f
-Section: Netskao-NoAds
+Section: Tweaks
 Description: 小红书去除启动广告, 去除信息流视频流广告, 修改原始按钮保存无水印视频和图片和live图和评论区图片, 解除部分视频无法下载, 添加长按文案快捷复制作者名或文案, 仅支持8.5及以上版本
 Author: Netskao
-Name: 小红书 NoAds-Rootless
+Name: 小红书 NoAds
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: onesettings
 Version: 2.1.1
@@ -2090,11 +2171,12 @@ Description: 对您的设置应用程序进行了极大的增强！
 Author: Nightwind <nightwinddev@gmail.com>
 Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
 Name: OneSettings
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/onesettings/js.json
 
 Package: ring
 Version: 1.0.2
 Architecture: iphoneos-arm64
-Maintainer: M哥
+Maintainer: Axs
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), com.opa334.ccsupport
 Filename: ./debs/ring_1.0.2_iphoneos-arm64.deb
 Size: 134964
@@ -2106,11 +2188,12 @@ Description: 轻松管理铃声音量！
 Author: yan
 Icon: https://media.havoc.app/660068a52b78a631ec05699f
 Name: Ring
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: ws.hbang.common
 Version: 2.0
 Architecture: iphoneos-arm64
-Maintainer: HASHBANG Productions <support@hbang.ws>
+Maintainer: HASHBANG Productions <TG频道@wxfx8>
 Installed-Size: 3132
 Depends: firmware (>= 15.0)
 Filename: ./debs/CepheiTweakSupport.2.0.deb
@@ -2118,21 +2201,22 @@ Size: 198888
 MD5sum: 61e7d9d00f1edaef7589ea9593c17dc7
 SHA1: 4b9b0714a34378a81519ca6a8f7db609a2eea444
 SHA256: 3c8f09a6006beff67951c9d77c13768743af7ad743aee99661ecd59a5666a479
-Section: Development
+Section: Tweaks
 Description: Support library for tweaks
 Tag: role::developer, compatible_min::ios15.0
-Author: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <TG频道@wxfx8>
 Depiction: https://chariz.com/get/cephei
 Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
 Name: Cephei Tweak Support
 Support: https://hashbang.productions/support/
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: xyz.cypwn.genieaichatbot
 Version: 6.2.0
 Architecture: iphoneos-arm64
 Maintainer: CyPwn
 Depends: mobilesubstrate
-Filename: ./debs/xyz_cypwn_genieaichatbot_6_2_0_arm64.deb
+Filename: ./debs/xyz_cypwn_genieaichatbot_6_2_0_arm64【TG频道@wxfx8】.deb
 Size: 11074
 MD5sum: 9bdf8b7321a13c1e12f3535840e011f5
 SHA1: 257b8428b4585cfbd62516abf87b09351a5871b6
@@ -2143,7 +2227,7 @@ Author: Blatant
 Depiction: https://repo.cypwn.xyz/depiction/2411
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/genieaichatbot.png
 Name: Genie AI Chatbot Pro
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2411
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: xyz.cypwn.rocket
 Version: 3.8.27k
@@ -2161,7 +2245,7 @@ Author: Rocket App
 Depiction: https://repo.cypwn.xyz/depiction/2630
 Icon: https://repo.cypwn.xyz/packages/RocketforInstagram-Rootless/icon.png
 Name: Rocket for Instagram
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2630
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: xyz.skitty.sixls
 Version: 1.1-1
@@ -2180,5 +2264,4 @@ Author: Skitty
 Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.sixls
 Icon: https://skitty.xyz/repo/icons/xyz.skitty.sixls.png
 Name: Six (LS)
-Sileodepiction: https://skitty.xyz/repo/depictions/xyz.skitty.sixls/sileo.json
-
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/sixls/js.json
