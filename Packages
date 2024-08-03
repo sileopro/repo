@@ -640,22 +640,6 @@ Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135
 Name: PKC_无根
 Sponsor: Curtin <https://qr.alipay.com/2m612122dnnr9q6o488dgab>
 
-Package: com.dao.bhtiktokmod
-Version: 2.3
-Architecture: iphoneos-arm64
-Maintainer: Dayanch96
-Depends: mobilesubstrate
-Conflicts: com.bandarhl.bhtiktok, com.hk.bhtiktok.cn.rl, com.dao.bhtiktok
-Filename: ./debs/BHTikTok Plus(rootless).deb
-Size: 481804
-MD5sum: 7e0620a814f17891f449e6f2a7a15a60
-SHA1: 20698a1b6b54fd6491b81e44d129c5c42d7d6b93
-SHA256: 77c7a232a8afe43b21a1bc07e701daee0c573863fc7a19eaa8a9acd7d97e1224
-Section: 嗨-工具
-Description: Dayanch96基于BandarHL开源的BHTikTok优化再开发的Plus版本，支持TikTok去广告、自动下一条、纯净模式、切换地区等、伪造粉丝数，视频下载等。
-Author: Bandar Alruwaili
-Name: BHTikTok Plus(rootless)
-
 Package: com.dao.classicfolders3
 Version: 3.0.4.3
 Architecture: iphoneos-arm64
