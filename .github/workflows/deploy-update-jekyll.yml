@@ -87,7 +87,7 @@ jobs:
         else
           echo "No Packages.new file to process"
           exit 1
-      shell: /bin/bash -e
+        fi
 
     - name: Compress Packages file
       run: |
