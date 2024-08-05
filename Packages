@@ -1836,7 +1836,7 @@ Size: 452860
 MD5sum: bc324eea5a21098a8c252ac8cf91b72c
 SHA1: a292265ab7ddc86a6930f2b05abcc7147b68f9d5
 SHA256: 200b0cc1678efe6beb39c630c94f7fc7633019a193a8f753da6813165d772d72
-Section: 软件增强
+Section: 微信插件
 Description: 微信主题美化
 Author: 苏兔
 Depiction: http://apt.sutuplus.com/pkg/com.sutuplus.release
