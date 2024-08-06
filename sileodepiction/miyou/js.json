@@ -73,7 +73,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 03 月 26 日",
+                    "text": "2024 年 08 月 06 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -86,6 +86,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [               
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "3.7.9",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1.修复快速折叠群聊闪退问题。\n2.修复勿扰模式失效问题。\n3.修复快速观看广告功能失效问题。\n4.修复文件管理器重命名时未修改。\n5.文件名直接确定导致文件被删问题。\n6.视频去水印解析功能需要自定义解析接口，接口需严格按照插件的数据返回格式。",
+                    "useRawFormat": true
+                }               
                 {
                     "class": "DepictionSubheaderView",
                     "title": "3.7.8",
