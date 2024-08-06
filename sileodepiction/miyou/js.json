@@ -9,23 +9,23 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text":"TG交流频道",
-                    "action":"https://t.me/wxfx8",
+                    "text": "TG交流频道",
+                    "action": "https://t.me/wxfx8",
                     "openExternal": 1,
-                    "class":"DepictionButtonView"
-                }, 
-               {
-                    "text":"TG分享群组",
-                    "action":"https://t.me/oncar2",
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "text": "TG分享群组",
+                    "action": "https://t.me/oncar2",
                     "openExternal": 1,
-                    "class":"DepictionButtonView"
-                },      
-               {
+                    "class": "DepictionButtonView"
+                },
+                {
                     "class": "DepictionMarkdownView",
                     "markdown": "微信多功能插件",
-                    "useRawFormat": true,
-                },      
-               {
+                    "useRawFormat": true
+                },
+                {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
                     "itemSize": "{150, 346}",
@@ -85,7 +85,7 @@
         {
             "class": "DepictionStackView",
             "tabname": "更新日志",
-            "views": [               
+            "views": [
                 {
                     "class": "DepictionSubheaderView",
                     "title": "3.7.9",
@@ -94,9 +94,9 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "1.修复快速折叠群聊闪退问题。\n2.修复勿扰模式失效问题。\n3.修复快速观看广告功能失效问题。\n4.修复文件管理器重命名时未修改。",
+                    "markdown": "1.修复快速折叠群聊闪退问题。\n2.修复勿扰模式失效问题。\n3.修复快速观看广告功能失效问题。\n4.修复文件管理器重命名时未修改。\n5.文件名直接确定导致文件被删问题。\n6.视频去水印解析功能需要自定义解析接口，接口需严格按照插件的数据返回格式。",
                     "useRawFormat": true
-                }               
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "3.7.8",
