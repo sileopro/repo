@@ -356,6 +356,21 @@ Author: Netskao
 Name: 微信通知头像
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
+Package: com.HBWechatHelper.ailun
+Version: 1.7.2
+Architecture: iphoneos-arm64
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/黄白助手1.7.2_无根.deb
+Size: 9512088
+MD5sum: ae40fa00c95876f71f1225e07c0ccf9c
+SHA1: 4b489e342d282ea94cf2ef263f916b2bb6c7deaf
+SHA256: 2f96c00003133556c3e0b78e6f4c7e1bd6911e25e8bf55cdeeb7e7d4216e56bf
+Section: Mao
+Description: 黄白助手-微信插件                                                                                                                                                                 一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
+Author: HuangBai <QQ:1343309363@qq.com>
+Name: 黄白助手(微信插件)-Rootless
+
 Package: com.ash.milkyway4-ios16fix
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -1142,6 +1157,51 @@ Author: P2KDev <p2kdev@gmail.com>
 Icon: file:///Library/PreferenceBundles/TingePrefs.bundle/Icon@2x.png
 Name: Tinge
 
+Package: com.pingfan.wechat
+Version: 2.1-8
+Architecture: iphoneos-arm64
+Maintainer: 平凡
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/虚拟视频_2.1-8无根.deb
+Size: 2820628
+MD5sum: 39bcaf1b182075fe16376b40a76ce4cf
+SHA1: 01799fb7bccf27b9785537a02e857abcf1ef6ddf
+SHA256: 5365f34de1c6ab2b0125b0b72df9eb5019eedce218d31e5c56967b70477a83c6
+Section: Tweaks
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,新增多端登录设备隐藏等。
+Author: 平凡
+Name: 虚拟视频
+
+Package: com.pingfan.wechat
+Version: 2.1-9
+Architecture: iphoneos-arm64
+Maintainer: 平凡
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/虚拟视频_2.1-9无根.deb
+Size: 2825826
+MD5sum: beca1aa91f03f4179910333afc04cab8
+SHA1: 5b8c460e0d8aa9193603cce5cbce61879e411577
+SHA256: cbc2669740e12e646f673503669decc7b50152148ffdf8a98e4d74b2a6702926
+Section: Tweaks
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,新增多端登录设备隐藏等。
+Author: 平凡
+Name: 虚拟视频
+
+Package: com.pingfan.wechat
+Version: 2.1-9
+Architecture: iphoneos-arm64
+Maintainer: 平凡
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/虚拟视频_2.2-0无根.deb
+Size: 2824590
+MD5sum: 6af71fedded048be7855bd32a8dd91f5
+SHA1: 62807ae422012e42b5b2549d4f4a1a82bba74802
+SHA256: cebda898044c8932ebf36dbca148e8898ec4b973440708e6d55e30a6f5980b0b
+Section: Tweaks
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,新增多端登录设备隐藏等。
+Author: 平凡
+Name: 虚拟视频
+
 Package: com.ryannair05.cask3
 Version: 1.0.2
 Architecture: iphoneos-arm64
@@ -1695,4 +1755,41 @@ Description: 对您的设置应用程序进行了极大的增强！
 Author: Nightwind <nightwinddev@gmail.com>
 Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
 Name: OneSettings
+
+Package: xyz.cypwn.rocket
+Version: 3.8.27k
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: firmware (>= 8.0), mobilesubstrate
+Filename: ./debs/xyz.cypwn.rocket_3.8.27k-iphoneos-arm64.deb
+Size: 2278622
+MD5sum: a8c46ad45eb09533f65872a182ba4655
+SHA1: 3b74071797727a4743930ca3d799ef206f41cf8b
+SHA256: 3fad0550278e85905d2210b037dabcee6d89e941917007a2f559d356cb2078c8
+Section: Tweaks
+Description: Save posts and view stories anonymously and do much more
+Author: Rocket App
+Depiction: https://repo.cypwn.xyz/depiction/2630
+Icon: https://repo.cypwn.xyz/packages/RocketforInstagram-Rootless/icon.png
+Name: Rocket for Instagram
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2630
+
+Package: xyz.skitty.sixls
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Skitty
+Installed-Size: 2236
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/xyz.skitty.sixls_1.1-1_iphoneos-arm64.deb
+Size: 1463588
+MD5sum: e00f1bc4f426fc942e7cb591f1b169b6
+SHA1: adbbea1d3132261eefdfcaf727926d868291f66d
+SHA256: 68363ca3a1ed5da0f1ee4a8ef4721411ae193280f9749b781ddc4d7e424c9fd4
+Section: Tweaks
+Description: iOS 6 Style Lock Screen!
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.sixls
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.sixls.png
+Name: Six (LS)
+Sileodepiction: https://skitty.xyz/repo/depictions/xyz.skitty.sixls/sileo.json
 
