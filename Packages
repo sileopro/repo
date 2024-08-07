@@ -1107,6 +1107,220 @@ Icon: https://i.postimg.cc/ry1s499R/icon-3x.png
 Name: SettingsRevamp
 Sileodepiction: https://sopppra.mooo.com/depictions/com.sop.settingsrevamp.json
 
+Package: com.sunshinesong.dynamic-notifier
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 580
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.sunshinesong.dynamic-notifier_1.0.0_iphoneos-arm64.deb
+Size: 129802
+MD5sum: d93a6bfad4d4cdcf85f156e8d6ceef86
+SHA1: 2fb7bfaf31a13d0aa9a6af48a61236f975e71eb9
+SHA256: 878ae48c04106c3d4d5625e88b55bc81a8de928453b654204e5a1d92b97bc5ef
+Section: Tweaks
+Description: 上岛，不必太复杂。仅仅支持iOS16+。
+Author: sunshinesong
+Name: dynamic-notifier
+
+Package: com.sunshinesong.dynamic-notifier
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 732
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.sunshinesong.dynamic-notifier_1.0.1_iphoneos-arm64.deb
+Size: 184704
+MD5sum: 64ebd8a69294c4884539006565488a1e
+SHA1: 2b1d6b38f6cf8470f3b404ce488e770a35bc3c25
+SHA256: 06b690d4f5eda786896b68ecadc9d8fd0cfeb245c2918a9083d3f8c09b7024c8
+Section: Tweaks
+Description: 灵动消息，就是这么简单。仅仅支持iOS16+。only support above ios16.0
+Author: sunshinesong
+Name: dynamic-notifier
+
+Package: com.sunshinesong.dynamic-notifier
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 812
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.sunshinesong.dynamic-notifier_1.0.3_iphoneos-arm64.deb
+Size: 209280
+MD5sum: ca13a77dce296e01f564c301b72114c9
+SHA1: f30d3bfc25e15dfaf8aadd6cd03c945a4b01bb2e
+SHA256: 3856e6f6bb9f3566647e0149ec4f818533b660099093a4927e35023b6e9af779
+Section: Tweaks
+Description: 灵动消息，就是这么简单。仅仅支持iOS16+。only support above ios16.0
+Author: sunshinesong
+Name: dynamic-notifier
+
+Package: com.sunshinesong.dynamic-notifier
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 812
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.sunshinesong.dynamic-notifier_1.0.4_iphoneos-arm64.deb
+Size: 212754
+MD5sum: 45db94dc837cb87dda7f44dc0d87d833
+SHA1: c71a725e4ae55619af446c9e5959ea701f05ac8e
+SHA256: f7fd9a836eb9fd4f60278b8e6ef27312c0db17e0163ebec6c607c7f4e4380b1a
+Section: Tweaks
+Description: 灵动消息，就是这么简单。仅仅支持iOS16+ (14pro,14pro max)。only support above ios16.0(14pro and 14pro max)
+Author: sunshinesong
+Name: dynamic-notifier
+
+Package: com.sunshinesong.native-island
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 840
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.sunshinesong.native-island_1.0.0_iphoneos-arm64.deb
+Size: 226194
+MD5sum: d8bb734cb4fb62e18b9fcea82765b647
+SHA1: 81e0120dcc2336b4aa7c2226ddfa63f29b879a9e
+SHA256: 7ed4f6fa96a5498043114019690b01334f0fa147067eb63d42021381a09c4c8f
+Section: Tweaks
+Description: 原生岛通知，从简即可。仅仅支持iOS16.0+
+Author: sunshinesong
+Name: NativeIsland
+
+Package: com.sunshinesong.native-island
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 840
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.sunshinesong.native-island_1.0.2_iphoneos-arm64.deb
+Size: 227466
+MD5sum: 58077cff0073c1e32a95b11482666822
+SHA1: 8b2d5489f1ae7e9347bdad67bb2ea78f788dbfe9
+SHA256: 5e5bc6b6093131eb7e6c5c05cd45999c1476a9372672b688ab8474998f9d5541
+Section: Tweaks
+Description: 原生岛通知，从简即可。仅仅支持iOS16.0+
+Author: sunshinesong
+Name: native-island-notifier
+
+Package: com.sunshinesong.native-island
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 908
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), org.thebigboss.libcolorpicker
+Filename: ./debs/com.sunshinesong.native-island_1.0.3_iphoneos-arm64.deb
+Size: 251422
+MD5sum: 5ac4e7a5acb7eba1173b901ce55ca109
+SHA1: 5fb4558ea134b7e480f5c441d707ed6d09f6887b
+SHA256: 0bf525a0fca35ac14b6ad69f6dd7bd5d360faacd2165e33518fbb527cdc9a276
+Section: Tweaks
+Description: 原生岛通知，从简即可。仅仅支持iOS16.0+
+Author: sunshinesong
+Name: native-island-notifier
+
+Package: com.sunshinesong.split-view-pro
+Version: 1.1.3
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 13760
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.sunshinesong.split-view-pro_1.1.3_iphoneos-arm64.deb
+Size: 3503108
+MD5sum: 8781cc06da12986b3fc8f66ccbdebc59
+SHA1: 44e8b47604ae440685fe14bed703619327104b4e
+SHA256: 3fd7aac806d95a64eb4b7f845b0d3efc292961a702aae5f0d114f633047da0ca
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: sunshinesong
+Name: split-view-pro
+Ts: sp-sss
+
+Package: com.sunshinesong.split-view-pro
+Version: 1.1.4
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 13792
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.sunshinesong.split-view-pro_1.1.4_iphoneos-arm64.deb
+Size: 5235286
+MD5sum: 33f77310f5bdd834c42317f85c4090fa
+SHA1: 7b1196127b2e7e3a70e10b5355f44930ef7e0a49
+SHA256: 459050045ebc1120ac4d642e57410840110c1c5263e2473460a89cf095b8f821
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: sunshinesong
+Name: split-view-pro
+Ts: sp-sss
+
+Package: com.sunshinesong.split-view-pro
+Version: 1.1.5
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 13792
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.sunshinesong.split-view-pro_1.1.5_iphoneos-arm64.deb
+Size: 3508284
+MD5sum: 2a94ac69a8f8d39a6ea25e11f544d7b7
+SHA1: a9b51e3f5b637faf373ae23eb021ca45708fe345
+SHA256: 88669e428db39db0e4869766daaf709723012872346bc8030b271f84e745c1aa
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: sunshinesong
+Name: split-view-pro
+Ts: sp-sss
+
+Package: com.sunshinesong.split-view-pro
+Version: 1.1.6
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 13648
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.sunshinesong.split-view-pro_1.1.6_iphoneos-arm64.deb
+Size: 5177798
+MD5sum: 0633f6b017afdbbc2513ea5b24cf19de
+SHA1: 61c37fdc9ef8cc51d962d0cb329e5d99ecd5798c
+SHA256: 9c6622889ef922038863816b9a947caf5738a520f87f8e12245816faad58e44f
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: sunshinesong
+Name: split-view-pro
+Ts: sp-sss
+
+Package: com.sutuplus.releasefugu15
+Version: 5.8.1-3
+Architecture: iphoneos-arm64
+Maintainer: Carby <super.cat.sutuplus@gmail.com>
+Installed-Size: 1476
+Depends: mobilesubstrate
+Filename: ./debs/com.sutuplus.releasefugu15_5.8.1-3_iphoneos-arm64.deb
+Size: 446472
+MD5sum: 5df77ce80f7d2f70bae09e871f9285d9
+SHA1: e9e7db8f1918783ab7a80457949dbe7c0ae02d49
+SHA256: 7d9e3246b99c9597ed85100742c272466ea102e90ad4076c3e1c1e521c907f65
+Section: 软件增强
+Description: 本插件安装包来自苏兔源
+Author: 公众号：苏兔（bysutu） <super.cat.sutuplus@gmail.com>
+Depiction: http://apt.sutuplus.com/pkg/com.sutuplus.release
+Name: 酸果 - Rootless
+
+Package: com.sutuplus.releasefugu15
+Version: 5.8.2-1
+Architecture: iphoneos-arm64
+Maintainer: Carby <super.cat.sutuplus@gmail.com>
+Installed-Size: 1476
+Depends: mobilesubstrate
+Filename: ./debs/com.sutuplus.releasefugu15_5.8.2-1_iphoneos-arm64.deb
+Size: 452860
+MD5sum: bc324eea5a21098a8c252ac8cf91b72c
+SHA1: a292265ab7ddc86a6930f2b05abcc7147b68f9d5
+SHA256: 200b0cc1678efe6beb39c630c94f7fc7633019a193a8f753da6813165d772d72
+Section: 软件增强
+Description: 本插件安装包来自苏兔源
+Author: 公众号：苏兔（bysutu） <super.cat.sutuplus@gmail.com>
+Depiction: http://apt.sutuplus.com/pkg/com.sutuplus.release
+Name: 酸果 - Rootless
+
 Package: com.xhg.dyhook
 Version: 8.8.9
 Architecture: iphoneos-arm64
