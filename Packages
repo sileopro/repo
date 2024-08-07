@@ -1,0 +1,405 @@
+Package: ApibugTextToVoice
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: www.apibug.com <apibug6@gmail.com>
+Depends: mobilesubstrate
+Conflicts: ApibugTextToVoice
+Replaces: ApibugTextToVoice
+Provides: ApibugTextToVoice
+Filename: ./debs/ApibugTextToVoice_1.0.5_iphoneos-arm64.deb
+Size: 168896
+MD5sum: 637c5aa4698154ddf8e596a7400966a6
+SHA1: 983b13f5a2458b197fb1be12e1e705289f409258
+SHA256: 0f748e1d5384180e1135e7da216c4fb65c8cb22cb41ac7fda42ceb1db672b75b
+Section: custom
+Priority: optional
+Description: Apibug微信文字转语音插件,官网:www.apibug.com
+Author: www.apibug.com
+Name: ApibugTextToVoice
+
+Package: cn.llld.wxx
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: ./debs/cn.llld.wxx_1.0.6_iphoneos-arm64.deb
+Size: 26216
+MD5sum: d33158b07e10ca9345c1ae3fe0a77483
+SHA1: 6a60f5570978864599adc2b7b94509db24e5ff80
+SHA256: 116c1fcf3b49dbef84db2cf0bbf8ce1c9100901f986a03eb0a0529b4fe3f0b81
+Section: rootless应用插件
+Description: 微信小布丁1.0.6版本，可注入可越狱使用。自定义气泡，模拟iPad登录，开启callkit通话，开启消息防撤回，最全屏蔽公众号文章广告，屏蔽订阅号列表广告（可自定义关注视频和直播中订阅号），屏蔽朋友圈广告，屏蔽越狱检测状态,快速跳小程序广告，自定义步数，后台模糊，界面透明等功能。不整大杂烩，只更用的到。***长按主页，订阅号的'搜索栏'1秒控件或任意聊天窗口中的'时间'，都可以弹出设置***,8.0.31版本专供，高版本仅用部分功能（我自用是8.0.31，没适配高版本）
+Author: 来了老弟 X：h_h_x_t
+Name: 微信小布丁-rootless
+
+Package: com.0xkuj.safarix
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Installed-Size: 744
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.0xkuj.safarix_1.2.0_iphoneos-arm64.deb
+Size: 271416
+MD5sum: 001c8b0e867f754ca8881900d1b22d0f
+SHA1: 4b16f97bcc93b5082c17622df8f325109c88cc58
+SHA256: de2335f6b67c82c335ffecf9a10ca83b56d3f6045560c65aefbfe6cc59ae8fef
+Section: Tweaks
+Description: Safari Essential Features
+Author: 0xkuj
+Name: SafariX
+
+Package: com.25mao.doutu.rootless
+Version: 3.1-5
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/com.25mao.doutu.rootless_3.1-5_iphoneos-arm64.deb
+Size: 1209944
+MD5sum: 64519249d59220122920dba9fbe7f405
+SHA1: b771c514e46c1c1f66e73bce2a54a6e8608ff7b1
+SHA256: 546124175f8d16bcc0dde1b34a199b53d1a78d509a29b0d9acd3050fb7d32afe
+Section: Rootless
+Priority: optional
+Description: 斗图助手-Rootless
+Author: Mao
+Name: 斗图助手-Rootless
+Sponsor: admin@25mao.com
+
+Package: com.25mao.leftpan.rootless
+Version: 1.0-6
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
+Filename: ./debs/com.25mao.leftpan.rootless_1.0-6_iphoneos-arm64.deb
+Size: 44212
+MD5sum: 3f21c67b518ebbc9ff057b5519ad2c90
+SHA1: 7e34a9ab993087de1aa4134fc6328ec30960d733
+SHA256: 9dcfa92cd6da9ccc719c182a419c7d2603e76c68b0c994ae3a111ba87f0ad91f
+Section: Rootless
+Priority: optional
+Description: 左滑返回上一页面
+Author: Mao
+Name: 左滑返回-Rootless
+
+Package: com.25mao.miyou.rootless
+Version: 3.7-8
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/com.25mao.miyou.rootless_3.7-8_iphoneos-arm64.deb
+Size: 9850328
+MD5sum: 571f8e14b11e8127e2719854c1e0baf7
+SHA1: 40c52f45370cbcb9ef34cc248f40596f1eb4c2e2
+SHA256: 6690ba0f952f0641615e21ee329a18a6ad8de62e0f322bfd4142880bc1db2c09
+Section: Rootless
+Priority: optional
+Description: 微信助手-Rootless版
+Author: Mao
+Name: 微信助手-Rootless
+Sponsor: admin@25mao.com
+
+Package: com.25mao.miyou.rootless
+Version: 3.7-9
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/com.25mao.miyou.rootless_3.7-9_iphoneos-arm64.deb
+Size: 9529424
+MD5sum: f4289c1126e05e66f17fe9237a055e97
+SHA1: 8b5dce7459ecdd58d4498badc884871aa2fa8b5c
+SHA256: 1a6e9da8902aa69aa16937c490f86a1c894696c8efde5ec6bfca278f03fc296f
+Section: 微信插件
+Priority: optional
+Description: 微信助手
+Author: Mao
+Name: 微信助手
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/miyou/js.json
+
+Package: com.25mao.youquan.rootless
+Version: 3.0-9
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/com.25mao.youquan.rootless_3.0-9_iphoneos-arm64.deb
+Size: 79956
+MD5sum: 3f5615a6e5d13822fda52cd6df695609
+SHA1: 161dbadba902ace74534a2ea08521882cb938371
+SHA256: 1c032d1ca8ff4bfd9f8ec8b5d75ed8cde0ea90efed5d4f34d4bd968c81361751
+Section: Tweaks
+Priority: optional
+Description: 查淘宝优惠券，查商品历史价
+Author: Mao
+Name: 淘宝优惠券
+
+Package: com.Axs.msgfilt.rootless
+Version: 1.0-5
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/com.Axs.msgfilt.rootless_1.0-5_iphoneos-arm64.deb
+Size: 122248
+MD5sum: 7d16902e38afd5cf3b08e975c46fc45d
+SHA1: b37085fe3d6c9f6f5319fd9a6be7c684acf6b544
+SHA256: 0851ce453cf9d01bcf2807c6bf9669dcb64b8e57a3cd1060e8a098eb11ccf45a
+Section: Rootless
+Priority: optional
+Description: 消息屏蔽助手
+Author: Mao
+Name: 消息屏蔽助手
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/msgfilt/js.json
+Sponsor: admin@25mao.com
+
+Package: com.Axs.net.Axon
+Version: 2.1.3
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Installed-Size: 712
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.Axs.Axon_2.1.3_iphoneos-arm64.deb
+Size: 144244
+MD5sum: 5a2bb6e236d115e19c64d909eec81ed0
+SHA1: bb122b22cfeb11362b7a52f4b3bdb166dcb85882
+SHA256: 10c5c024677912cfab46d92b188fe0de0097e15674db5e8c411cf897a046376e
+Section: Tweaks
+Description: 本插件非常的好用！推荐！
+Author: Axs
+Name: Axon美化通知
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/axon/js.json
+Sponsor: Axs
+
+Package: com.Axs.net.aria
+Version: 0.9.8.1
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Installed-Size: 680
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.Axs.aria_0.9.8.1_iphoneos-arm64.deb
+Size: 93604
+MD5sum: 154a01c3d7e88fbacd25c1a73a7f535b
+SHA1: 3f38a59cda6448343fd97dd53a197753e1396d48
+SHA256: cd73099222e657631a5f427ef9cb996796f660b7986a9801dcfd1e7fb20aaa04
+Section: Tweaks
+Description: Enhance the stock CC or Prysm on the fly(修改控制中心背景图，用第二个Stock就行了)
+Author: Luki
+Name: Aria控制中心背景图
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/aria/js.json
+Sponsor: Axs
+
+Package: com.Axs.net.backgrounderaction15
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Installed-Size: 340
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/com.Axs.backgrounderaction15_0.1.deb
+Size: 9968
+MD5sum: 1be67cd456ef9bae8c28702f58604141
+SHA1: 42979b4379027d9c884b23a5300967ba23105f2f
+SHA256: c8406f394b742234206d153707362cfa1217f19e7d37de2bf4b00fb2682c2148
+Section: Tweaks
+Description: 一款真后台插件，先去系统设置控制中心里添加这个模块，方框形状的，然后进入你想要的APP，下滑控制中心点击真后台按钮即可！没有源比搬运工源介绍如此详细！
+Author: akusio_RR
+Name: CCSupport真后台独立开关
+Sponsor: Axs
+
+Package: com.Axs.net.ccborder
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Installed-Size: 404
+Depends: mobilesubstrate, firmware (>= 14.0), ws.hbang.alderis
+Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc
+Filename: ./debs/com.Axs.ccborder_1.1.1_iphoneos-arm64.deb
+Size: 28332
+MD5sum: 54e45f1d2f61b4828f92f964b4bc752d
+SHA1: afa866d9c81b05ca82de06ffc072e70324621cdd
+SHA256: cc80254a7e5fc105021d656da934f57a4e0c94c191bc9df412127dc55c72a718
+Section: Tweaks
+Description: 像CoolCC一样，删除控制中心模块背景并添加边框，控制中心发光。
+Author: fiore
+Name: CCBorder
+Sponsor: Axs
+
+Package: com.Axs.net.dleasy
+Version: 2.14.5k
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.Axs.dleasy_2.14.5k_iphoneos-arm64.deb
+Size: 5534076
+MD5sum: 0f7c6496cd623ec646b42db333a7e201
+SHA1: c8752b9892955fc0bb2f5f322008424ca89ea9a6
+SHA256: b5c5d0ba5851ee4fe3c5fe6ac1803f243f8c7725f7d2b659800fe92637010ce2
+Section: Tweaks
+Description: Download social media pictures and videos.本插件可以下载各大视频软件里的视频，但是能不能有效，自己尝试，不要屏蔽插件注入APP！由Axs破解
+Author: AhmedBafkir
+Name: DLEasy
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/dleasy/js.json
+Sponsor: Axs
+
+Package: com.Axs.net.hideserialnumber
+Version: 0.0.4
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Depends: firmware (>= 12.2), mobilesubstrate, preferenceloader
+Filename: ./debs/com.Axs.hideserialnumber_0.0.4_iphoneos-arm64.deb
+Size: 58620
+MD5sum: 720a074f0646daff6135e53b9ca2ea93
+SHA1: bf4f84974fa3249921b3782fe15f01ceb0869d2e
+SHA256: 6405ea57ff06c78bd8279ee36a612b3dadeee444b09ac5f9a874bda37acaa58c
+Section: Tweaks
+Description: Hide Serial Number in Settings About page.在“设置关于”页面中隐藏/伪装序列号等相关信息。
+Author: ichitaso
+Name: HideSerialNumber
+Sponsor: Axs
+
+Package: com.Axs.touchvis
+Version: 1.1.3
+Architecture: iphoneos-arm64
+Maintainer: Axs <TG@wxfx8>
+Installed-Size: 504
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.Axs.touchvis_1.1.3_iphoneos-arm64.deb
+Size: 67112
+MD5sum: 50b19fdbb67495b5840bd1783b66ad0a
+SHA1: 602d44951844701e6209fa841d9d3525925af9cd
+SHA256: a0e7eeeaae22a2c64303b70a3e638aa7d3d53fa3ef9b24f26ff211b93ad2be62
+Section: 录屏轨迹
+Description: 最好用的触摸交互。主要作用:做教程时候让别人知道你点的哪里。
+Author: Axs
+Name: 录屏轨迹
+
+Package: com.Axs.touchvis
+Version: 1.1.4
+Architecture: iphoneos-arm64
+Maintainer: Axs <TG@wxfx8>
+Installed-Size: 504
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.Axs.touchvis_1.1.4_iphoneos-arm64.deb
+Size: 68612
+MD5sum: 0b60ebdcee1862f940fb55b1bc6568c2
+SHA1: f7f637c9139e159c25913c9f23d0b92a8a2dc92f
+SHA256: dee2ee637fd91cbc24afac4b42abe3a437ce4139334d0befa338f92194c3b821
+Section: 录屏轨迹
+Description: 最好用的触摸交互。主要作用:做教程时候让别人知道你点的哪里。
+Author: Axs
+Name: 录屏轨迹
+
+Package: com.Axs.touchvis
+Version: 2.5k
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.Axs.touchvis_2.5_iphoneos-arm64.deb
+Size: 230220
+MD5sum: 705c024789ac39727d788911f5a0b59f
+SHA1: a1c1bd6876a909b1925de1bcd9305562c3013e09
+SHA256: d2ec5e6d46764d56da4285b0a943baba875f9ae80be9669158ab70f9da791332
+Section: 录屏轨迹
+Description: Displays your touch interactions!显示触摸屏幕的轨迹，有点好玩的插件，并附带拖尾效果。主要作用:做教程时候让别人知道你点的哪里。
+Author: 82flex
+Name: 录屏轨迹
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/touchvis/js.json
+Sponsor: Axs
+
+Package: com.Axs.touchvis
+Version: 2.8-1
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.Axs.touchvis_2.8_iphoneos-arm64.deb
+Size: 708636
+MD5sum: b4b0d808c0d8b8abc26882cb3e145107
+SHA1: bc79f6b25190034b0359bfc49a11bf2591566f40
+SHA256: ac2e5ad07fb8894a2f26faecd55d45661a93ad030b6545d4266f440696eafa7b
+Section: 录屏轨迹
+Description: Displays your touch interactions! 显示触摸屏幕的轨迹；很酷炫，很丝滑的一个插件，并附带拖尾效果。主要作用:做教程时候让别人知道你点的哪里。
+Author: Lessica
+Icon: https://axs6.github.io/repo/sileodepiction/touchvis/icon.png
+Name: Touch-Viz触摸轨迹
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/touchvis/js.json
+
+Package: com.Axs.wcplugins.rootless
+Version: 0.1-3
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Depends: firmware (>= 5.0)
+Filename: ./debs/com.Axs.wcplugins.rootless_0.1-3_iphoneos-arm64.deb
+Size: 19720
+MD5sum: c1a7ad1e107063d93f10c1317a395396
+SHA1: 7dfb84849f411c484f4da7d453b6b758ed656c8d
+SHA256: bec9a719c4409e15d4b3f5d4eba46937364aded3e6a81adc7ce9c5b1562fb644
+Section: 微信插件
+Priority: optional
+Description: 将微信插件全部收纳在一起方法操作，更美观。
+Author: Mao
+Name: 微信插件管理
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+Sponsor: Axs
+
+Package: com.Axs.wechatnotiavatar
+Version: 1.2-5
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 2336
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: ./debs/com.Axs.wechatnotiavatar_1.2-5_iphoneos-arm64.deb
+Size: 523300
+MD5sum: 3d500129f301c0b2dc91652302f13975
+SHA1: 0ee5e94e8b4c1168eb460f8b6d6c30ef5e491f24
+SHA256: 3ed863932001a675934d2c4b51e9768d467da95f8643976152e4e1ec2bbfcb18
+Section: 微信插件
+Description: Display Notification Avatars for WeChat App using iOS15+ APIs
+Author: Netskao
+Name: 微信通知头像
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+
+Package: com.ash.milkyway4-ios16fix
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: ash
+Depends: firmware (>= 15.0), mobilesubstrate, jp.akusio.milkyway4
+Filename: ./debs/com.ash.milkyway4-ios16fix_0.0.1_iphoneos-arm64.deb
+Size: 12716
+MD5sum: 2ec85592db0bb7b936061f11675c0e13
+SHA1: 6e8c9e2021d22776364d6e1852663a9881ce1575
+SHA256: 96f64d923700ae302260a3b8261464225ac52a93f64e1b8dca3aac9083e67e97
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: ash
+Name: MilkyWay4-iOS16Fix
+
+Package: com.xhg.dyhook
+Version: 8.8.9
+Architecture: iphoneos-arm64
+Maintainer: 人妖嘉嘉
+Installed-Size: 5280
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.Axs.dydqc_2.0.3-6_iphoneos-arm64.deb
+Size: 1895628
+MD5sum: 99efe287157ef002a291972e43be0e85
+SHA1: b385f1ec8f510df305351aa6b810c136a18a3115
+SHA256: 3b6c3cb0308dffac5ef8426a4b1cc8f84385f138242ce8b783f93d245e88a7c6
+Section: Tweaks
+Description: 成功让人妖嘉嘉取消了入群费21.88元
+Author: 人妖嘉嘉
+Name: 抖音大气层-永久版
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/dyhook/js.json
+
+Package: com.yourepo.0xkuj.storeswitcher2rootless
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj <0xkujz@gmail.com>
+Depends: firmware (>= 11)
+Filename: ./debs/com.0xkuj.storeswitcher2rootless_1.0.4_iphoneos-arm64.deb
+Size: 14316
+MD5sum: b4b9c8d28ffa9e20f94a330bb8ccf609
+SHA1: 226c48dcdf4b3d582bbf873c0f260896359b2bc8
+SHA256: 002722361fb3bdc527138de011bca2e1f40050413e5c2eb3fcceb28b530761ba
+Section: Tweaks
+Description: Adds a button to switch account in App Store account page on iOS 11+.
+Author: 0xkuj <0xkujz@gmail.com>
+Name: StoreSwitcher 2 (rootless)
+
