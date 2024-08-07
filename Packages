@@ -59,6 +59,46 @@ Author: Misaka
 Name: MisakaHelper
 
 Package: MisakaHelper
+Version: 2.0-1
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: Misaka
+Depends: mobilesubstrate
+Conflicts: MisakaHelper
+Replaces: MisakaHelper
+Provides: MisakaHelper
+Filename: ./debs/MisakaHelper_2.0-1_iphoneos-arm64_rootless.deb
+Size: 11947912
+MD5sum: a0c5706699d1f5423daa44ddc8043fbe
+SHA1: 6df37945325b20eae5f26cec210e43890ff1d9d6
+SHA256: b1917a7f67aa62230eb7679006358c8b4c54ee8f1fc427e52cda066a55f6134e
+Section: Tweaks
+Priority: optional
+Description: MisakaHelper
+Author: Misaka
+Name: MisakaHelper
+
+Package: MisakaHelper
+Version: 2.0-2
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: Misaka
+Depends: mobilesubstrate
+Conflicts: MisakaHelper
+Replaces: MisakaHelper
+Provides: MisakaHelper
+Filename: ./debs/MisakaHelper_2.0-2_iphoneos-arm64_rootless.deb
+Size: 12753176
+MD5sum: 812eda958d04d16d761afb8250bc892e
+SHA1: 69113da47c357619ef2d407ce431510cf40f15b7
+SHA256: 768b84eedd6b9497724ace5979c0025d58bdb0a6dc843fddda8cdb4214b6be63
+Section: Tweaks
+Priority: optional
+Description: MisakaHelper
+Author: Misaka
+Name: MisakaHelper
+
+Package: MisakaHelper
 Version: 2.0-3
 Architecture: iphoneos-arm64
 Essential: no
