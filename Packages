@@ -1920,7 +1920,7 @@ Size: 10165196
 MD5sum: e8e3076c027d47a4c7385e93f62319b6
 SHA1: 3150e2b94f3f4cdcc2d7115c91dfa5720a3a05b7
 SHA256: d99206f4ced9de9d491867ebc1e88e306f20e5c9e75c9d4632efca3786ba9e24
-Section: Tweaks
+Section: 分屏插件
 Description: Multitasking on iOS15 - iOS16.
 Tag: compatible_min::ios15.0
 Author: Dcsyhi <dcsyhi1998@gmail.com>
