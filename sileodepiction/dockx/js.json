@@ -22,7 +22,7 @@
                 },      
                {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Pasteboard shortcuts on your keyboard dock! ",
+                    "markdown": "Pasteboard shortcuts on your keyboard dock! 经典键盘类插件 DockX 。",
                     "useRawFormat": true,
                 },      
                {
@@ -105,7 +105,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "1.修复nga闪退。/n2.修复部分情况下横屏仍显示。/n3.修复在选择颜色输入框不显示。",
+                    "markdown": "1.修复nga闪退。\n2.修复部分情况下横屏仍显示。\n3.修复在选择颜色输入框不显示。",
                     "useRawFormat": true
                 },
                 {
@@ -116,7 +116,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "‣ 修复QQ等应用内不能粘贴。",
+                    "markdown": "1.增加支持CopyVault。\n2.修复iOS16听写。\n3.修复“选择”动作在部分app中没反应。",
                     "useRawFormat": true
                 }
             ]
