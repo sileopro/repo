@@ -22,7 +22,7 @@
                 },      
                {
                     "class": "DepictionMarkdownView",
-                    "markdown": "通过传奇的 SwipeExpander 调整的完全重制，重塑您的键盘，专为现代 iOS 设计！ ",
+                    "markdown": "通过传奇的 SwipeExpander 调整的完全重制，重塑您的键盘，专为现代 iOS 设计！ 可搭配源内汉化插件使用",
                     "useRawFormat": true,
                 },      
                {
@@ -94,7 +94,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "添加了对16系统的支持。",
+                    "markdown": "添加了对16系统的支持。汉化插件0.0.2",
                     "useRawFormat": true
                 }
             ]
