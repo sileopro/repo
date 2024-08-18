@@ -88,7 +88,7 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "2.1.0",
+                    "title": "2.1.1",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
