@@ -1609,26 +1609,6 @@ Description: A feature-rich tweak for Instagram on iOS!
 Author: SoCuul
 Name: SCInsta
 
-Package: com.sop.settingsrevamp
-Version: 2.1.0
-Architecture: iphoneos-arm64
-Maintainer: SOPPPra
-Installed-Size: 540
-Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
-Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, zb.preferenceloader
-Filename: ./debs/com.sop.settingsrevamp_2.1.0_iphoneos-arm64.deb
-Size: 97548
-MD5sum: 8d5b26547b5c583aa48d252764da9e98
-SHA1: 50b9a38a87793dadf16c43ce7ee5b67f58a90e35
-SHA256: 8705a26c83980e800f5dbb96635b8c94e01f4de50369db5bef6be7530f2f3889
-Section: Tweaks
-Description: Customize the ios settings page
-Author: SOPPPra
-Depiction: https://sopppra.mooo.com/depictions/web/com.sop.settingsrevamp.html
-Icon: https://i.postimg.cc/ry1s499R/icon-3x.png
-Name: SettingsRevamp
-Sileodepiction: https://sopppra.mooo.com/depictions/com.sop.settingsrevamp.json
-
 Package: com.sunshinesong.dynamic-notifier
 Version: 1.0.0
 Architecture: iphoneos-arm64
