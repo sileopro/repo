@@ -1547,27 +1547,6 @@ Description: Conveniently switch between logged-in accounts, long press the desk
 Author: Netskao
 Name: StoreSwitchAccounts
 
-Package: com.nightwind.onesettings
-Version: 2.1.1
-Architecture: iphoneos-arm64
-Maintainer: Nightwind <nightwinddev@gmail.com>
-Installed-Size: 1117
-Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
-Conflicts: com.creaturecoding.shuffle
-Replaces: com.twickd.nightwind.onesettings
-Filename: ./debs/com.nightwind.onesettings_2.1.1_iphoneos-arm64.deb
-Size: 220376
-MD5sum: 35f9448431689d0ff9014064ee1c7e29
-SHA1: 395caf4299e5317607fc4548c5ef99c53d233af8
-SHA256: 5c3ec7ac174f29956b45b3806beec9fb2d9b4e3a27eca60214f27d956c663efa
-Section: Tweaks
-Description: A great enhancement to your Settings App!
-Tag: cydia::commercial, compatible_min::ios14.0
-Author: Nightwind <nightwinddev@gmail.com>
-Depiction: https://chariz.com/buy/onesettings
-Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
-Name: OneSettings
-
 Package: com.opa334.trollstorehelper
 Version: 2.0.15
 Architecture: iphoneos-arm64
