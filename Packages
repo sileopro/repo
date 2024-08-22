@@ -1759,7 +1759,7 @@ Size: 2827574
 MD5sum: c2d45cb109aba3fce8ed44dedbd214ec
 SHA1: 02e9fcacf4ff600e783d751eec2ac462b2f74c76
 SHA256: 98b5aad76a45de668f9c9b4a1567f347dec2b8398203b361886ec1b080b257c1
-Section: Tweaks
+Section: 微信插件
 Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,多端登录设备隐藏新增朋友圈转发、修改聊天时间等。
 Author: 平凡
 Name: 虚拟视频
@@ -2279,7 +2279,7 @@ Size: 109410
 MD5sum: a572c3b2bbd4426dfda5ac02722598fc
 SHA1: 3a92ee02c40d604f0399dfdac3da505bec7d4157
 SHA256: b42fde6cacef11a598bec18999a90cd02e628d69832c466526380a2a2e8d30c3
-Section: Netskao-Tweaks
+Section: Axs-Tweaks
 Description: TikTok save no watermark videos, Click on the original share button use. TikTok regions can be selected on the settings page. Only version 20.7.0 and above are supported
 Author: Netskao
 Name: TikTok Hooks
