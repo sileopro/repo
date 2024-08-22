@@ -69,7 +69,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 08 月 1 日",
+                    "text": "2024 年 08 月 20 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -82,6 +82,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+               {
+                    "class": "DepictionSubheaderView",
+                    "title": "2.2.1",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1.修复修改转账金额修改失效。\n2.修复部分朋友圈转发不了问题。\n3.修复部分设备兼容闪退的问题。",
+                    "useRawFormat": true
+                },
                {
                     "class": "DepictionSubheaderView",
                     "title": "2.2.0",
