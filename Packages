@@ -452,7 +452,7 @@ Size: 6284284
 MD5sum: 3984d2cfd0ff051e5aec138662492b13
 SHA1: adb9d13a03220ac35a8ff47bcd54a2d6bf162be7
 SHA256: 701d9832215d775428bd35dc96ac8977ede8f9da9d67787852f43a77306b6116
-Section: Axs-Tweaks
+Section: 微信插件
 Priority: optional
 Description: 用于加载微信美化主题,安装完成重启微信生效!
 Author: MustangYM
