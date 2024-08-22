@@ -418,27 +418,6 @@ Description: 查淘宝优惠券，查商品历史价
 Author: Mao
 Name: 淘宝优惠券
 
-Package: com.Axs.ThemePro
-Version: 3.0.8
-Architecture: iphoneos-arm64
-Essential: no
-Maintainer: MustangYM
-Depends: mobilesubstrate
-Conflicts: ThemePro
-Replaces: ThemePro
-Provides: ThemePro
-Filename: ./debs/com.Axs.ThemePro_3.0.8_iphoneos-arm64.deb
-Size: 6284284
-MD5sum: 3984d2cfd0ff051e5aec138662492b13
-SHA1: adb9d13a03220ac35a8ff47bcd54a2d6bf162be7
-SHA256: 701d9832215d775428bd35dc96ac8977ede8f9da9d67787852f43a77306b6116
-Section: custom
-Priority: optional
-Description: 用于加载微信美化主题,安装完成重启微信生效!
-Author: MustangYM
-Name: ThemePro-3.0.8
-Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
-
 Package: com.Axs.ersatz
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -1644,21 +1623,6 @@ Size: 2820628
 MD5sum: 39bcaf1b182075fe16376b40a76ce4cf
 SHA1: 01799fb7bccf27b9785537a02e857abcf1ef6ddf
 SHA256: 5365f34de1c6ab2b0125b0b72df9eb5019eedce218d31e5c56967b70477a83c6
-Section: Tweaks
-Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,新增多端登录设备隐藏等。
-Author: 平凡
-Name: 虚拟视频
-
-Package: com.pingfan.wechat
-Version: 2.1-9
-Architecture: iphoneos-arm64
-Maintainer: 平凡
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/虚拟视频_2.2-0无根.deb
-Size: 2824590
-MD5sum: 6af71fedded048be7855bd32a8dd91f5
-SHA1: 62807ae422012e42b5b2549d4f4a1a82bba74802
-SHA256: cebda898044c8932ebf36dbca148e8898ec4b973440708e6d55e30a6f5980b0b
 Section: Tweaks
 Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,新增多端登录设备隐藏等。
 Author: 平凡
