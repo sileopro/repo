@@ -418,6 +418,44 @@ Description: 查淘宝优惠券，查商品历史价
 Author: Mao
 Name: 淘宝优惠券
 
+Package: com.Axs.ThemePro
+Version: 3.0.8
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: MustangYM
+Depends: mobilesubstrate
+Conflicts: ThemePro
+Replaces: ThemePro
+Provides: ThemePro
+Filename: ./debs/com.Axs.ThemePro_3.0.8_iphoneos-arm64.deb
+Size: 6284284
+MD5sum: 3984d2cfd0ff051e5aec138662492b13
+SHA1: adb9d13a03220ac35a8ff47bcd54a2d6bf162be7
+SHA256: 701d9832215d775428bd35dc96ac8977ede8f9da9d67787852f43a77306b6116
+Section: custom
+Priority: optional
+Description: 用于加载微信美化主题,安装完成重启微信生效!
+Author: MustangYM
+Name: ThemePro-3.0.8
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+
+Package: com.Axs.classicfolders
+Version: 3.0.5
+Architecture: iphoneos-arm64
+Maintainer: CoolStar
+Installed-Size: 4496
+Depends: mobilesubstrate
+Filename: ./debs/com.Axs.classicfolders_3.0.5_iphoneos-arm64.deb
+Size: 3298124
+MD5sum: 34903c80b9e5a5d601c7e093778a5bf9
+SHA1: 8220ba0b5d230f96892829d83ef21b43ed336c80
+SHA256: c394951f39da35090a9a1a52c519d309f3a0a0ac4d1a179e40d8a657ee6483cc
+Section: Axs-Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: CoolStar
+Name: ClassicFolders 3
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/classicfolders3/js.json
+
 Package: com.Axs.ersatz
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -1640,6 +1678,21 @@ SHA1: 5b8c460e0d8aa9193603cce5cbce61879e411577
 SHA256: cbc2669740e12e646f673503669decc7b50152148ffdf8a98e4d74b2a6702926
 Section: Tweaks
 Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,新增多端登录设备隐藏等。
+Author: 平凡
+Name: 虚拟视频
+
+Package: com.pingfan.wechat
+Version: 2.2-1
+Architecture: iphoneos-arm64
+Maintainer: 平凡
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/虚拟视频_2.2-1无根.deb
+Size: 2827574
+MD5sum: c2d45cb109aba3fce8ed44dedbd214ec
+SHA1: 02e9fcacf4ff600e783d751eec2ac462b2f74c76
+SHA256: 98b5aad76a45de668f9c9b4a1567f347dec2b8398203b361886ec1b080b257c1
+Section: Tweaks
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,多端登录设备隐藏新增朋友圈转发、修改聊天时间等。
 Author: 平凡
 Name: 虚拟视频
 
