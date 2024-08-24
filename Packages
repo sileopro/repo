@@ -1170,22 +1170,6 @@ Icon: https://raw.githubusercontent.com/dayanch96/icons/main/ytlite.png
 Name: YTLite
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/icons/main/ytlite.json
 
-Package: com.eevee.spotify
-Version: 4.7
-Architecture: iphoneos-arm64
-Maintainer: Eevee
-Installed-Size: 2544
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf
-Filename: ./debs/com.eevee.spotify_4.7_iphoneos-arm64.deb
-Size: 518786
-MD5sum: 9376a0a8c8a3fa1d46b45ae731c76242
-SHA1: 184268a6105676c9de4dc37efb25e9a3b5415a77
-SHA256: 4f3300dd476da2b23de46285e0a27bf7269846dc963897d2603bf3bdf08a3ef9
-Section: Tweaks
-Description: A tweak to get Spotify Premium for free, just like Spotilife
-Author: Eevee
-Name: EeveeSpotify
-
 Package: com.ethxnn88.visibleisland
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -2218,24 +2202,6 @@ Section: Netskao-Tweaks
 Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
 Author: Netskao
 Name: 微信净化END
-
-Package: xyz.cypwn.rocket
-Version: 3.8.27k
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: firmware (>= 8.0), mobilesubstrate
-Filename: ./debs/xyz.cypwn.rocket_3.8.27k-iphoneos-arm64.deb
-Size: 2278622
-MD5sum: a8c46ad45eb09533f65872a182ba4655
-SHA1: 3b74071797727a4743930ca3d799ef206f41cf8b
-SHA256: 3fad0550278e85905d2210b037dabcee6d89e941917007a2f559d356cb2078c8
-Section: Tweaks
-Description: Save posts and view stories anonymously and do much more
-Author: Rocket App
-Depiction: https://repo.cypwn.xyz/depiction/2630
-Icon: https://repo.cypwn.xyz/packages/RocketforInstagram-Rootless/icon.png
-Name: Rocket for Instagram
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2630
 
 Package: xyz.skitty.sixls
 Version: 1.1-1
