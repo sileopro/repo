@@ -754,6 +754,25 @@ Author: Axs
 Name: SettingsRevamp汉化
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/settingsrevamp/js.json
 
+Package: com.Axs.sixls
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Skitty
+Installed-Size: 2236
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.Axs.sixls_1.1-1_iphoneos-arm64.deb
+Size: 1463724
+MD5sum: 8b5c6a98f16750348a35f381e07c42a8
+SHA1: 61ca54e4fc3159307bcdd55922a1978a242a93ef
+SHA256: c5ad0999da21e912fd062c45a9c7fba012379cd71eec0fc18b88e00e1c35c02d
+Section: Axs-Tweaks
+Description: iOS 6 Style Lock Screen!
+Author: Axs
+Depiction: 将ios6的经典外观带到您的锁屏界面上，支持iOS 11到 16。目前功能：滑动解锁、通知、充电视图、声音等!
+Icon: https://axs6.github.io/repo/sileodepiction/sixls.png
+Name: ios6经典锁屏及声音
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/sixls/js.json
+
 Package: com.Axs.swipeextenderx
 Version: 1.6.1~2
 Architecture: iphoneos-arm64
@@ -2064,6 +2083,22 @@ Section: Netskao-Tweaks
 Description: 抖音净化！设置位于抖音-设置，仅支持25.8.0及以上版本抖音
 Author: Netskao
 Name: 抖音净化-Rootless
+
+Package: netskao.tiktokhooks
+Version: 1.1-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 304
+Depends: mobilesubstrate, firmware (>= 9.3)
+Filename: ./debs/netskao.tiktokhooks_1.1-4_iphoneos-arm64.deb
+Size: 109410
+MD5sum: a572c3b2bbd4426dfda5ac02722598fc
+SHA1: 3a92ee02c40d604f0399dfdac3da505bec7d4157
+SHA256: b42fde6cacef11a598bec18999a90cd02e628d69832c466526380a2a2e8d30c3
+Section: Netskao-Tweaks
+Description: TikTok save no watermark videos, Click on the original share button use. TikTok regions can be selected on the settings page. Only version 20.7.0 and above are supported
+Author: Netskao
+Name: TikTok Hooks
 
 Package: netskao.wcpureextension
 Version: 4.2-6
