@@ -2065,22 +2065,6 @@ Description: 抖音净化！设置位于抖音-设置，仅支持25.8.0及以上
 Author: Netskao
 Name: 抖音净化-Rootless
 
-Package: netskao.tiktokhooks
-Version: 1.1-4
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 304
-Depends: mobilesubstrate, firmware (>= 9.3)
-Filename: ./debs/TiktokHooks免拔卡_rootless.deb
-Size: 109410
-MD5sum: a572c3b2bbd4426dfda5ac02722598fc
-SHA1: 3a92ee02c40d604f0399dfdac3da505bec7d4157
-SHA256: b42fde6cacef11a598bec18999a90cd02e628d69832c466526380a2a2e8d30c3
-Section: Netskao-Tweaks
-Description: TikTok save no watermark videos, Click on the original share button use. TikTok regions can be selected on the settings page. Only version 20.7.0 and above are supported
-Author: Netskao
-Name: TikTok Hooks
-
 Package: netskao.wcpureextension
 Version: 4.2-6
 Architecture: iphoneos-arm64
