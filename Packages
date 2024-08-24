@@ -1706,22 +1706,6 @@ Depiction: https://chariz.com/get/cask-3
 Icon: https://img.chariz.cloud/icon/cask-3/icon@3x.png
 Name: Cask 3
 
-Package: com.socuul.scinsta
-Version: 0.5.0-1+debug
-Architecture: iphoneos-arm64
-Maintainer: SoCuul
-Installed-Size: 3172
-Depends: mobilesubstrate, ws.hbang.common
-Filename: ./debs/com.socuul.scinsta_0.5.0-1+debug_iphoneos-arm64.deb
-Size: 770014
-MD5sum: 8e7b5aa30ac027e0dbe67194af7ca6f4
-SHA1: 2f7454c0286637eb728ebd2af9ea1860e5f0a568
-SHA256: ff268d03323c38e708a4743b64f4dc3c08312b7dd92236ec8ddde2932e2fbaa7
-Section: Tweaks
-Description: A feature-rich tweak for Instagram on iOS!
-Author: SoCuul
-Name: SCInsta
-
 Package: com.sunshinesong.dynamic-notifier
 Version: 1.0.0
 Architecture: iphoneos-arm64
