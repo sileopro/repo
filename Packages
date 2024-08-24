@@ -1905,24 +1905,6 @@ Icon: https://repo.abox.plus/api/packageinfo/com.swing.wechat.noads/icon.png
 Name: 微信去广告
 Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.wechat.noads.json
 
-Package: com.udevs.compactbatteryavocado
-Version: 2.0.6
-Architecture: iphoneos-arm64
-Maintainer: udevs
-Installed-Size: 492
-Depends: mobilesubstrate (>= 0.9.5000), firmware(>=14.0)
-Filename: ./debs/com.udevs.compactbatteryavocado_2.0.6_iphoneos-arm64.deb
-Size: 136138
-MD5sum: 5264251dde4c36cbd83536fcc0757554
-SHA1: 97804061949c6132af02912775802206c274768c
-SHA256: 1203e6a0b77e2b9b3a658ed178cdc1ad2b9dc702e24629d9ab1dc061c8da3126
-Section: Tweaks
-Description: 在2x2的小组件上显示电量百分比。Show battery percentage on 2x2 battery widget.
-Author: udevs
-Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.compactbatteryavocado
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.compactbatteryavocado/icon/icon.png
-Name: 电池小组件显示百分比
-
 Package: com.udevs.dockx
 Version: 2.6.0
 Architecture: iphoneos-arm64
