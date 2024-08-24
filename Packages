@@ -1136,24 +1136,6 @@ Description: Displays your touch interactions!
 Author: dvntm
 Name: ShowMyTouches
 
-Package: com.dvntm.ytlite
-Version: 4.0
-Architecture: iphoneos-arm64
-Maintainer: dvntm
-Installed-Size: 15572
-Depends: mobilesubstrate
-Filename: ./debs/com.dvntm.ytlite_4.0_iphoneos-arm64.deb
-Size: 5824662
-MD5sum: 0614bdba4fe68fc78d0ea90c1938b5d9
-SHA1: 1b40647e59a6f0095838c931119c76e869270d91
-SHA256: 35addb66d40b2c24612af24d08ff8ab474c630483c123a1026a4423633c4a6a5
-Section: Tweaks
-Description: Lightweight YouTube Enhancer
-Author: dvntm
-Icon: https://raw.githubusercontent.com/dayanch96/icons/main/ytlite.png
-Name: YTLite
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/icons/main/ytlite.json
-
 Package: com.ethxnn88.visibleisland
 Version: 2.0
 Architecture: iphoneos-arm64
