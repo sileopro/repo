@@ -1088,22 +1088,6 @@ Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135
 Name: PKC_无根
 Sponsor: Curtin <https://qr.alipay.com/2m612122dnnr9q6o488dgab>
 
-Package: com.daodao.snapper2
-Version: 2.7.0
-Architecture: iphoneos-arm64
-Maintainer: Jonathan Winger-lang
-Depends: mobilesubstrate, firmware (>= 12.1)
-Conflicts: com.jontelang.snapper, com.jontelang.snapper2, com.jontelang.snapper2.packix
-Filename: ./debs/com.daodao.snapper2_2.7.0_iphoneos-arm64.deb
-Size: 586808
-MD5sum: ec17d23d3c5031e9f52e8d19e1f9b331
-SHA1: de6d2254a4324f41dbea2ca30a008b793d22368b
-SHA256: 8e07598d5b454282a5c15c0598725cb6dfd27ddfa5a1d7b195e30bd2c05ea2ab
-Section: 嗨-工具
-Description: 便捷截屏。源内可安装中文修复包。
-Author: Jonathan Winger-lang
-Name: Snapper 2(rootless)
-
 Package: com.daodao.snapper3
 Version: 1.0k
 Architecture: iphoneos-arm64
