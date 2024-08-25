@@ -73,7 +73,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 07 月 27 日",
+                    "text": "2024 年 08 月 23 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -86,6 +86,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.5.6",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1.增加可自定义触发间隔时间，群内细化到触发对方。\n2. 支持一条规则多个关键词配置，多关键词用|分隔，例如:你好|在吗|PKC。\n3.支持批量修改配置。\n4.对谁生效-指定模式下，增加对谁不生效(针对群成员)。\n5.增加【仅回复艾特我的]选项】。",
+                    "useRawFormat": true
+                }
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.5.5",
