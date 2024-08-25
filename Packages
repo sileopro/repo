@@ -708,7 +708,7 @@ SHA256: 3ecec4b5b41bc147a8ec8e3e2dc7265a6e324578a995decd0329083b5e0a6482
 Section: Axs-Tweaks
 Description: 无设置项，当录制屏幕时，显示一个花瓣悬浮球指示器。
 Author: sunshinesong
-Name: 录频花瓣
+Name: 录屏花瓣
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: com.Axs.removewidgetbg
@@ -1150,7 +1150,7 @@ Size: 536384
 MD5sum: 96d8fbef156390e3b64493054a148a97
 SHA1: 9acd551065a43bcd26cbd9a0b6bf6de7df44e8b3
 SHA256: 8593da07c82d98dd1bcc512375ec844ff9abe12cba73f870ff345a61e8061463
-Section: PKC-插件
+Section: 微信插件
 Priority: optional
 Homepage: https://github.com/curtinlv
 Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、自动通过好友请求、自动互删好友等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
