@@ -73,7 +73,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 08 月 23 日",
+                    "text": "2024 年 08 月 28 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -86,6 +86,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "0.5.7",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "1.新增一个功能，详见功能页面。\n2. 修复[关键词回复]仅艾特我的不回复问题 。\n3.修复[朋友圈特别关注]一些问题，如删除WX重装后重复发送问题。\n4.修复[艾特提示]显示错位问题 。\n5.优化关键代码，使插件运行更加流畅。",
+                    "useRawFormat": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "0.5.6",
