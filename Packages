@@ -825,23 +825,6 @@ Icon: https://axs6.github.io/repo/sileodepiction/sixls/sixls.png
 Name: ios6经典锁屏及声音
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/sixls/js.json
 
-Package: com.Axs.snapper3.plugins
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 208
-Depends: mobilesubstrate (>= 1.0.5000)
-Filename: ./debs/com.Axs.snapper3.plugins_1.0_iphoneos-arm64.deb
-Size: 33628
-MD5sum: 127430e48084bc00c5cde1d2bce94d12
-SHA1: 70e6dbce982788bc589d930c9055d6a982f2becc
-SHA256: e25b1058fa52afca916d0c25a20bfef8bcba0ddf6a2baf9536ff88b1c98ab78d
-Section: Axs-Tweaks
-Description: 苹果商城下载iMark和Piiico，让他们可以在snapper3中调用。
-Author: Axs
-Name: Snapper3扩展
-Sileodepiction: https://axs6.github.io/repo/sileodepiction/Piiico/js.json
-
 Package: com.Axs.swipeextenderx
 Version: 1.6.1~2
 Architecture: iphoneos-arm64
