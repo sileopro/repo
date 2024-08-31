@@ -28,11 +28,11 @@
                 {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
-                    "itemSize": "{300, 346.45}",
-                    "screenshots": [                       
+                    "itemSize": "{80, 176.45}",
+                    "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://axs6.github.io/repo/sileodepiction/Misaka/Screenshot_01.png"
+                            "url": "https://axs6.github.io/repo/images/cjms.png"
                         }
                     ]
                 },
