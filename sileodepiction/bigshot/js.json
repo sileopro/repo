@@ -22,7 +22,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "安装后再手机设置通过控制中心添加BigShot模块使用。另外注意：支持Snapper3调用，但是只能正版Snapper3调用。",
+                    "markdown": "安装后在手机设置通过控制中心添加BigShot模块使用。\n另外注意：支持Snapper3调用，但是只能正版Snapper3调用。",
                     "useRawFormat": true
                 },
                 {
