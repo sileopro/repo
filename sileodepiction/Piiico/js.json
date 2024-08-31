@@ -22,7 +22,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "苹果商城下载iMark和Piiico，让他们可以在snapper3中调用。",
+                    "markdown": "首先安装此插件，然后去苹果商城下载Piiico图片标记软件，主要作用:使用snapper3自由截图后，可以自定义标记。",
                     "useRawFormat": true
                 },
                 {
