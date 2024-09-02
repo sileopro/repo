@@ -2118,7 +2118,7 @@ Size: 1538396
 MD5sum: eea7f4d2a8f3a5cf6a743226b2a0c314
 SHA1: 96a0eac4d909c1c09b4b0f9d19b213b5680b9765
 SHA256: c0e870837d4ebbb88636a01a9c266c092225065a1e6811d542ef8563ad1783c5
-Section: Axs-Tweaks
+Section: 分屏插件
 Description: 分屏，不必太复杂，一切从简即可。
 Author: Axs
 Name: split-view-pro
