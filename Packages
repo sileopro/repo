@@ -994,6 +994,23 @@ Author: Lessica
 Name: 语音转文字免跳转
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
+Package: com.Axs.wtvrbglauncher
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Lessica
+Installed-Size: 404
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.Axs.wtvrbglauncher_1.1_iphoneos-arm64.deb
+Size: 23184
+MD5sum: acc8974215ddc506967b66780bdfab92
+SHA1: 979acba4833a41c35b8210d8404abb11e1f358d9
+SHA256: 530a6cdfb65c02c5f91b93f7f55d71b574c6a08be360ceaac7906c646e6d17da
+Section: Axs-Tweaks
+Description: 中文输入法语音转文字免跳转插件。无设置选项，安装并注销后立即生效。支持的输入法：微信、百度、搜狗、讯飞
+Author: Lessica
+Name: 语音转文字免跳转
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
+
 Package: com.HBWechatHelper.ailun
 Version: 1.7.2
 Architecture: iphoneos-arm64
