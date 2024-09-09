@@ -94,7 +94,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "由Axs破解授权，移除了安装详情中脏话及相关代码，\n已解决安全模式问题，\n直接安装即可使用。",
+                    "markdown": "由Axs去除联网验证，移除了安装详情中脏话及相关代码，\n已解决安全模式问题，\n直接安装即可使用。",
                     "useRawFormat": true
                 }
             ]
