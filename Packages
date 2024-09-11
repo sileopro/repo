@@ -1856,7 +1856,7 @@ Size: 101968
 MD5sum: cb58c414e3d71825159b301253981871
 SHA1: d620b07f47b2c978c1d813f0690a3bdf27788745
 SHA256: ad4d2c1f314b3557270d8d29529b3f3a7fb747758b6eb826ce77a96cb01bca96
-Section: I-苹果商店账号切换
+Section: H-苹果商店账号切换
 Description: Conveniently switch between logged-in accounts, long press the desktop AppStore icon to switch
 Author: Netskao
 Name: StoreSwitchAccounts
@@ -2400,7 +2400,7 @@ Size: 14316
 MD5sum: b4b9c8d28ffa9e20f94a330bb8ccf609
 SHA1: 226c48dcdf4b3d582bbf873c0f260896359b2bc8
 SHA256: 002722361fb3bdc527138de011bca2e1f40050413e5c2eb3fcceb28b530761ba
-Section: I-苹果商店账号切换
+Section: H-苹果商店账号切换
 Description: Adds a button to switch account in App Store account page on iOS 11+.
 Author: 0xkuj <0xkujz@gmail.com>
 Name: StoreSwitcher 2 (rootless)
