@@ -1035,7 +1035,7 @@ Section: B-微信插件
 Priority: optional
 Description: 将B-微信插件全部收纳在一起方法操作，更美观。
 Author: Mao
-Name: B-微信插件管理
+Name: 微信插件管理
 Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 Sponsor: Axs
 
