@@ -355,23 +355,6 @@ Description: Safari Essential Features
 Author: 0xkuj
 Name: SafariX
 
-Package: com.0xkuj.safarix
-Version: 1.4.0
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: ./debs/com.0xkuj.safarix_1.4.0_iphoneos-arm64.deb
-Size: 278704
-MD5sum: 236201fa696cdeff80e15c72db1abfc7
-SHA1: 642508382deeb1cea7ee59159f651fff7d3922ba
-SHA256: e46f37336ed8bdd7a0fd2ee53cf31260ed0420d17238424759e7d5198501dc23
-Section: Axs-Tweaks
-Description: Safari Essential Features！
-Author: 0xkuj
-Name: SafariX
-Sileodepiction: https://axs6.github.io/repo/sileodepiction/safarix/js.json
-Sponsor: Axs
-
 Package: com.25mao.doutu.rootless
 Version: 3.1-5
 Architecture: iphoneos-arm64
