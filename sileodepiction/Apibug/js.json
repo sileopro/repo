@@ -69,7 +69,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 07 月 16 日",
+                    "text": "2024 年 9 月 14 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -90,7 +90,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "更新加入微信助手聊天工具栏，修复与虚拟视频的冲突。",
+                    "markdown": "微信文字转语音原神版,模型运算版本,等待6秒左右合成成功。",
                     "useRawFormat": true
                 }
             ]
