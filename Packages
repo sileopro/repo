@@ -12,7 +12,7 @@ Size: 170044
 MD5sum: d37788996fba28c8663b8f711cc3c840
 SHA1: e58df94fbe10b97f904e3895f18ca055e87ca39a
 SHA256: f386ecd8893702ddd1f8512869d6857672c63dfb9c22096cce931ce45ee4d749
-Section: custom
+Section: B-微信插件
 Priority: optional
 Description: 微信文字转语音原神版,模型运算版本,等待6秒左右合成成功
 Author: Apibug
@@ -2456,7 +2456,7 @@ Size: 1895628
 MD5sum: 99efe287157ef002a291972e43be0e85
 SHA1: b385f1ec8f510df305351aa6b810c136a18a3115
 SHA256: 3b6c3cb0308dffac5ef8426a4b1cc8f84385f138242ce8b783f93d245e88a7c6
-Section: Tweaks
+Section: F-媒体类插件
 Description: 成功让人妖嘉嘉取消了入群费21.88元
 Author: 人妖嘉嘉
 Name: 抖音大气层-永久版
