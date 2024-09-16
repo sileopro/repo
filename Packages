@@ -2549,7 +2549,7 @@ Section: F-媒体类插件
 Description: 抖音净化！设置位于抖音-设置，仅支持25.8.0及以上版本抖音
 Author: Netskao
 Name: 抖音净化-Rootless
-Sileodepiction: https://axs6.github.io/repo/sileodepiction/wcpureextension/js.json
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/js.json
 
 Package: netskao.tiktokhooks
 Version: 1.1-4
