@@ -2,17 +2,17 @@ import requests
 import os
 
 # 从环境变量中获取 GitHub API token
-GITHUB_API_TOKEN = os.getenv('GITHUB_API_TOKEN')
+GITHUB_API_TOKEN = os.getenv('API_TOKEN')
 OWNER = 'axs6'
 REPO = 'repo'
 
 # 确保 token 存在
 if not GITHUB_API_TOKEN:
-    raise ValueError("GITHUB_API_TOKEN is not set in the environment variables")
+    raise ValueError("API_TOKEN is not set in the environment variables")
 
 # Headers for authentication
 headers = {
-    'Authorization': f'token {GITHUB_API_TOKEN}',
+    'Authorization': f'token {API_TOKEN}',
     'Accept': 'application/vnd.github.v3+json'
 }
 
