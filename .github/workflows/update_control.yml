@@ -28,7 +28,7 @@ jobs:
 
       - name: Run update_control script
         env:
-          GITHUB_API_TOKEN: ${{ secrets.PAT }}
+          GITHUB_API_TOKEN: ${{ secrets.API_TOKEN }}
         run: python update_control.py
 
       - name: Commit and push changes
@@ -39,4 +39,4 @@ jobs:
           git commit -m 'Update control file with download count and release date'
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ secrets.API_TOKEN }}
