@@ -1,0 +1,14 @@
+{
+    "packages": [
+        {
+            "package": "com.Axs.ThemePro",
+            "name": "ThemePro",
+            "version": "3.1.0",
+            "description": "由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!",
+            "maintainer": "MustangYM <MustangYM@yeah.net>",
+            "download_count": 0,  // 当前下载量
+            "release_date": "1970-01-01T00:00:00Z",  // 当前发布日期
+            // 其他字段
+        }
+    ]
+}
